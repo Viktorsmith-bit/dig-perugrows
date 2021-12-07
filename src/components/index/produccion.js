@@ -1,0 +1,29 @@
+import Link from 'next/link';
+
+export default function Produccion(){
+    return(
+        <div className='flex justify-center items-center lg:h-screen px-4 py-10 lg:px-0 lg:py-0'>
+            <div className='flex flex-col items-center flex-1 w-full md:max-w-2xl lg:max-w-7xl w-full'>
+                <h1 className='font-bold text-2xl lg:text-4xl text-color'>Productos</h1>
+                <h1 className=''></h1>
+                <div className='flex flex-wrap justify-center gap-3 mt-8 lg:mt-16'>
+                    <div className=''>
+                       <Link href='/equipo-cientifico/integrantes'><a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover rounded-md' src='/fondos/EquipoTecnico_Permafrost.jpeg' /></a></Link>
+                       <h1 className='mt-2 text-center text-color font-bold'>EQUIPO CIENTÍFICO</h1>
+                    </div>
+                    <div className=''>
+                        <Link href='/produccion/cientifica'>
+                            <a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover rounded-md' src='/fondos/TrabajosCampo_Permafrost_2.JPEG' /></a>
+                        </Link>
+                        <h1 className='mt-2 text-center text-color font-bold'>PRODUCCIÓN CIENTÍFICA</h1>       
+                    </div>
+                    <div className=''>
+                        <Link href='/visor/mapa'><a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover rounded-md' src='/fondos/visor_de_mapas.jpeg' /> </a></Link>
+                        <h1 className='mt-2 text-center text-color font-bold'>VISOR DE MAPAS</h1>
+                    </div>
+                </div>
+                <Link href='/galeria'><a className='mt-7 lg:mt-14'><button className='w-48 py-4 border-color bg-color rounded-md text-color'>Galería de imágenes</button></a></Link>
+            </div>
+        </div>
+    );
+}
