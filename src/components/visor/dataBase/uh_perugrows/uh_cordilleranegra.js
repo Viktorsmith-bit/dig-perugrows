@@ -47,4 +47,4 @@ function CordilleraNegra(){
     );
 }
 
-export default CordilleraNegra;
+export default React.memo(CordilleraNegra);

@@ -21,7 +21,7 @@ export default function Panoramicas(props){
     }
 
     return(
-        <div className='absolute h-screen top-0 z-40 w-full'>
+        <div className='absolute h-screen top-0 z-40 w-full' style={{zIndex:"2000"}}>
             <div className='fixed flex justify-center h-screen w-full'>
                 <div className='flex flex-col justify-start lg:justify-center md:justify-between lg:justify-center w-full opacity lg:py-10 h-screen'>
                     <div className='flex items-center justify-between'>

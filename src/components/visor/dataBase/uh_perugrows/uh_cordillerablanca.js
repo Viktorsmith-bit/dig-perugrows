@@ -47,4 +47,4 @@ function CordilleraBlancaGrows(){
     );
 }
 
-export default CordilleraBlancaGrows;
+export default React.memo(CordilleraBlancaGrows);

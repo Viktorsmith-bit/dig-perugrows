@@ -47,4 +47,4 @@ function Cordilleras(){
     );
 }
 
-export default Cordilleras;
+export default React.memo(Cordilleras);

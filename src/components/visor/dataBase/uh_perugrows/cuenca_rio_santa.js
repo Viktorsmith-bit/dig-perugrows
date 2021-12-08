@@ -47,4 +47,4 @@ function CuencaRioSanta(){
     );
 }
 
-export default CuencaRioSanta;
+export default React.memo(CuencaRioSanta);

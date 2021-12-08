@@ -58,4 +58,4 @@ function Scp2013V1(){
     );
 }
 
-export default Scp2013V1;
+export default React.memo(Scp2013V1);

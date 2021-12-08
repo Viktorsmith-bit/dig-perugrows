@@ -56,4 +56,4 @@ function Permafrost90(){
     );
 }
 
-export default Permafrost90;
+export default React.memo(Permafrost90);

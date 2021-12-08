@@ -47,4 +47,4 @@ function AreaModelamientoSanta(){
     );
 }
 
-export default AreaModelamientoSanta;
+export default React.memo(AreaModelamientoSanta);

@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import {useState} from 'react';
 import Aside from './components/capas/aside';
+import Coordenadas360 from './components/panoramicas/coordenadas360';
+import Panoramicas from './components/panoramicas/panoramicas';
 
 import Permafrost30 from './dataBase/permafrost/permafrost30';
 import Cordilleras from './dataBase/cordilleras/cordilleras';
@@ -28,7 +30,10 @@ import Scp2018V1 from './dataBase/nieve/scp_2018_v1';
 import Scp2019V1 from './dataBase/nieve/scp_2019_v1';
 import Scp2020V1 from './dataBase/nieve/scp_2020_v1';
 
-function MapViewer(){
+function Capas(){
+    const [state, setState] = useState({open:""});
+    const [stateOpen, setStateOpen] = useState(true);
+    const [panam , setPanam] = useState(true)
     const [corblanca, setCorblanca] = useState(true);
     const [corchila, setCorchila] = useState(true);
     const [cor, setCor] = useState(true);
@@ -54,6 +59,18 @@ function MapViewer(){
     const [scp2018, setScp2018] = useState(true);
     const [scp2019, setScp2019] = useState(true);
     const [scp2020, setScp2020] = useState(true);
+
+    const hundleClicOpen360 = (e)=>{
+        e.preventDefault()
+        setState({open:e.target.id})
+        setStateOpen(false)
+    }
+    const hundleClicClose360 = (e)=>{
+        e.preventDefault()
+        setStateOpen(true)}
+
+    const hundleClickOpenPanam = (e)=>{e.preventDefault(), setPanam(false)}
+    const hundleClickClosePanam = (e)=>{e.preventDefault(), setPanam(true)}
 
     const hundleClickOpen = (e)=>{e.preventDefault(), setCorblanca(true)}
     const hundleClickClose = (e)=>{e.preventDefault(), setCorblanca(false)}
@@ -107,37 +124,42 @@ function MapViewer(){
     const hundleClickCloseScp2020 = (e)=>{e.preventDefault(), setScp2020(false)}
 
     return(
-        <Fragment>
+        <Fragment >
             <Aside 
-                hundleClickOpen={hundleClickOpen} hundleClickClose={hundleClickClose} estado={corblanca} 
-                hundleClickOpenChila={hundleClickOpenChila} hundleClickCloseChila={hundleClickCloseChila} corchila={corchila}
-                hundleClickOpenCor={hundleClickOpenCor} hundleClickCloseCor={hundleClickCloseCor} cor={cor}
-                hundleClickOpenInv={hundleClickOpenInv} hundleClickCloseInv={hundleClickCloseInv} inv={inv}
-                hundleClickOpenPer30={hundleClickOpenPer30} hundleClickClosePer30={hundleClickClosePer30} per30={per30}
-                hundleClickOpenPer90={hundleClickOpenPer90} hundleClickClosePer90={hundleClickClosePer90} per90={per90}
-                hundleClickOpenScp2002={hundleClickOpenScp2002} hundleClickCloseScp2002={hundleClickCloseScp2002} scp2002={scp2002}
-                hundleClickOpenScp2003={hundleClickOpenScp2003} hundleClickCloseScp2003={hundleClickCloseScp2003} scp2003={scp2003}
-                hundleClickOpenScp2004={hundleClickOpenScp2004} hundleClickCloseScp2004={hundleClickCloseScp2004} scp2004={scp2004}
-                hundleClickOpenScp2005={hundleClickOpenScp2005} hundleClickCloseScp2005={hundleClickCloseScp2005} scp2005={scp2005}
-                hundleClickOpenScp2006={hundleClickOpenScp2006} hundleClickCloseScp2006={hundleClickCloseScp2006} scp2006={scp2006}
-                hundleClickOpenScp2007={hundleClickOpenScp2007} hundleClickCloseScp2007={hundleClickCloseScp2007} scp2007={scp2007}
-                hundleClickOpenScp2008={hundleClickOpenScp2008} hundleClickCloseScp2008={hundleClickCloseScp2008} scp2008={scp2008}
-                hundleClickOpenScp2009={hundleClickOpenScp2009} hundleClickCloseScp2009={hundleClickCloseScp2009} scp2009={scp2009}
-                hundleClickOpenScp2010={hundleClickOpenScp2010} hundleClickCloseScp2010={hundleClickCloseScp2010} scp2010={scp2010}
-                hundleClickOpenScp2011={hundleClickOpenScp2011} hundleClickCloseScp2011={hundleClickCloseScp2011} scp2011={scp2011}
-                hundleClickOpenScp2012={hundleClickOpenScp2012} hundleClickCloseScp2012={hundleClickCloseScp2012} scp2012={scp2012}
-                hundleClickOpenScp2013={hundleClickOpenScp2013} hundleClickCloseScp2013={hundleClickCloseScp2013} scp2013={scp2013}
-                hundleClickOpenScp2014={hundleClickOpenScp2014} hundleClickCloseScp2014={hundleClickCloseScp2014} scp2014={scp2014}
-                hundleClickOpenScp2015={hundleClickOpenScp2015} hundleClickCloseScp2015={hundleClickCloseScp2015} scp2015={scp2015}
-                hundleClickOpenScp2016={hundleClickOpenScp2016} hundleClickCloseScp2016={hundleClickCloseScp2016} scp2016={scp2016}
-                hundleClickOpenScp2017={hundleClickOpenScp2017} hundleClickCloseScp2017={hundleClickCloseScp2017} scp2017={scp2017}
-                hundleClickOpenScp2018={hundleClickOpenScp2018} hundleClickCloseScp2018={hundleClickCloseScp2018} scp2018={scp2018}
-                hundleClickOpenScp2019={hundleClickOpenScp2019} hundleClickCloseScp2019={hundleClickCloseScp2019} scp2019={scp2019}
-                hundleClickOpenScp2020={hundleClickOpenScp2020} hundleClickCloseScp2020={hundleClickCloseScp2020} scp2020={scp2020}
+                 hundleClickClosePanam={hundleClickClosePanam} hundleClickOpenPanam={hundleClickOpenPanam} panam={panam}
+                 hundleClickOpen={hundleClickOpen} hundleClickClose={hundleClickClose} estado={corblanca} 
+                 hundleClickOpenChila={hundleClickOpenChila} hundleClickCloseChila={hundleClickCloseChila} corchila={corchila}
+                 hundleClickOpenCor={hundleClickOpenCor} hundleClickCloseCor={hundleClickCloseCor} cor={cor}
+                 hundleClickOpenInv={hundleClickOpenInv} hundleClickCloseInv={hundleClickCloseInv} inv={inv}
+                 hundleClickOpenPer30={hundleClickOpenPer30} hundleClickClosePer30={hundleClickClosePer30} per30={per30}
+                 hundleClickOpenPer90={hundleClickOpenPer90} hundleClickClosePer90={hundleClickClosePer90} per90={per90}
+                 hundleClickOpenScp2002={hundleClickOpenScp2002} hundleClickCloseScp2002={hundleClickCloseScp2002} scp2002={scp2002}
+                 hundleClickOpenScp2003={hundleClickOpenScp2003} hundleClickCloseScp2003={hundleClickCloseScp2003} scp2003={scp2003}
+                 hundleClickOpenScp2004={hundleClickOpenScp2004} hundleClickCloseScp2004={hundleClickCloseScp2004} scp2004={scp2004}
+                 hundleClickOpenScp2005={hundleClickOpenScp2005} hundleClickCloseScp2005={hundleClickCloseScp2005} scp2005={scp2005}
+                 hundleClickOpenScp2006={hundleClickOpenScp2006} hundleClickCloseScp2006={hundleClickCloseScp2006} scp2006={scp2006}
+                 hundleClickOpenScp2007={hundleClickOpenScp2007} hundleClickCloseScp2007={hundleClickCloseScp2007} scp2007={scp2007}
+                 hundleClickOpenScp2008={hundleClickOpenScp2008} hundleClickCloseScp2008={hundleClickCloseScp2008} scp2008={scp2008}
+                 hundleClickOpenScp2009={hundleClickOpenScp2009} hundleClickCloseScp2009={hundleClickCloseScp2009} scp2009={scp2009}
+                 hundleClickOpenScp2010={hundleClickOpenScp2010} hundleClickCloseScp2010={hundleClickCloseScp2010} scp2010={scp2010}
+                 hundleClickOpenScp2011={hundleClickOpenScp2011} hundleClickCloseScp2011={hundleClickCloseScp2011} scp2011={scp2011}
+                 hundleClickOpenScp2012={hundleClickOpenScp2012} hundleClickCloseScp2012={hundleClickCloseScp2012} scp2012={scp2012}
+                 hundleClickOpenScp2013={hundleClickOpenScp2013} hundleClickCloseScp2013={hundleClickCloseScp2013} scp2013={scp2013}
+                 hundleClickOpenScp2014={hundleClickOpenScp2014} hundleClickCloseScp2014={hundleClickCloseScp2014} scp2014={scp2014}
+                 hundleClickOpenScp2015={hundleClickOpenScp2015} hundleClickCloseScp2015={hundleClickCloseScp2015} scp2015={scp2015}
+                 hundleClickOpenScp2016={hundleClickOpenScp2016} hundleClickCloseScp2016={hundleClickCloseScp2016} scp2016={scp2016}
+                 hundleClickOpenScp2017={hundleClickOpenScp2017} hundleClickCloseScp2017={hundleClickCloseScp2017} scp2017={scp2017}
+                 hundleClickOpenScp2018={hundleClickOpenScp2018} hundleClickCloseScp2018={hundleClickCloseScp2018} scp2018={scp2018}
+                 hundleClickOpenScp2019={hundleClickOpenScp2019} hundleClickCloseScp2019={hundleClickCloseScp2019} scp2019={scp2019}
+                 hundleClickOpenScp2020={hundleClickOpenScp2020} hundleClickCloseScp2020={hundleClickCloseScp2020} scp2020={scp2020}
             />
+            
+            {stateOpen?null:<Panoramicas hundleClicClose360={hundleClicClose360} state={state.open} />}
+            {panam?null:<Coordenadas360 hundleClicOpen360={hundleClicOpen360} />}
+
             {corchila?<UhCordilleraChila />:null}
-            {cor?<Cordilleras />:null}
             {corblanca?<UhCordilleraBlanca />:null}
+            {cor?<Cordilleras />:null}
             {!scp2002?<Scp2002V1 />:null}
             {!scp2003?<Scp2003V1 />:null}
             {!scp2004?<Scp2004V1 />:null}
@@ -164,4 +186,4 @@ function MapViewer(){
     );
 }
 
-export default MapViewer;
+export default Capas;

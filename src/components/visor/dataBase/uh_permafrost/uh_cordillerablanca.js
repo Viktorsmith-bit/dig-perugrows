@@ -47,4 +47,4 @@ function UhCordilleraBlanca(){
     );
 }
 
-export default UhCordilleraBlanca;
+export default React.memo(UhCordilleraBlanca);

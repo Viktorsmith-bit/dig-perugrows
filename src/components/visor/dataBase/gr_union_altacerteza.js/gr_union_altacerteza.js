@@ -57,4 +57,4 @@ function GrUnionAltaCerteza(){
     );
 }
 
-export default GrUnionAltaCerteza;
+export default React.memo(GrUnionAltaCerteza);

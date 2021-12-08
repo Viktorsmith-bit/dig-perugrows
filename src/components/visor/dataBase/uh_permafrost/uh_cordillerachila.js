@@ -47,4 +47,4 @@ function UhCordilleraChila(){
     );
 }
 
-export default UhCordilleraChila;
+export default React.memo(UhCordilleraChila);
