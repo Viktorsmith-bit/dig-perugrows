@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '../../src/layout';
-import NavShared from '../../src/components/shared/nav/nav.shared';
+import Nav from '../../src/components/shared/nav/nav';
 import React from 'react';
 import Index from '../../src/components/produccion/index';
 
@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
       </Head>
       <main>
-        <NavShared />
+        <Nav />
         <Index />
       </main>
     </Layout>

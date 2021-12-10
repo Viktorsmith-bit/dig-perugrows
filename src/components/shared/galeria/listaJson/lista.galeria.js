@@ -2,14 +2,21 @@ export const ListSocios = [
     {
         id:1,
         nombre:'Fotogrametría aérea',
-        descripcion:'Fotogrametría aérea (drone) en la quebrada San Félix para el monitreo de la dinámica glaciar y de los ecosistemas circundantes.',
-        lugar:'Catac, Ancash',
-        fecha:'Oct, 2019',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Fotogrametría aérea (dron) en la quebrada San Félix para el monitoreo de la dinámica del glaciar rocoso y de los ecosistemas circundantes.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FDrone_GRSanFelix_e.jpeg?alt=media&token=670cc08f-b54e-4f58-952d-267464618785',
     },
     {
         id:2,
-        nombre:'Fotogrametría aérea.',
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Fotogrametría aérea (dron) en la quebrada San Félix para el monitreo de la dinámica del glaciar rocoso y de los ecosistemas circundantes.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FGRSanFelix.jpeg?alt=media&token=c575c998-4d50-4c1a-b05a-0d5308595626',
     }
 ]
@@ -102,9 +109,11 @@ export const todoList = [
     {
         id:1,
         nombre:'Fotogrametría aérea',
-        descripcion:'Fotogrametría aérea (drone) en la quebrada San Félix para el monitreo de la dinámica glaciar y de los ecosistemas circundantes.',
-        lugar:'Catac, Ancash',
-        fecha:'Oct, 2019',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Fotogrametría aérea (dron) en la quebrada San Félix para el monitreo de la dinámica del glaciar rocoso y de los ecosistemas circundantes.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FDrone_GRSanFelix_e.jpeg?alt=media&token=670cc08f-b54e-4f58-952d-267464618785',
     },
     {

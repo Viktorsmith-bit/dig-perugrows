@@ -1,24 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
 import NavMobile from './components/nav.mobile';
 
 export default function Nav(){
     const [state, setState] = useState(false);
 
     const open = (e)=>{
-        e.preventDefault();
-        setState(true)
+        e.preventDefault(), setState(true)
     }
-
     const close = (e)=>{
-        e.preventDefault();
-        setState(false)
+        e.preventDefault(), setState(false)
     }
 
     return(
-        <nav className='h-20 lg:h-20 absolute top-0 left-0 background-color' id='inicio'>
+        <nav className='h-20 lg:h-20 background-color' id='inicio'>
             <nav className='fixed h-20 w-full lg:hidden z-30 background-color'>
                 <div className='flex items-center justify-between h-20 px-4 lg:px-10 border-b border-gray-700' >
                     {
@@ -39,12 +35,12 @@ export default function Nav(){
                     </a>
                 </Link>
                 <div className='flex gap-7'>
-                    <a href='#proyecto'><h1 className='text-white cursor-pointer transition duration-150 ease-in-out'>Resumen</h1></a>
-                    <Link href="/equipo-cientifico/integrantes"><a><h1 className='text-white cursor-pointer hover:bg-green-100 p-2 rounded-md hover:text-black'>Equipo científico</h1></a></Link>
-                    <Link href="/produccion/cientifica"><a><h1 className='text-white cursor-pointer'>Producción científica</h1></a></Link>
-                    <Link href="/galeria"><a><h1 className='text-white cursor-pointer'>Galería</h1></a></Link>
-                    <Link href="/visor/mapa"><a><h1 className='text-white cursor-pointer'>Visor de mapas</h1></a></Link>
-                    <a href='#contacto'><h1 className='text-white cursor-pointer'>Contacto</h1></a>
+                    <a href='#proyecto'><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Resumen</h1></a>
+                    <Link href="/equipo-cientifico/integrantes"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Equipo científico</h1></a></Link>
+                    <Link href="/produccion/cientifica"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Producción científica</h1></a></Link>
+                    <Link href="/galeria"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Galería</h1></a></Link>
+                    <Link href="/visor/mapa"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Visor de mapas</h1></a></Link>
+                    <a href='#contacto'><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Contacto</h1></a>
                 </div> 
                 <Image src='/logos/INAIGEM.svg' height={40} width={170}/>
             </nav>

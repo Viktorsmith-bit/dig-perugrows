@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '../../src/layout';
-import NavShared from '../../src/components/shared/nav/nav.shared';
+import Nav from '../../src/components/shared/nav/nav';
 import Index from '../../src/components/equipo/index';
 import Footer from '../../src/components/shared/footer/footer';
 import React from 'react';
@@ -15,7 +15,7 @@ export default function TeamCientific(){
                 <link rel="icon" href="/inaigem.ico" />
             </Head>
             <main>
-                <NavShared />
+                <Nav />
                 <Index />
                 <Footer />
             </main>
