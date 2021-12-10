@@ -36,7 +36,7 @@ export default function Adaptacion(){
                     {
                         ListAdaptacion.map((item)=>{
                             return <div className='galeria relative'>
-                                <img id={item.id} onClick={openModal} className='cover galeria cursor-pointer rounded-md' src={`/galeria/${item.url}`} />
+                                <img id={item.id} onClick={openModal} className='cover galeria cursor-pointer rounded-md' src={`${item.url}`} />
                                 <div onClick={openModal} className='absolute bottom-0 left-0 opacity-image flex items-center px-4 h-16 w-full cursor-pointer rounded-b-md'>
                                     <h1 className='text-white'>{item.nombre}</h1>
                                 </div>

@@ -17,7 +17,7 @@ export default function Home () {
             </Head>
             <main>
                 <div className='relative'>
-                    <img className='h-80 lg:h-96 w-full cover' src='/fondos/GlaciarRocoso_SanFelix_20_3.jpeg'/>
+                    <img className='h-80 lg:h-96 w-full cover' src='https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/fondos%2FGlaciarRocoso_SanFelix_20_3.jpeg?alt=media&token=02dc7a78-c17d-47dc-b10d-4a2bdbe27f62'/>
                     {/**<h1 className='text-white font-bold text-xl lg:text-3xl absolute top-10 right-12 hidden'>PROYECTO PERMAFROST</h1> */}
                     <Link href='/equipo-cientifico/integrantes'>
                         <a>
@@ -41,7 +41,7 @@ export default function Home () {
                                         </a>
                                     </Link>
                                     <div className='flex flex-col items-center flex-1 w-full md:max-w-2xl lg:max-w-2xl'>
-                                        <img className='rounded-full w-40 h-40 lg:w-56 lg:h-56 cover-image border-2 border-white z-20' src={`/equipo-cientifico/nacional/${item.foto}`}/>   
+                                        <img className='rounded-full w-40 h-40 lg:w-56 lg:h-56 cover-image border-2 border-white z-20' src={`${item.foto}`}/>   
                                         <div className='mt-3'>
                                             <h1 className='text-center font-bold text-xl lg:text-2xl text-color'>{item.name}</h1>
                                             <h1 className='text-center text-base text-color'>{item.cargo}</h1>

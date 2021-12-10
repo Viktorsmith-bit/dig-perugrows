@@ -79,7 +79,7 @@ export default function ListCapas(props){
                     <div className='px-3 py-2'>
                         <h1 className='text-sm'>Modelo de persistencia de nieve</h1>
                         <div className='px-6 mt-2'>
-                            <h1 className='text-sm'>Rangos</h1>
+                            <h1 className='text-sm'>Rangos (días/año)</h1>
                             <div className='flex items-center gap-2 mt-2'>
                                 <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#d6d6ff"}} ></div>
                                 <h1 className='text-sm'>10-81</h1>

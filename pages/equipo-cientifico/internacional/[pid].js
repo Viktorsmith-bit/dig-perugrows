@@ -17,7 +17,7 @@ export default function Home () {
             </Head>
             <main>
                 <div className='relative'>
-                    <img className='h-80 lg:h-96 w-full cover' src='/fondos/GlaciarRocoso_SanFelix_20_3.jpeg'/>
+                    <img className='h-80 lg:h-96 w-full cover' src='https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/fondos%2FGlaciarRocoso_SanFelix_20_3.jpeg?alt=media&token=02dc7a78-c17d-47dc-b10d-4a2bdbe27f62'/>
                     {/**<h1 className='text-white font-bold text-xl lg:text-3xl absolute top-10 right-12 hidden'>PROYECTO PERMAFROST</h1> */}
                     <Link href='/equipo-cientifico/integrantes'>
                         <a>
@@ -41,7 +41,7 @@ export default function Home () {
                                         </a>
                                     </Link>
                                     <div className='flex flex-col items-center flex-1 max-w-2xl'>
-                                    <img className='rounded-full w-40 h-40 lg:w-56 lg:h-56 cover-image border-2 border-white z-20' src={`/equipo-cientifico/internacional/${item.foto}`}/>   
+                                    <img className='rounded-full w-40 h-40 lg:w-56 lg:h-56 cover-image border-2 border-white z-20' src={`${item.foto}`}/>   
                                         <div className='mt-3'>
                                             <h1 className='text-center font-bold text-xl lg:text-2xl text-color'>{item.name}</h1>
                                             <h1 className='text-center text-base text-color'>{item.cargo}</h1>
@@ -72,7 +72,7 @@ export default function Home () {
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#434040" className="bi bi-envelope-fill" viewBox="0 0 16 16">
                                                         <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                                                     </svg>
-                                                    <a href={item.correo}><h1>{item.email}</h1></a>
+                                                    <a href={item.correo}><h1 className='text-color'>{item.email}</h1></a>
                                                 </div>
                                                 <a href={item.geouzh} target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.geouzh === null?'hidden':'block'} `}><h1>University of Zurich</h1></a>
                                                 <a href={item.uzh} target='_blank' className={`bg-gray-200 py-2 px-4 rounded-md text-color ${item.uzh === null?'hidden':'block'} `}><h1>University of Zurich-Research</h1></a>

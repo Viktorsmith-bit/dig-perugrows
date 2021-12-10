@@ -8,8 +8,8 @@ export default function Organizaciones(){
                     <h1 className='text-white text-2xl lg:text-4xl font-bold'>Organizaciones</h1>
                     <div className='flex flex-wrap items-center justify-between mt-5 lg:mt-20'>
                         <img className='w-32 md:w-40 lg:w-56 h-40' src='/logos/organizaciones/INAIGEMBN.svg'/>
-                        <img className='w-32 md:w-40 lg:w-36 h-32' src='/logos/organizaciones/Logo-UNASAM.svg'/>
-                        <img className='w-32 md:w-40 lg:w-40 h-36' src='/logos/organizaciones/Uni-logo_transparente_granate.svg'/>
+                        <img className='w-32 md:w-40 lg:w-24 h-32' src='/logos/organizaciones/Logo-UNASAM.svg'/>
+                        <img className='w-32 md:w-40 lg:w-32 h-36' src='/logos/organizaciones/Uni-logo_transparente_granate.svg'/>
                     </div>
                     <div className='flex flex-wrap justify-between'>
                         <img className='w-32 md:w-40 lg:w-40 h-40' src='/logos/organizaciones/university-of-zurich-uzh-seeklogo.com.svg'/>

@@ -22,7 +22,7 @@ export default function Produccion(){
                         <h1 className='mt-2 text-center text-color font-bold'>VISOR DE MAPAS</h1>
                     </div>
                 </div>
-                <Link href='/galeria'><a className='mt-7 lg:mt-14'><button className='w-48 py-4 border-color bg-color rounded-md text-color'>Galería de imágenes</button></a></Link>
+                <Link href='/galeria'><a className='mt-7 lg:mt-14'><button className='w-56 py-4 border-color bg-color rounded-md text-color font-bold'>GALERÍA DE IMÁGENES</button></a></Link>
             </div>
         </div>
     );

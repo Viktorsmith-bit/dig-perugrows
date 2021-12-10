@@ -25,7 +25,7 @@ export default function Resumen(){
                         <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
                     </svg>
                 </div>
-                <a href='#organizaciones'><button className='rounded-md border-color px-4 py-4 mt-10 bg-color text-color'>Ver organizaciones</button></a>
+                <a href='#organizaciones'><button className='rounded-md border-color px-4 py-4 mt-10 bg-color text-color font-bold'>Ver organizaciones</button></a>
             </div>
         </div>
     );
@@ -36,18 +36,21 @@ function Naional(){
         <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated lg:animate__bounceInLeft'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña</h1>
-                <h1 className='text-sm mt-1 text-color'>Unidad ejecutura peruana</h1>
-                <h1 className='mt-5 text-color'>Mapeo de las formas de permafrost, diseño del prototipo de estación meteorológica, mapeo del perfil de las temperaturas del suelo y modelamiento del permafrost a nivel nacional.</h1>
+                <h1 className='text-sm mt-1 text-color'>INAIGEM</h1>
+                <h1 className='text-sm mt-1 text-color'>Unidad ejecutora peruana</h1>
+                <h1 className='mt-5 text-color text-justify'>Mapeo de las formas de permafrost, diseño del prototipo de estación meteorológica, mapeo del perfil de las temperaturas del suelo y modelamiento del permafrost a nivel nacional.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Universidad Nacional Santiago Antúnez de Mayolo</h1>
+                <h1 className='text-sm mt-1 text-color'>UNASAM</h1>
                 <h1 className='text-sm mt-1 text-color'>Asociada peruana</h1>
-                <h1 className='mt-5 text-color'>Asesoramiento sobre el mapeo de los suelos, cobertura vegetal y línea de nieve.</h1>
+                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre el mapeo de los suelos, cobertura vegetal y línea de nieve.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Universidad Nacional de Ingeniería</h1>
-                 <h1 className='text-sm mt-1 text-color'>Asociada peruana</h1>
-                <h1 className='mt-5 text-color'>Desarrollo del prototipo de drone meteorológico de código abierto.</h1>
+                <h1 className='text-sm mt-1 text-color'>UNI</h1>
+                <h1 className='text-sm mt-1 text-color'>Asociada peruana</h1>
+                <h1 className='mt-5 text-color text-justify'>Desarrollo del prototipo de drone meteorológico de código abierto.</h1>
             </div>
         </div>
     );
@@ -58,18 +61,21 @@ function Extranjero(){
         <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated lg:animate__bounceInRight'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>University of Zurich</h1>
+                <h1 className='text-sm mt-1 text-color'>UZH</h1>
                 <h1 className='text-sm mt-1 text-color'>Asociada de Suiza</h1>
-                <h1 className='mt-5 text-color'>Asesoramiento sobre el mapeo de formas de permafrost.</h1>
+                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre el mapeo de formas de permafrost.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>University of Huddersfield</h1>
+                <h1 className='text-sm mt-1 text-color'>UH</h1>
                 <h1 className='text-sm mt-1 text-color'>Asociada británica</h1>
-                <h1 className='mt-5 text-color'>Asesoramiento sobre el mapeo de formas de permafrost.</h1>
+                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre el mapeo de formas de permafrost.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Université Savoie Mont Blanc</h1>
+                <h1 className='text-sm mt-1 text-color'>USMB</h1>
                 <h1 className='text-sm mt-1 text-color'>Colaboradora francesa</h1>
-                <h1 className='mt-5 text-color'>Asesoramiento sobre la instalación de sensores de paredes de roca y modelamiento del permafrost.</h1>
+                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre la instalación de sensores de paredes de roca y modelamiento del permafrost.</h1>
             </div>
         </div>
     );

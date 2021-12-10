@@ -18,8 +18,6 @@ export default function Produccion(){
                                     <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Universidad:</span> {item.universidad}</h1>
                                     <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Asesor universidad:</span> {item.asesorUni}</h1>
                                     <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Asesor INAIGEM:</span> {item.asesorInai}</h1>
-                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Publicaco:</span> {item.publicado}</h1>
-                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Oficial:</span> {item.oficialInai}</h1>
                                     <a href={item.link} target="_blank"><h1 className={`text-sm text-gray-700 text-color mt-1 ${item.link === null?"hidden":"block"}`}><span className="font-bold">Enlace:</span> <span className='green-color font-bold'>Ver publicación</span></h1></a>
                                 </div>
                             </div>

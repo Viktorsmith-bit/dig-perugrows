@@ -43,10 +43,10 @@ export default function Galeria(){
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={tesis} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.tesis?'background-color':'bg-white'}`}></div>
-                            <h1 className='flex items-center text-base lg:h-14 text-color'>Tesis pregrado y postgrado</h1>
+                            <h1 className='flex items-center text-base lg:h-14 text-color'>Tesis de pregrado y postgrado</h1>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <div className={`h-4 w-4 rounded-sm border-color ${!state.patentes?'background-color':'bg-white'}`}></div>
+                            <div className={`h-4 w-4 rounded-sm border-color ${!state.patentes?'background-color':'gray-color'}`}></div>
                             <h1 className='flex items-center text-base lg:h-14 text-color'>Patentes y derechos de autor</h1>
                         </div>
                     </div>
