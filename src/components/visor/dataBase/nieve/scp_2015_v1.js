@@ -49,7 +49,10 @@ function Scp2015V1(){
             {
                 data === undefined?<Loading />:<GeoJSON data={data}  style={(feature)=>{
                     return {
-                            color:colorOptions(feature.properties.Rangos)
+                            color:colorOptions(feature.properties.Rangos),
+                            weight: 0,
+                            dashArray: '3',
+                            fillOpacity: 0.7
                         }
                     }
                 } />

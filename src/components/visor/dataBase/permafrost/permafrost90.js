@@ -47,7 +47,10 @@ function Permafrost90(){
             {
                 data === undefined?<Loading />:<GeoJSON data={data}  style={(feature)=>{
                     return {
-                            color:blackOptionsPermafrost(feature.properties.Probabilid)
+                            color:blackOptionsPermafrost(feature.properties.Probabilid),
+                            weight: 0,
+                            dashArray: '3',
+                            fillOpacity: 0.7
                         }
                     }
                 } />
