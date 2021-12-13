@@ -183,31 +183,31 @@ export default function MapViewer(){
                 <LeftAside />
                 {panam?null:<Coordenadas360 hundleClicOpen360={hundleClicOpen360} />}
 
-            {corchila?<UhCordilleraChila />:null}
-            {corblanca?<UhCordilleraBlanca />:null}
-            {cor?<Cordilleras />:null}
-            {!scp2002?<Scp2002V1 />:null}
-            {!scp2003?<Scp2003V1 />:null}
-            {!scp2004?<Scp2004V1 />:null}
-            {!scp2005?<Scp2005V1 />:null}
-            {!scp2006?<Scp2006V1 />:null}
-            {!scp2007?<Scp2007V1 />:null}
-            {!scp2008?<Scp2008V1 />:null}
-            {!scp2009?<Scp2009V1 />:null}
-            {!scp2010?<Scp2010V1 />:null}
-            {!scp2011?<Scp2011V1 />:null}
-            {!scp2012?<Scp2012V1 />:null}
-            {!scp2013?<Scp2013V1 />:null}
-            {!scp2014?<Scp2014V1 />:null}
-            {!scp2015?<Scp2015V1 />:null}
-            {!scp2016?<Scp2016V1 />:null}
-            {!scp2017?<Scp2017V1 />:null}
-            {!scp2018?<Scp2018V1 />:null}
-            {!scp2019?<Scp2019V1 />:null}
-            {!scp2020?<Scp2020V1 />:null}
-            {!per90?<Permafrost90 />:null}
-            {!inv?<GrUnionAltaCerteza />:null}
-            {!per30?<Permafrost30 />:null}
+                {corchila?<UhCordilleraChila />:null}
+                {corblanca?<UhCordilleraBlanca />:null}
+                {cor?<Cordilleras />:null}
+                {!scp2002?<Scp2002V1 />:null}
+                {!scp2003?<Scp2003V1 />:null}
+                {!scp2004?<Scp2004V1 />:null}
+                {!scp2005?<Scp2005V1 />:null}
+                {!scp2006?<Scp2006V1 />:null}
+                {!scp2007?<Scp2007V1 />:null}
+                {!scp2008?<Scp2008V1 />:null}
+                {!scp2009?<Scp2009V1 />:null}
+                {!scp2010?<Scp2010V1 />:null}
+                {!scp2011?<Scp2011V1 />:null}
+                {!scp2012?<Scp2012V1 />:null}
+                {!scp2013?<Scp2013V1 />:null}
+                {!scp2014?<Scp2014V1 />:null}
+                {!scp2015?<Scp2015V1 />:null}
+                {!scp2016?<Scp2016V1 />:null}
+                {!scp2017?<Scp2017V1 />:null}
+                {!scp2018?<Scp2018V1 />:null}
+                {!scp2019?<Scp2019V1 />:null}
+                {!scp2020?<Scp2020V1 />:null}
+                {!per90?<Permafrost90 />:null}
+                {!inv?<GrUnionAltaCerteza />:null}
+                {!per30?<Permafrost30 />:null}
                 
             </MapContainer>
         </div>

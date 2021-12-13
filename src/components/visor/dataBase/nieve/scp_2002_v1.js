@@ -53,7 +53,7 @@ function Scp2002V1(){
                             color:colorOptions(feature.properties.Rango),
                             weight: 0,
                             dashArray: '3',
-                            fillOpacity: 0.7
+                            fillOpacity: 0.5
                         }
                     }
                 } />

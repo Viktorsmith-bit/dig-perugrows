@@ -37,7 +37,7 @@ export default function Modal(props){
                                 if(e.id === state){
                                     return <div className='flex flex-col lg:flex-row h-screen lg:h-auto'>
                                         <div className='relative'>
-                                            <img className='cover height-image width-image' src={`${e.url}`}/>
+                                            <img className={`${e.cover} height-image width-image`} src={`${e.url}`}/>
                                             <>
                                                 <code><h1 onClick={next} className='flex justify-center items-center absolute bottom-0 left-0 lg:hidden bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`<`}</h1></code>
                                                 <code><h1 onClick={back} className='flex justify-center items-center absolute bottom-0 right-0 lg:hidden bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`>`}</h1></code>

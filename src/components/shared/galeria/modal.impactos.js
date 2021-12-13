@@ -31,7 +31,7 @@ export default function Modal(props){
                                 if(e.id === state){
                                     return <div className='flex flex-col lg:flex-row h-screen lg:h-auto'>
                                         <div className='relative'>
-                                            <img className='cover height-image width-image' src={`${e.url}`}/>
+                                            <img className={`${e.cover} height-image width-image`} src={`${e.url}`}/>
                                             <>
                                                 <code><h1 onClick={next} className='flex justify-center items-center absolute bottom-0 left-0 lg:hidden bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`<`}</h1></code>
                                                 <code><h1 onClick={back} className='flex justify-center items-center absolute bottom-0 right-0 lg:hidden bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`>`}</h1></code>
@@ -42,13 +42,16 @@ export default function Modal(props){
                                         </div>
                                         <div className='flex flex-col justify-between w-full lg:w-80 bg-gray-100 px-4 py-4 h-full lg:h-auto'>
                                             <div className='container'>
-                                                <h1 className='text-xl font-bold text-color text-color'>WORKSHOP</h1>
-                                                <div className='flex justify-between border-b border-gray-400 pb-2 mt-1'>
-                                                    <h1 className='text-sm text-color text-color'>Hotel Churup, Huaraz</h1>
-                                                    <h1 className='text-sm text-color text-color'>Ago, 2019</h1>
+                                                <h1 className='text-xl font-bold text-color text-color'>{e.titulo}</h1>
+                                                <div className='border-b border-gray-400 pb-2 mt-1'>
+                                                    <h1 className='text-sm text-color text-color'>{e.subTitulo}</h1>
+                                                    <div className='flex justify-between'>
+                                                        <h1 className='text-sm text-color text-color'>{e.lugar}</h1>
+                                                        <h1 className='text-sm text-color text-color'>{e.fecha}</h1>
+                                                    </div>
+                                                    </div>
+                                                    <h1 className='text-base mt-5 text-color text-justify'> {e.descripcion}</h1>
                                                 </div>
-                                                <h1 className='text-base mt-5 text-color'> {e.nombre}</h1>
-                                            </div>
                                             <h1 className='text-xs text-justify text-color text-color'>©2021 Permafrost. Todos los derechos reservados. Para obtener la imagen en calidad original ponerse en contacto al correo katydamacia@gmail.com.</h1>
                                         </div>
                                 </div>

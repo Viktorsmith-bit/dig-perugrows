@@ -13,7 +13,7 @@ export default function(props){
                 listaCoordenadas.map((item)=>{
                     return <CircleMarker center={item.coordinates} pathOptions={redOptions} radio={20} >
                             <Popup>
-                                <h1 id={item.id} onClick={props.hundleClicOpen360} className='cursor-pointer'>{item.titulo}</h1>
+                                <h1 id={item.id} onClick={props.hundleClicOpen360} className='cursor-pointer'>{item.nombre}</h1>
                         </Popup>
                     </CircleMarker>
                 })
