@@ -14,7 +14,7 @@ export default function ListCapas(props){
     const closeNieve = (e)=>{e.preventDefault(), setNev(false)}
 
     return(
-        <div className='absolute bottom-12 lg:top-3 lg:right-16 bg-white w-full md:w-96 lg:w-96 rounded-sm border border-gray-400' style={{zIndex:"1000"}}>
+        <div className='absolute lg:top-3 lg:right-16 bg-white w-full md:w-96 lg:w-96 rounded-sm border border-gray-400' style={{zIndex:"1000"}}>
             <div className='flex items-center gap-2 bg-green-700 px-3 h-10 rounded-t-sm'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-stack" viewBox="0 0 16 16">
                     <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
@@ -23,15 +23,15 @@ export default function ListCapas(props){
                 <h1 className='text-white text-base'>Lista de capas</h1>
             </div>
             <div className='overFlow-hidden h-96'>
-                <div className='overflow-auto overscroll-auto h-96 py-3'>
-                    <h1 className='text-sm px-3 font-bold text-color'>Capas</h1>
-                    <div className='flex gap-2 px-6 py-2'>
+                <div className='overflow-auto overscroll-auto h-96 py-3 px-4'>
+                    <h1 className='text-base font-bold text-color border-b-2 border-gray-800 pb-1'>Capas</h1>
+                    <div className='flex gap-2 px-4 py-2'>
                         <div className='flex items-center gap-2'>
                             {props.cor?<div className='flex items-center gap-2'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickCloseCor} className='text-sm cursor-pointer text-color'>Límites de cordilleras glaciares del Perú</h1></div>:
                             <div className='flex items-center gap-2'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpenCor} className='text-sm cursor-pointer text-color'>Límites de cordilleras glaciares del Perú</h1></div>}
                         </div>
                     </div>
-                    <div className='px-5'>
+                    <div className='px-3'>
                         <div className='flex gap-2'>
                             {!amb?<svg onClick={hundleOpenAmbito} xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-right-fill" viewBox="0 0 16 16">
                                 <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>

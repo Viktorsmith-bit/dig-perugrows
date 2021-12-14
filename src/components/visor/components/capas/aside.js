@@ -2,14 +2,18 @@ import React from 'react';
 import { useState } from 'react';
 import Capas from './components/capas';
 import Leyenda from './components/leyenda';
+import Tilelayer from './components/tilelayer';
 
 export default function Aside(props){
-    const [state, setState] = useState({capas:false, leyenda:false})
+    const [state, setState] = useState({capas:false, leyenda:false, tilelayer:false})
 
     const handleClickOpen = (e)=>{e.preventDefault(), setState({capas:true})}
     const handleClickClose = (e)=>{e.preventDefault(), setState({capas:false})}
     const handleClickOpenLey = (e)=>{e.preventDefault(), setState({leyenda:true})}
     const handleClickCloseLey = (e)=>{e.preventDefault(), setState({leyenda:false})}
+
+    const handleClickOpenTil = (e)=>{e.preventDefault(), setState({tilelayer:true})}
+    const handleClickCloseTil = (e)=>{e.preventDefault(), setState({tilelayer:false})}
 
     return(
         <div>
@@ -40,11 +44,17 @@ export default function Aside(props){
                 </div>
             }
 
-            <div className='flex items-center justify-center cursor-pointer w-10 h-10 rounded-sm bg-white absolute z-20 top-24 right-3 mt-1' style={{zIndex:"1000"}}>
+            {
+                !state.tilelayer?<div onClick={handleClickOpenTil} className='flex items-center justify-center cursor-pointer w-10 h-10 rounded-sm bg-white absolute z-20 top-24 right-3 mt-1' style={{zIndex:"1000"}}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#434040" className="cursor-pointer bi bi-grid-fill" viewBox="0 0 16 16">
                     <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
                 </svg>
-            </div>
+                </div>:<div onClick={handleClickCloseTil}  className='flex items-center justify-center cursor-pointer w-10 h-10 rounded-sm bg-white absolute z-20 top-24 right-3 mt-1' style={{zIndex:"1000"}}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#434040" className="cursor-pointer bi bi-grid-fill" viewBox="0 0 16 16">
+                        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+                    </svg>
+                </div>
+            }
              
             {!state.capas?null:<Capas 
 
@@ -76,6 +86,7 @@ export default function Aside(props){
                 hundleClickOpenScp2020={props.hundleClickOpenScp2020} hundleClickCloseScp2020={props.hundleClickCloseScp2020} scp2020={props.scp2020}
             />}
             {!state.leyenda?null:<Leyenda />}
+            {!state.tilelayer?null: <Tilelayer openMap={props.openMap} />}
         </div>
     );
 }

@@ -163,7 +163,10 @@
   object-fit: cover;
   object-position: 50% 18%;
 }
-
+.cover-galeria {
+  object-fit: cover;
+  object-position: 80% 80%;
+}
 .degraded {
   background: linesar-gradient(
     90deg,

@@ -3,7 +3,7 @@ import React from 'react';
 export default function ListCapas(props){
 
     return(
-        <div className='absolute bottom-12 right-0 lg:top-14 lg:right-16 bg-white w-full md:w-96 lg:w-96 rounded-sm z-20 border border-gray-400' style={{zIndex:"1000"}}>
+        <div className='absolute right-0 lg:top-14 lg:right-16 bg-white w-full md:w-96 lg:w-96 rounded-sm z-20 border border-gray-400' style={{zIndex:"1000"}}>
             <div className='flex items-center gap-2 bg-green-700 px-3 h-10 rounded-t-sm'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="cursor-pointer bi bi-card-list" viewBox="0 0 16 16">
                     <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>

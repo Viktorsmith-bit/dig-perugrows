@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Produccion(){
     return(
-        <div className='flex justify-center items-center lg:h-screen px-4 py-10 lg:px-0 lg:py-0'>
+        <div className='flex justify-center items-center lg:h-screen px-4 py-10 lg:px-0 lg:py-0' style={{height:"38rem"}}>
             <div className='flex flex-col items-center flex-1 w-full md:max-w-2xl lg:max-w-7xl w-full'>
                 <h1 className='font-bold text-2xl lg:text-4xl text-color'>Productos</h1>
                 <h1 className=''></h1>

@@ -39,6 +39,8 @@ const MapContainer = dynamic(()=>import('react-leaflet').then((mod)=>mod.MapCont
 const TileLayer = dynamic(()=>import('react-leaflet').then((mod)=>mod.TileLayer), {ssr: false});
 
 export default function MapViewer(){
+    const [map, setMap] = useState({open:"1"});
+
     const [state, setState] = useState({open:""});
     const [stateOpen, setStateOpen] = useState(true);
     const [panam , setPanam] = useState(true)
@@ -67,6 +69,11 @@ export default function MapViewer(){
     const [scp2018, setScp2018] = useState(true);
     const [scp2019, setScp2019] = useState(true);
     const [scp2020, setScp2020] = useState(true);
+
+    const openMap = (e)=>{
+        e.preventDefault();
+        setMap({open:e.target.id})
+    }
 
     const hundleClicOpen360 = (e)=>{
         e.preventDefault()
@@ -133,9 +140,10 @@ export default function MapViewer(){
     return(
         <div className='h-screen border'>
             <Aside 
-                 hundleClickClosePanam={hundleClickClosePanam} hundleClickOpenPanam={hundleClickOpenPanam} panam={panam}
-                 hundleClickOpen={hundleClickOpen} hundleClickClose={hundleClickClose} estado={corblanca} 
-                 hundleClickOpenChila={hundleClickOpenChila} hundleClickCloseChila={hundleClickCloseChila} corchila={corchila}
+                openMap={openMap}
+                hundleClickClosePanam={hundleClickClosePanam} hundleClickOpenPanam={hundleClickOpenPanam} panam={panam}
+                hundleClickOpen={hundleClickOpen} hundleClickClose={hundleClickClose} estado={corblanca} 
+                hundleClickOpenChila={hundleClickOpenChila} hundleClickCloseChila={hundleClickCloseChila} corchila={corchila}
                  hundleClickOpenCor={hundleClickOpenCor} hundleClickCloseCor={hundleClickCloseCor} cor={cor}
                  hundleClickOpenInv={hundleClickOpenInv} hundleClickCloseInv={hundleClickCloseInv} inv={inv}
                  hundleClickOpenPer30={hundleClickOpenPer30} hundleClickClosePer30={hundleClickClosePer30} per30={per30}
@@ -162,21 +170,63 @@ export default function MapViewer(){
             />
              {stateOpen?null:<Panoramicas hundleClicClose360={hundleClicClose360} state={state.open} />}
             <MapContainer center={[-14.414974922615183, -72.242071978681196]} zoom={7} scrollWheelZoom={true} >
-                <TileLayer
+                {
+                    map.open === "1"?<TileLayer
+                        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                    />:null
+                }
+                {
+                    map.open === "2"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-                />
-                <TileLayer
+                    url="https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png"
+                    />:null
+                }
+                {
+                    map.open === "3"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}{r}.{ext}"
-                    ext='png'
-                />
-                <TileLayer
+                    url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+                    />:null
+                }
+                {
+                    map.open === "4"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-labels/{z}/{x}/{y}{r}.{ext}"
-                    ext='png'
-                />
-           
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />:null
+                }
+                {
+                    map.open === "5"?<TileLayer
+                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+                    />:null
+                }
+                {
+                    map.open === "6"?<TileLayer
+                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+                    />:null
+                }
+                {
+                    map.open === "7"?<TileLayer
+                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://tile.osm.ch/switzerland/{z}/{x}/{y}.png"
+                    />:null
+                }
+
+                {
+                    map.open === "1"?<TileLayer
+                        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                        url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}{r}.{ext}"
+                        ext='png'
+                    />:null
+                }
+                {
+                    map.open === "1"?<TileLayer
+                        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                        url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-labels/{z}/{x}/{y}{r}.{ext}"
+                        ext='png'
+                    />:null
+                }
         
                 <Geoportal />
                 <Creditos />
@@ -208,7 +258,6 @@ export default function MapViewer(){
                 {!per90?<Permafrost90 />:null}
                 {!inv?<GrUnionAltaCerteza />:null}
                 {!per30?<Permafrost30 />:null}
-                
             </MapContainer>
         </div>
     );
