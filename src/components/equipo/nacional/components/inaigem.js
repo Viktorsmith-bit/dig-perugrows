@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Inaigem(){
     return(
         <div className='inaigem'>
-            <div className='flex items-center gap-3 mt-10 mb-8'>
+            <div className='flex items-center gap-3 py-10'>
                 <h1 className='font-bold text-base lg:text-xl text-color'>EQUIPO INAIGEM</h1>
                 <div className='flex-1 h-0.5 bg-gray-300'></div>
             </div>

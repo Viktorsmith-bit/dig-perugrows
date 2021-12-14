@@ -36,8 +36,8 @@ export default function Modelamiento(){
                     {
                         ListModelamiento.map((item)=>{
                             return <div className='galeria relative'>
-                                <img id={item.id} onClick={openModal} className='cover galeria cursor-pointer rounded-md' src={`${item.url}`} />
-                                <div onClick={openModal} className='absolute bottom-0 left-0 opacity-image flex items-center px-4 h-16 w-full cursor-pointer rounded-b-md'>
+                                <img id={item.id} onClick={openModal} className='cover galeria cursor-pointer' src={`${item.url}`} />
+                                <div onClick={openModal} className='absolute bottom-0 left-0 opacity-image flex items-center px-4 h-16 w-full cursor-pointer'>
                                     <h1 className='text-white'>{item.nombre}</h1>
                                 </div>
                             </div>

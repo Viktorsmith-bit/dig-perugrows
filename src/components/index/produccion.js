@@ -13,7 +13,7 @@ export default function Produccion(){
                     </div>
                     <div className=''>
                         <Link href='/produccion/cientifica'>
-                            <a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover rounded-md' src='/fondos/TrabajosCampo_Permafrost_2.JPEG' /></a>
+                            <a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover rounded-md' src='/fondos/TrabajosCampo_Permafrost_2.jpeg' /></a>
                         </Link>
                         <h1 className='mt-2 text-center text-color font-bold'>PRODUCCIÓN CIENTÍFICA</h1>       
                     </div>

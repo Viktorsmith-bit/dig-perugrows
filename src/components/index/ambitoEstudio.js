@@ -32,12 +32,12 @@ export default function Ambito(){
         <div id='ambito'>
             { !state.openCampo ? null: <ModalCampo closeModal={closeModal} />}
             { !state.openModelamiento ? null: <ModalModelamiento closeModal={closeModal} />}
-           <div className='flex justify-center items-center py-10 lg:h-screen px-4 lg:px-0 bg-gray-100' style={{height:"38rem"}}>
-               <div className='flex items-center'>
-                   <div className='flex-1'>
-                       <img style={{height:"38rem"}} className='cover h-screen hidden lg:block' src='/fondos/TrabajosModelamiento_Permafrost.jpeg' />
-                   </div>
-                   <div className='flex w-full lg:flex-1 justify-center'>
+            <div className='flex justify-center items-center py-10 lg:h-screen px-4 lg:px-0 bg-gray-100' style={{height:"38rem"}}>
+                <div className='flex items-center'>
+                    <div className='flex-1'>
+                        <img style={{height:"38rem"}} className='cover h-screen hidden lg:block' src='/fondos/TrabajosModelamiento_Permafrost.jpeg' />
+                    </div>
+                    <div className='flex w-full lg:flex-1 justify-center'>
                         <div className='w-full md:max-w-2xl lg:max-w-xl'>
                             <h1 className='text-2xl lg:text-4xl font-bold text-color'>Ámbito de estudio</h1>
                             <h1 className='text-base mt-5 text-justify text-color'>El área de estudio del proyecto Permafrost son las 18 cordilleras glaciares y las dos cordilleras glaciares extintas del Perú. Así mismo, los trabajos de campo se desarrollaron en las cordilleras Blanca (Áncash) y Chila (Arequipa) sobre glaciares limpios, cubiertos y rocosos analizando los distintos componentes climáticos y topográficos presentes para validar el modelamiento del permafrost a nivel nacional.</h1>
@@ -48,8 +48,8 @@ export default function Ambito(){
                             </div>
                         </div>
                     </div>
-               </div>
-           </div>
+                </div>
+            </div>
         </div>
     );
 }

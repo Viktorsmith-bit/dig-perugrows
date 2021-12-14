@@ -36,8 +36,8 @@ export default function Galeria(){
         setState({todo: false, socios:true, modelamiento:true, impactos:true, adaptacion:true, paisaje:false})
     }
     return(
-        <div className='pt-8 lg:pt-16'>
-            <div className='flex-1 lg:max-w-7xl mx-auto px-4 lg:px-0 '>
+        <div className=''>
+            <div className='flex-1 lg:max-w-7xl mx-auto px-4 lg:px-0 py-16'>
                 <Link href='/'>
                     <div className='flex items-center gap-1 cursor-pointer w-20'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
@@ -48,28 +48,28 @@ export default function Galeria(){
                 </Link>         
                 <h1 className='font-bold text-4xl lg:text-6xl mt-5 text-color'>GALERÍA DE IMÁGENES</h1>
             </div>
-            <div className='flex justify-center items-center py-3 lg:py-0 lg:h-14 mt-10 gray-color'>
+            <div className='flex justify-center items-center py-3 lg:py-0 lg:h-14 gray-color'>
                 <div className='flex-1 w-full lg:max-w-7xl px-4 lg:px-0 '>
                     <div className='flex flex-wrap gap-4'>
                         <div className='flex items-center gap-2'>
                             <div onClick={todo} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${state.todo?'background-color':'bg-white'}`}></div>
-                            <label className='flex items-center text-base lg:h-14 text-color'>Todo</label>
+                            <label onClick={todo} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Todo</label>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={socios} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.socios?'background-color':'bg-white'}`}></div>
-                            <label className='flex items-center text-base lg:h-14 text-color'>Objetivo específico 1</label>
+                            <label onClick={socios} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Objetivo específico 1</label>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={modelamiento} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.modelamiento?'background-color':'bg-white'}`}></div>
-                            <h1 className='flex items-center text-base lg:h-14 text-color'>Objetivo específico 2</h1>
+                            <h1 onClick={modelamiento} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Objetivo específico 2</h1>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={impactos} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.impactos?'background-color':'bg-white'}`}></div>
-                            <h1 className='flex items-center text-base lg:h-14 text-color'>Objetivo específico 3</h1>
+                            <h1 onClick={impactos} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Objetivo específico 3</h1>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={paisaje} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.paisaje?'background-color':'bg-white'}`}></div>
-                            <h1 className='flex items-center text-base lg:h-14 text-color'>Paisajes</h1>
+                            <h1 onClick={paisaje} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Paisajes</h1>
                         </div>
                         {/*<div className='flex items-center gap-2'>
                             <div onClick={paisaje} className={`h-4 w-4 cursor-pointer rounded-sm border border-gray-400 ${!state.paisaje?'bg-blue-500':'bg-white'}`}></div>
