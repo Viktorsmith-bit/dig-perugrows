@@ -135,12 +135,14 @@
   background-image: url("../public/fondos/Nevado_Coropuna.jpeg");
   background-position: 100% 100%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .image-organizaciones {
   background-image: url("../public/fondos/Organizaciones_P2.jpeg");
   background-position: 50% 50%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* CSS-GLOBAL */
