@@ -52,7 +52,7 @@ function Scp2011V1(){
                             color:colorOptions(feature.properties.Rangos),
                             weight: 0,
                             dashArray: '3',
-                            fillOpacity: 0.7
+                            fillOpacity: 0.5
                         }
                     }
                 } />

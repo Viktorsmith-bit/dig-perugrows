@@ -50,7 +50,7 @@ function Permafrost30(){
                             color:blackOptionsPermafrost(feature.properties.Probabilid),
                             weight: 0,
                             dashArray: '3',
-                            fillOpacity: 0.7
+                            fillOpacity: 0.5
                         }
                     }
                 } />
