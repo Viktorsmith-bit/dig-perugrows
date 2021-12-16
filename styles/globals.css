@@ -25,17 +25,17 @@
 }
 .absolute-capas {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   right: 0px;
 }
 .absolute-leyenda {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   right: 0px;
 }
 .absolute-tilelayer {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   right: 0px;
 }
 .height-visor {
