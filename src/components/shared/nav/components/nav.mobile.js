@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function navMobile(){
     return(
-        <div className='w-full px-4 lg:px-10 py-4 background-color' >
+        <div className='w-full px-4 lg:px-10 py-4 background' >
             <Link href='/'><a href='#proyecto'><h1 className='text-white cursor-pointer text-2xl'>PERMAFROST</h1></a></Link>
             <a href='#proyecto'><h1 className='text-white cursor-pointer mt-3'>Resumen</h1></a>
             <Link href="/equipo-cientifico/integrantes"><a><h1 className='text-white cursor-pointer'>Equipo científico</h1></a></Link>

@@ -9,7 +9,7 @@ export default function Senamhi(){
                 <h1 className='font-bold text-base lg:text-xl text-color'>EQUIPO UNASAM</h1>
                 <div className='flex-1 h-0.5 bg-gray-300'></div>
             </div>
-            <div className='flex flex-wrap justify-start gap-2 lg:gap-4 pb-10'>
+            <div className='flex flex-wrap justify-start gap-4 md:gap-2 lg:gap-4 pb-10'>
                 {
                     listTeamSenamhi.map((item)=>{
                         return <div key={item.id} className='flex items-center h-32 width-perfil'>
