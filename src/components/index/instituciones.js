@@ -12,7 +12,7 @@ export default function Resumen(){
         setTsate(state - 1)
     }     
     return(
-        <div className='flex items-center justify-center lg:h-screen px-4 py-10' style={{height:"38rem"}}>
+        <div className='flex items-center justify-center lg:h-screen px-4 py-10 height-section'>
             <div className='flex flex-col flex-1 items-center w-full md:max-w-2xl lg:max-w-7xl'>
                 <h1 className='font-bold text-2xl lg:text-4xl text-color'>Instituciones participantes</h1>
                 <div className='flex flex-col md:flex-row lg:flex-row items-center gap-5 justify-between mt-10 lg:mt-20 w-full'>

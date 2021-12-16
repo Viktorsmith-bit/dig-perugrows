@@ -39,7 +39,9 @@
 .width-creditos {
   width: 100%;
 }
-
+.height-section {
+  height: auto;
+}
 @media (min-width: 768px) {
   .height {
     height: 35rem;
@@ -74,6 +76,9 @@
     position: absolute;
     bottom: 58px;
     right: 12px;
+  }
+  .height-section {
+    height: auto;
   }
 }
 
@@ -127,6 +132,9 @@
   }
   .width-creditos {
     width: 27.5rem;
+  }
+  .height-section {
+    height: 38rem;
   }
 }
 

@@ -32,10 +32,10 @@ export default function Ambito(){
         <div id='ambito'>
             { !state.openCampo ? null: <ModalCampo closeModal={closeModal} />}
             { !state.openModelamiento ? null: <ModalModelamiento closeModal={closeModal} />}
-            <div className='flex justify-center items-center py-10 lg:h-screen px-4 lg:px-0 bg-gray-100' style={{height:"38rem"}}>
+            <div className='flex justify-center items-center py-10 lg:h-screen px-4 lg:px-0 bg-gray-100 height-section'>
                 <div className='flex items-center'>
                     <div className='flex-1'>
-                        <img style={{height:"38rem"}} className='cover h-screen hidden lg:block' src='/fondos/TrabajosModelamiento_Permafrost.jpeg' />
+                        <img className='cover h-screen hidden lg:block height-section' src='/fondos/TrabajosModelamiento_Permafrost.jpeg' />
                     </div>
                     <div className='flex w-full lg:flex-1 justify-center'>
                         <div className='w-full md:max-w-2xl lg:max-w-xl'>

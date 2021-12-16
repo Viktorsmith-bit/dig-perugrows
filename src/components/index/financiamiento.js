@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Financiamiento(){
     return(
-        <div className='flex items-center py-10 lg:h-screen px-4' id='financiamiento' style={{height:"38rem"}}>
+        <div className='flex items-center py-10 lg:h-screen px-4 height-section' id='financiamiento'>
             <div className='flex flex-col items-center w-full md:max-w-2xl lg:max-w-6xl mx-auto'>
                 <div className='flex flex-col items-center w-full lg:max-w-3xl'>
                     <h1 className='font-bold text-2xl lg:text-4xl text-color'>Financiamiento</h1>
