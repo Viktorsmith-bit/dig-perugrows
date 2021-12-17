@@ -1,6 +1,6 @@
 /* BREAKPOINTS */
 .height {
-  height: 34rem;
+  height: auto;
 }
 .galeria {
   height: 16rem;
@@ -50,7 +50,7 @@
 
 @media (min-width: 768px) {
   .height {
-    height: 35rem;
+    height: auto;
   }
   .height-image {
     height: 25rem;

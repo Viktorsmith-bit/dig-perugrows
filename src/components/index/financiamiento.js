@@ -6,7 +6,7 @@ export default function Financiamiento(){
             <div className='flex flex-col items-center w-full md:max-w-2xl lg:max-w-6xl mx-auto'>
                 <div className='flex flex-col items-center w-full lg:max-w-3xl'>
                     <h1 className='font-bold text-2xl lg:text-4xl text-color'>Financiamiento</h1>
-                    <h1 className='mt-5 text-base text-center text-color'>Esta investigación ha sido financiada por el Proyecto Concytec -
+                    <h1 className='mt-5 text-base text-center text-color'>Esta investigación fue financiada por el Proyecto Concytec -
                         Banco Mundial “Mejoramiento y Ampliación de los Servicios
                         del Sistema Nacional de Ciencia Tecnología e Innovación
                         Tecnológica” 8682-PE, a través de su unidad ejecutora
