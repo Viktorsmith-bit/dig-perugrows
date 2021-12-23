@@ -21,7 +21,9 @@ export default function Resumen(){
                     </svg>
                     {state === 1?<Naional />:null}
                     {state === 2?<Extranjero />:null}
-                    <svg onClick={state === 2?null:continueCount} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#4f4e50" className="cursor-pointer bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+                    {state === 3?<ExtranjeroFinal />:null}
+                    {state === 4?<Care />:null}
+                    <svg onClick={state === 4?null:continueCount} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#4f4e50" className="cursor-pointer bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
                         <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
                     </svg>
                 </div>
@@ -33,24 +35,24 @@ export default function Resumen(){
 
 function Naional(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated lg:animate__bounceInLeft'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña</h1>
                 <h1 className='text-sm mt-1 text-color'>INAIGEM</h1>
                 <h1 className='text-sm mt-1 text-color'>Unidad ejecutora peruana</h1>
-                <h1 className='mt-5 text-color text-justify'>Mapeo de las formas de permafrost, diseño del prototipo de estación meteorológica, mapeo del perfil de las temperaturas del suelo y modelamiento del permafrost a nivel nacional.</h1>
+                <h1 className='mt-5 text-color text-justify'>Modelamiento hidrológico, glaciológico y sus impactos sobre los ecosistemas.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
-                <h1 className='font-bold text-color'>Universidad Nacional Santiago Antúnez de Mayolo</h1>
-                <h1 className='text-sm mt-1 text-color'>UNASAM</h1>
+                <h1 className='font-bold text-color'>Pontificia Universidad Católica del Perú </h1>
+                <h1 className='text-sm mt-1 text-color'>PUCP</h1>
                 <h1 className='text-sm mt-1 text-color'>Asociada peruana</h1>
-                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre el mapeo de los suelos, cobertura vegetal y línea de nieve.</h1>
+                <h1 className='mt-5 text-color text-justify'>Información social, mapeo de ecosistemas y propuestas de las medidas de adaptación y mitigación.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
-                <h1 className='font-bold text-color'>Universidad Nacional de Ingeniería</h1>
-                <h1 className='text-sm mt-1 text-color'>UNI</h1>
+                <h1 className='font-bold text-color'>Servicio Nacional de Meteorología e Hidrología del Perú </h1>
+                <h1 className='text-sm mt-1 text-color'>SENAMHI</h1>
                 <h1 className='text-sm mt-1 text-color'>Asociada peruana</h1>
-                <h1 className='mt-5 text-color text-justify'>Desarrollo del prototipo de drone meteorológico de código abierto.</h1>
+                <h1 className='mt-5 text-color text-justify'>Modelamiento climático.</h1>
             </div>
         </div>
     );
@@ -58,24 +60,62 @@ function Naional(){
 
 function Extranjero(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated lg:animate__bounceInRight'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
-                <h1 className='font-bold text-color'>University of Zurich</h1>
-                <h1 className='text-sm mt-1 text-color'>UZH</h1>
-                <h1 className='text-sm mt-1 text-color'>Asociada de Suiza</h1>
-                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre el mapeo de formas de permafrost.</h1>
+                <h1 className='font-bold text-color'>Universidad de Nortumbria</h1>
+                <h1 className='text-sm mt-1 text-color'>UN</h1>
+                <h1 className='text-sm mt-1 text-color'>Ejecutora británica</h1>
+                <h1 className='mt-5 text-color text-justify'>Modelamiento hidroglaciológico y sus impactos sobre los ecosistemas.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
-                <h1 className='font-bold text-color'>University of Huddersfield</h1>
-                <h1 className='text-sm mt-1 text-color'>UH</h1>
+                <h1 className='font-bold text-color'>Universidad de Leeds</h1>
+                <h1 className='text-sm mt-1 text-color'>UoL</h1>
                 <h1 className='text-sm mt-1 text-color'>Asociada británica</h1>
-                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre el mapeo de formas de permafrost.</h1>
+                <h1 className='mt-5 text-color text-justify'>Mapeo de ecosistemas y respuesta de la biodiversidad biológica al retroceso glaciar.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
-                <h1 className='font-bold text-color'>Université Savoie Mont Blanc</h1>
-                <h1 className='text-sm mt-1 text-color'>USMB</h1>
-                <h1 className='text-sm mt-1 text-color'>Colaboradora francesa</h1>
-                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre la instalación de sensores de paredes de roca y modelamiento del permafrost.</h1>
+                <h1 className='font-bold text-color'>British Antarctic Survey</h1>
+                <h1 className='text-sm mt-1 text-color'>BAS</h1>
+                <h1 className='text-sm mt-1 text-color'>Asociada británica</h1>
+                <h1 className='mt-5 text-color text-justify'>Modelamiento climático.</h1>
+            </div>
+        </div>
+    );
+}
+
+function ExtranjeroFinal(){
+    return(
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+                <h1 className='font-bold text-color'>Universidad Heriot-Watt</h1>
+                <h1 className='text-sm mt-1 text-color'>HWU</h1>
+                <h1 className='text-sm mt-1 text-color'>Asociada británica</h1>
+                <h1 className='mt-5 text-color text-justify'>Modelamiento hidrológico y propuestas de las medidas de adaptación y mitigación.</h1>
+            </div>
+            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+                <h1 className='font-bold text-color'>Universidad de Cranfield</h1>
+                <h1 className='text-sm mt-1 text-color'>CU</h1>
+                <h1 className='text-sm mt-1 text-color'>Asociada británica</h1>
+                <h1 className='mt-5 text-color text-justify'>Seguridad alimentaria.</h1>
+            </div>
+            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+                <h1 className='font-bold text-color'>Instituto de Montaña</h1>
+                <h1 className='text-sm mt-1 text-color'>TMI</h1>
+                <h1 className='text-sm mt-1 text-color'>Colaboradora peruana</h1>
+                <h1 className='mt-5 text-color text-justify'>Información sobre las comunidades de montaña y temas relacionados con la adaptación al cambio climático.</h1>
+            </div>
+        </div>
+    );
+}
+
+function Care(){
+    return(
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-center w-full'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+                <h1 className='font-bold text-color'>CARE Perú</h1>
+                <h1 className='text-sm mt-1 text-color'>CARE Perú</h1>
+                <h1 className='text-sm mt-1 text-color'>Colaboradora peruana</h1>
+                <h1 className='mt-5 text-color text-justify'>Información social, cambio climático, agua y seguridad alimentaria.</h1>
             </div>
         </div>
     );

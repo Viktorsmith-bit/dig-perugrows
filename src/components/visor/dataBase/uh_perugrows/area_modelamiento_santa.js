@@ -12,7 +12,7 @@ function AreaModelamientoSanta(){
     const [state, setState] = useState();
     useEffect(()=>{
         async function PromiseDB(){
-            const starCountCor = ref(app, "area_modelamiento_santa");
+            const starCountCor = ref(app, "area_modelamiento_cuenca_santa");
             return new Promise((resolve)=>{
                 onValue(starCountCor, (snapshot) => {
                     const dbRef = snapshot.val();
@@ -36,7 +36,7 @@ function AreaModelamientoSanta(){
         getStatic();
     })
 
-    const blackOptionsPermafrost = {color:"black"}
+    const blackOptionsPermafrost = {color:"blue"}
     
     return(
         <Fragment>

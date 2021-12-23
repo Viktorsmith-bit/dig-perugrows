@@ -3,7 +3,7 @@ export const listaTilelayer = [
         id:1,
         imagen:"esri.worldimagery.jpg",
         url:"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-        nombre:"World imagery"
+        nombre:"Mapa mundial satelital"
     },
     {
         id:2,

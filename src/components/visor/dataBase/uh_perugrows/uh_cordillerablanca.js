@@ -12,7 +12,7 @@ function CordilleraBlancaGrows(){
     const [state, setState] = useState();
     useEffect(()=>{
         async function PromiseDB(){
-            const starCountCor = ref(app, "uh_cordillerablanca_grows");
+            const starCountCor = ref(app, "uh_cordillera_blanca");
             return new Promise((resolve)=>{
                 onValue(starCountCor, (snapshot) => {
                     const dbRef = snapshot.val();
@@ -36,7 +36,7 @@ function CordilleraBlancaGrows(){
         getStatic();
     })
 
-    const blackOptionsPermafrost = {color:"black"}
+    const blackOptionsPermafrost = {color:"rgba(147, 197, 253)"}
     
     return(
         <Fragment>

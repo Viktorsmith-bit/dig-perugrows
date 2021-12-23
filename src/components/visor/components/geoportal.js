@@ -10,7 +10,7 @@ export default function Geoportal(){
             <div className='flex items-center px-2 bg-white rounded-r-sm'>
                 <div>
                     <h1 className='text-sm text-color'>Visor de mapas</h1>
-                    <h1 className='text-xl font-bold -mt-1 text-color'>Proyecto Permafrost</h1>
+                    <h1 className='text-xl font-bold -mt-1 text-color'>Proyecto Perú GROWS</h1>
                 </div>
             </div>
         </div>

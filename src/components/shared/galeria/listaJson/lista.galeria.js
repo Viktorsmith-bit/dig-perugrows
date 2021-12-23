@@ -1,4 +1,4 @@
-export const ListSocios = [
+export const listaPT1 = [
     {
         id:1,
         nombre:'Fotogrametría aérea',
@@ -7,7 +7,7 @@ export const ListSocios = [
         descripcion:'Fotogrametría aérea (dron) en la quebrada San Félix para el monitoreo de la dinámica del glaciar rocoso y de los ecosistemas circundantes.',
         lugar:'Arequipa',
         fecha:'nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FDrone_GRSanFelix_e.jpeg?alt=media&token=670cc08f-b54e-4f58-952d-267464618785',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F2.taller_llull%C2%A0n.JPG?alt=media&token=0642ecb3-0bcd-4c18-b30a-1ca04e83e305',
         cover:"cover"
     },
     {
@@ -18,12 +18,67 @@ export const ListSocios = [
         descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
         lugar:'Arequipa',
         fecha:'nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FGRSanFelix.jpeg?alt=media&token=c575c998-4d50-4c1a-b05a-0d5308595626',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F5.Workshop_taller_centro_cultural.jpg?alt=media&token=48d33f74-fa21-49b1-8808-a93b13330b02',
         cover:"cover"
-    }
+    },
+    {
+        id:3,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F5.Workshop_taller_centro_cultural3.jpg?alt=media&token=09341e2c-15ee-45e6-9f50-bae3de072009',
+        cover:"cover"
+    },
+    {
+        id:4,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F6.Workshop_taller_catac.JPG?alt=media&token=ab86394e-216d-42af-9f33-fd0e7afc1356',
+        cover:"cover"
+    },
+    {
+        id:5,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F6.Workshop_taller_catac3.JPG?alt=media&token=407ba6b2-a766-476b-8f74-54ed59136aee',
+        cover:"cover"
+    },
+    {
+        id:6,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F6.Workshop_taller_catac4.JPG?alt=media&token=251160a5-44d3-44cc-a72a-a25065778b69',
+        cover:"cover"
+    },
+    {
+        id:7,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2FWorkshop_taller_centro_cultural2.jpeg?alt=media&token=66d14447-e3fc-483a-b791-087606485d7e',
+        cover:"cover"
+    },
 ]   
 
-export const ListModelamiento = [
+export const listaPT2 = [
     {
         id:1,
         nombre:'Descarga de datos meteprológicos',
@@ -32,7 +87,7 @@ export const ListModelamiento = [
         descripcion:'Descarga de datos de las estaciones meteorológicas de bajo costo y convencionales registradas desde mediados del 2019 hasta la actualidad.',
         lugar:'Ancash',
         fecha:'Jul, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe2%2FEM_kinzl2.jpeg?alt=media&token=efa7ae48-31be-4500-8cfe-6d94765292b2',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F10.GPR_Gueshgue21.JPG?alt=media&token=9c33198d-0e1c-467d-9e76-cc67cdd8948d',
         cover:"cover"
     },
     {
@@ -43,7 +98,7 @@ export const ListModelamiento = [
         descripcion:'Instalación de una estación meteorológica de bajo costo y una estación convencional HOBO, ubicadas a 5100 m s.n.m. en el glaciar rocoso.',
         lugar:'Arequipa',
         fecha:'Nov, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe2%2FGR_SF_estaciones_meteorologicas.jpeg?alt=media&token=0940d17c-4498-491d-b8f4-d6f02bdb8ab3',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F2.BalizasArtesonraju_PT2.JPG?alt=media&token=bce50076-deb8-4e1a-a5f1-51289720fc11',
         cover:"cover"
     },
     {
@@ -54,12 +109,88 @@ export const ListModelamiento = [
         descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
         lugar:'Ancash',
         fecha:'Ago, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe2%2Fglaciar_kinzl_EM_prototipo2.jpeg?alt=media&token=2e121c0f-7d36-4e1a-b6b0-9c31964f6aa0',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F4.GPRGueshgue3.JPG?alt=media&token=764bbac4-348c-49d9-bf20-92b2a45b1b98',
+        cover:"cover"
+    },
+    {
+        id:4,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F5.FotogAerea_Shallap_PT2.jpg?alt=media&token=c10010c6-81b4-4d87-9674-555c90d05d8c',
+        cover:"cover"
+    },
+    {
+        id:5,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F5.MantEM_PT2.jpg?alt=media&token=5ad97b17-6104-4a32-82f5-1afb6fce985f',
+        cover:"cover"
+    },
+    {
+        id:6,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F6.Aforo_correntometro_Artesonraju2021_PT2.jpg?alt=media&token=630fe517-3ea0-48c5-8c42-f10a5520b1f5',
+        cover:"cover"
+    },
+    {
+        id:7,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F6.DescarDEM_PT2.JPG?alt=media&token=2ac4a1c3-2c94-47e0-84a1-710b45367d2d',
+        cover:"cover"
+    },
+    {
+        id:8,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F6.FotogGueshgue_PT2.JPG?alt=media&token=380e3d6a-3963-48e7-8d5f-9187dcd2588e',
+        cover:"cover"
+    },
+    {
+        id:9,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F8.Drone_JatunRaju_PT2.JPG?alt=media&token=b5c1b65d-4f7a-4af3-baf9-14664c4750ed',
+        cover:"cover"
+    },
+    {
+        id:10,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F8Aforo_Utcuyacu_toma_PT2.JPG?alt=media&token=33fa915e-f69b-47d7-bc51-aa1376506091',
         cover:"cover"
     },
 ]
-
-export const ListImpactos = [
+export const listaPT4 = [
     {
         id:1,
         nombre:'Instalación de sensores',
@@ -68,7 +199,7 @@ export const ListImpactos = [
         descripcion:'Trabajo de perforación en las paredes de roca para la instalación y anclaje del sensor de temperatura superficial.',
         lugar:'Ancash',
         fecha:'Oct, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FParedGueshgue.jpeg?alt=media&token=32fcbab9-1829-4fe5-96f0-fc8bccfed55a',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller.jpeg?alt=media&token=8f89e190-084b-42b0-98e8-1439694a489e',
         cover:"cover-galeria"
     },
     {
@@ -79,7 +210,7 @@ export const ListImpactos = [
         descripcion:'Equipamiento de rutas con sistemas de cuerdas y anclajes de acero en paredes de roca para instalación y descarga de datos de los sensores de temperatura.',
         lugar:'Ancash',
         fecha:'Oct, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FParedesRoca.jpeg?alt=media&token=827d04dc-40cd-4ca4-839b-b90bf4e723f9',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller2.jpeg?alt=media&token=7357b7df-fae3-466f-91a5-2fdb53836256',
         cover:"cover"
     },
     {
@@ -90,7 +221,7 @@ export const ListImpactos = [
         descripcion:'Recolección de datos registrados por el sensor de temperatura empleando el software FG2_Shell, una laptop y una antena inalámbrica con adaptador USB.',
         lugar:'Ancash',
         fecha:'Set, 2021',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FRecolecDataArtesonraju.jpeg?alt=media&token=02d560c3-5e39-4a57-b186-ad127aa47e3e',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller4.jpeg?alt=media&token=ee1b0997-a23a-4e28-b336-a4020d8568a8',
         cover:"cover"
     },
     {
@@ -101,12 +232,34 @@ export const ListImpactos = [
         descripcion:'Instalación de sensores de temperatura en toda la superficie del glaciar rocoso San Félix.',
         lugar:'Arequipa',
         fecha:'Nov, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FSensorInst.jpeg?alt=media&token=2edd4d92-2de9-46fb-a003-8ba7839c3d92',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller5.jpeg?alt=media&token=5af0122a-176d-4182-bc80-ab82342e0c79',
+        cover:"cover"
+    },
+    {
+        id:5,
+        nombre:'Red de Dataloggers',
+        titulo:"RED DE DATALOGGERS",
+        subTitulo:"Glaciar rocoso San Félix",
+        descripcion:'Instalación de sensores de temperatura en toda la superficie del glaciar rocoso San Félix.',
+        lugar:'Arequipa',
+        fecha:'Nov, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller6.jpeg?alt=media&token=c55daa6b-0062-4c27-b867-24e09608ea75',
+        cover:"cover"
+    },
+    {
+        id:6,
+        nombre:'Red de Dataloggers',
+        titulo:"RED DE DATALOGGERS",
+        subTitulo:"Glaciar rocoso San Félix",
+        descripcion:'Instalación de sensores de temperatura en toda la superficie del glaciar rocoso San Félix.',
+        lugar:'Arequipa',
+        fecha:'Nov, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller_adebayo.jpeg?alt=media&token=d5ed0112-9454-469b-b733-406d4dd5d9f0',
         cover:"cover"
     }
 ]
 
-export const ListAdaptacion = [
+export const listaPaisajes = [
     {
         id:1,
         nombre:'Glaciar rocoso San Félix',
@@ -115,7 +268,7 @@ export const ListAdaptacion = [
         descripcion:`Glaciar rocoso San Félix (15°25'33.71"S, 72°10'34.55"O), ubicado en la cordillera Chila, distrito de Chachas, provincia de Castilla y departamento de Arequipa.`,
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGRSF.jpeg?alt=media&token=a1b92e2d-83c4-43b3-a132-75c7f74284cc',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FCanalBajo_Yanayacu_19.jpeg?alt=media&token=0c107943-0973-42c0-85dd-398463a8609d',
         cover:"cover"
     },
     {
@@ -126,7 +279,7 @@ export const ListAdaptacion = [
         descripcion:"Glaciar rocoso San Félix en el fondo y ecosistemas circundantes.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje.jpeg?alt=media&token=e1318072-aab4-42bb-b5bf-e58133d09c81',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FCumbre_Gueshgue_20.jpeg?alt=media&token=e25af0d9-9fcf-4e66-8b3c-f037b9570643',
         cover:"cover"
     },
     {
@@ -137,7 +290,7 @@ export const ListAdaptacion = [
         descripcion:"Cuerpo de agua monitoreado para la evaluación del régimen hidrológico y calidad de agua.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje1.jpeg?alt=media&token=c0245b2b-031f-4f65-937a-8b018235cbe5',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FEstacionMet_Artesonraju_21.jpeg?alt=media&token=4b1558c6-6c18-4a42-aaec-fc08d9c58d02',
         cover:"cover"
     },
     {
@@ -148,7 +301,7 @@ export const ListAdaptacion = [
         descripcion:"Humedal formado entre el glaciar rocoso y la laguna San Félix, alimentado por la escorrentía del glaciar. Avistamiento de comunidades biológicas autóctonas (aves, roedores, etc.).",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje2.jpeg?alt=media&token=b5accb9d-a542-4aee-9fc7-1ad6690105dc',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FEstacionMet_Gueshgue_20.jpeg?alt=media&token=bde998f3-7165-47f7-b3f4-c796ecde22fe',
         cover:"cover"
     },
     {
@@ -159,7 +312,7 @@ export const ListAdaptacion = [
         descripcion:"Vista del humedal y laguna alimentados por la escorrentía del glaciar rocoso San Félix.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje3.jpeg?alt=media&token=4b47e004-611b-44f1-93ca-bc8c7557aea2',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FEstacionMet_Shallap_21.jpeg?alt=media&token=6f1236e3-290d-42c9-85b1-c5bc935b14b6',
         cover:"cover"
     },
     {
@@ -170,7 +323,7 @@ export const ListAdaptacion = [
         descripcion:"Punto de descarga de la laguna, ubicado en la parte baja de la quebrada San Félix.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje4.jpeg?alt=media&token=398c4fbe-d8dd-415f-b096-5db8b2ae8203',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Artesonraju_19.jpeg?alt=media&token=0a741d16-6361-46ff-8dcb-8ad954c87c86',
         cover:"cover"
     },
     {
@@ -181,7 +334,7 @@ export const ListAdaptacion = [
         descripcion:"Glaciar rocoso San Félix en el fondo y ecosistemas circundantes.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisajeGRSF1.jpeg?alt=media&token=10bfce8a-424b-4bac-b59f-7c700840f272',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Artesonraju_20.jpeg?alt=media&token=63072706-1170-4afd-9bf5-339cf32a39a2',
         cover:"cover"
     },
     {
@@ -190,188 +343,97 @@ export const ListAdaptacion = [
         titulo:"QUEBRADA DE QUILLCAYHUANCA",
         subTitulo:"Cordillera Blanca",
         descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
-        lugar:'Ancash                           ',
+        lugar:'Ancash',
         fecha:'Jul, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2Ffondo_valle_quillcayhuanca.jpeg?alt=media&token=20de7d0c-2ffc-4155-bd58-f8ec647532ac',
-        cover:"cover"
-    },
-]
-
-export const todoList = [
-    {
-        id:1,
-        nombre:'Fotogrametría aérea',
-        titulo:"FOTOGRAMETRÍA AÉREA",
-        subTitulo:"Quebrada San Félix",
-        descripcion:'Fotogrametría aérea (dron) en la quebrada San Félix para el monitoreo de la dinámica del glaciar rocoso y de los ecosistemas circundantes.',
-        lugar:'Arequipa',
-        fecha:'nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FDrone_GRSanFelix_e.jpeg?alt=media&token=670cc08f-b54e-4f58-952d-267464618785',
-        cover:"cover"
-    },
-    {
-        id:2,
-        nombre:'Fotogrametría aérea',
-        titulo:"FOTOGRAMETRÍA AÉREA",
-        subTitulo:"Quebrada San Félix",
-        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
-        lugar:'Arequipa',
-        fecha:'nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FGRSanFelix.jpeg?alt=media&token=c575c998-4d50-4c1a-b05a-0d5308595626',
-        cover:"cover"
-    },
-    {
-        id:3,
-        nombre:'Descarga de datos meteprológicos',
-        titulo:"DESCARGA DE DATOS METEOROLÓGICOS",
-        subTitulo:"Glaciar cubierto Kinzl",
-        descripcion:'Descarga de datos de las estaciones meteorológicas de bajo costo y convencionales registradas desde mediados del 2019 hasta la actualidad.',
-        lugar:'Ancash',
-        fecha:'Jul, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe2%2FEM_kinzl2.jpeg?alt=media&token=efa7ae48-31be-4500-8cfe-6d94765292b2',
-        cover:"cover"
-    },
-    {
-        id:4,
-        nombre:'Estación meteorológica, quebrada San Félix',
-        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA SAN FÉLIX",
-        subTitulo:"Glaciar rocoso San Félix",
-        descripcion:'Instalación de una estación meteorológica de bajo costo y una estación convencional HOBO, ubicadas a 5100 m s.n.m. en el glaciar rocoso.',
-        lugar:'Arequipa',
-        fecha:'Nov, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe2%2FGR_SF_estaciones_meteorologicas.jpeg?alt=media&token=0940d17c-4498-491d-b8f4-d6f02bdb8ab3',
-        cover:"cover"
-    },
-    {
-        id:5,
-        nombre:'Estación meteorológica, quebrada Llanganuco',
-        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
-        subTitulo:"Glaciar cubierto Kinzl",
-        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
-        lugar:'Ancash',
-        fecha:'Ago, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe2%2Fglaciar_kinzl_EM_prototipo2.jpeg?alt=media&token=2e121c0f-7d36-4e1a-b6b0-9c31964f6aa0',
-        cover:"cover"
-    },
-    {
-        id:6,
-        nombre:'Instalación de sensores',
-        titulo:"INSTALACIÓN DE SENSORES",
-        subTitulo:"Unidad hidrográfica Gueshgue",
-        descripcion:'Trabajo de perforación en las paredes de roca para la instalación y anclaje del sensor de temperatura superficial.',
-        lugar:'Ancash',
-        fecha:'Oct, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FParedGueshgue.jpeg?alt=media&token=32fcbab9-1829-4fe5-96f0-fc8bccfed55a',
-        cover:"cover-galeria"
-    },
-    {
-        id:7,
-        nombre:'Descenso en paredes de roca',
-        titulo:"DESCENSO EN PAREDES DE ROCA",
-        subTitulo:"Unidad hidrográfica Parón",
-        descripcion:'Equipamiento de rutas con sistemas de cuerdas y anclajes de acero en paredes de roca para instalación y descarga de datos de los sensores de temperatura.',
-        lugar:'Ancash',
-        fecha:'Oct, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FParedesRoca.jpeg?alt=media&token=827d04dc-40cd-4ca4-839b-b90bf4e723f9',
-        cover:"cover"
-    },
-    {
-        id:8,
-        nombre:'Descarga de datos',
-        titulo:"DESCARGA DE DATOS",
-        subTitulo:"Unidad hidrográfica Parón",
-        descripcion:'Recolección de datos registrados por el sensor de temperatura empleando el software FG2_Shell, una laptop y una antena inalámbrica con adaptador USB.',
-        lugar:'Ancash',
-        fecha:'Set, 2021',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FRecolecDataArtesonraju.jpeg?alt=media&token=02d560c3-5e39-4a57-b186-ad127aa47e3e',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Artesonraju_21.jpeg?alt=media&token=99ca6f13-2bbc-4052-8228-2a938c930d2a',
         cover:"cover"
     },
     {
         id:9,
-        nombre:'Red de Dataloggers',
-        titulo:"RED DE DATALOGGERS",
-        subTitulo:"Glaciar rocoso San Félix",
-        descripcion:'Instalación de sensores de temperatura en toda la superficie del glaciar rocoso San Félix.',
-        lugar:'Arequipa',
-        fecha:'Nov, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FSensorInst.jpeg?alt=media&token=2edd4d92-2de9-46fb-a003-8ba7839c3d92',
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Gueshgue_20.jpeg?alt=media&token=04aca295-4bfd-4bc6-a8b9-b625612c4cf9',
         cover:"cover"
     },
     {
         id:10,
-        nombre:'Glaciar rocoso San Félix',
-        titulo:"GLACIAR ROCOSO SAN FÉLIX",
-        subTitulo:"Cordillera Chila",
-        descripcion:`Glaciar rocoso San Félix (15°25'33.71"S, 72°10'34.55"O), ubicado en la cordillera Chila, distrito de Chachas, provincia de Castilla y departamento de Arequipa.`,
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGRSF.jpeg?alt=media&token=a1b92e2d-83c4-43b3-a132-75c7f74284cc',
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Gueshgue_20_1.jpeg?alt=media&token=df9da9c8-c7be-4872-9239-90370c9d7e53',
         cover:"cover"
     },
     {
         id:11,
-        nombre:'Quebrada San Félix',
-        titulo:"QUEBRADA SAN FÉLIX",
-        subTitulo:"Cordillera Chila",
-        descripcion:"Glaciar rocoso San Félix en el fondo y ecosistemas circundantes.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje.jpeg?alt=media&token=e1318072-aab4-42bb-b5bf-e58133d09c81',
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Gueshgue_20_2.jpeg?alt=media&token=9bb56216-397f-4a62-8bf0-20ba974908ed',
         cover:"cover"
     },
     {
         id:12,
-        nombre:'Escorrentía del glaciar rocoso',
-        titulo:"ESCORRENTÍA DEL GLACIAR ROCOSO",
-        subTitulo:"Quebrada San Félix",
-        descripcion:"Cuerpo de agua monitoreado para la evaluación del régimen hidrológico y calidad de agua.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje1.jpeg?alt=media&token=c0245b2b-031f-4f65-937a-8b018235cbe5',
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Jatunraju_20.jpeg?alt=media&token=c089c958-22ec-4720-bc5f-02db02564014',
         cover:"cover"
     },
     {
         id:13,
-        nombre:'Humedal',
-        titulo:"HUMEDAL",
-        subTitulo:"Quebrada San Félix",
-        descripcion:"Humedal formado entre el glaciar rocoso y la laguna San Félix, alimentado por la escorrentía del glaciar. Avistamiento de comunidades biológicas autóctonas (aves, roedores, etc.).",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje2.jpeg?alt=media&token=b5accb9d-a542-4aee-9fc7-1ad6690105dc',
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Llaca_20.jpeg?alt=media&token=f3996065-cd74-452b-921e-c2203685435f',
         cover:"cover"
     },
     {
         id:14,
-        nombre:'Ecosistemas fluviales',
-        titulo:"ECOSISTEMAS FLUVIALES",
-        subTitulo:"Quebrada San Félix",
-        descripcion:"Vista del humedal y laguna alimentados por la escorrentía del glaciar rocoso San Félix.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje3.jpeg?alt=media&token=4b47e004-611b-44f1-93ca-bc8c7557aea2',
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Llaca_20_1.jpeg?alt=media&token=820f2bd1-e5ba-412e-b317-e0c365cf799e',
         cover:"cover"
     },
     {
         id:15,
-        nombre:'Descarga de la represa de la Laguna San Félix',
-        titulo:"DESCARGA DE LA REPRESA DE LA LAGUNA SAN FÉLIX",
-        subTitulo:"Quebrada San Félix",
-        descripcion:"Punto de descarga de la laguna, ubicado en la parte baja de la quebrada San Félix.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje4.jpeg?alt=media&token=398c4fbe-d8dd-415f-b096-5db8b2ae8203',
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Llaca_20_2.jpeg?alt=media&token=f4eec411-269d-4f38-8e5e-c98042eabb14',
         cover:"cover"
     },
     {
         id:16,
-        nombre:'Quebrada San Félix',
-        titulo:"QUEBRADA SAN FÉLIX",
-        subTitulo:"Cordillera Chila",
-        descripcion:"Glaciar rocoso San Félix en el fondo y ecosistemas circundantes.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisajeGRSF1.jpeg?alt=media&token=10bfce8a-424b-4bac-b59f-7c700840f272',
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Shallap_20.jpeg?alt=media&token=77d4ec3a-3fe1-4713-8cff-220e0f4dec27',
         cover:"cover"
     },
     {
@@ -380,9 +442,485 @@ export const todoList = [
         titulo:"QUEBRADA DE QUILLCAYHUANCA",
         subTitulo:"Cordillera Blanca",
         descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
-        lugar:'Ancash                           ',
+        lugar:'Ancash',
         fecha:'Jul, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2Ffondo_valle_quillcayhuanca.jpeg?alt=media&token=20de7d0c-2ffc-4155-bd58-f8ec647532ac',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Shallap_20_2.jpeg?alt=media&token=3e1e184d-d341-40d5-9d0f-901331bf471d',
         cover:"cover"
     },
+    {
+        id:18,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Shallap_21.jpeg?alt=media&token=93129468-f3db-4e9d-97f0-8b7b18c08b29',
+        cover:"cover"
+    },
+    {
+        id:19,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FLag_Artesoncocha_19.jpeg?alt=media&token=2b3f2dd6-b6a6-4e5c-995e-0143af078425',
+        cover:"cover"
+    },
+    {
+        id:20,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FLag_Chacarhuayoc_20.jpeg?alt=media&token=df48ae20-b32c-4fe8-9dc0-b24bacee72f3',
+        cover:"cover"
+    },
+    {
+        id:21,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FLag_Chacraraju_20.jpeg?alt=media&token=d462118c-958a-4666-8d4c-a5ddba867c9e',
+        cover:"cover"
+    },
+    {
+        id:22,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FLag_Llaca_20.jpeg?alt=media&token=e6595b6d-0ad7-47cb-a2ba-6d3eba811230',
+        cover:"cover"
+    },
+    {
+        id:23,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FLag_Paron_20.jpeg?alt=media&token=53fea57d-1445-4f1d-bcf2-81e581be1fb3',
+        cover:"cover"
+    },
+    {
+        id:24,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FLag_Paron_20_1.jpeg?alt=media&token=b9adea2a-9f91-4169-a3c7-deed0fbea046',
+        cover:"cover"
+    },
+    {
+        id:25,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FLag_Paron_20_2.jpeg?alt=media&token=c8f9ea0f-ff97-47b4-9053-f9be6ed2021b',
+        cover:"cover"
+    },
+    {
+        id:26,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FNevado_Arteson_20_1.jpeg?alt=media&token=47f7ecc4-1b7a-4e60-9fba-5f57e6afddf2',
+        cover:"cover"
+    },
+    {
+        id:27,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FNevado_Piramide_20.jpeg?alt=media&token=0aee5e18-8c93-47df-9a6c-054045dd32b0',
+        cover:"cover"
+    },
+    {
+        id:28,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FPControl_Pastoruri_19.jpeg?alt=media&token=cd3616e5-cdc9-46bd-99cb-34140b38b997',
+        cover:"cover"
+    },
+    {
+        id:29,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FPuyas_Gueshgue_21.jpeg?alt=media&token=e1a374e7-2b6e-4733-85d5-7eec8f3c5571',
+        cover:"cover"
+    },
+    {
+        id:30,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FPuyas_Pastoruri_19.jpeg?alt=media&token=782a72cf-f5ab-4c16-a224-070354df106e',
+        cover:"cover"
+    },
+    {
+        id:31,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FQuebrada_Gueshgue_20.jpeg?alt=media&token=5655854c-e579-4e34-9e64-07b89e470863',
+        cover:"cover"
+    },
+    {
+        id:32,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FQuebrada_Llaca_21.jpeg?alt=media&token=5e32c86a-e309-4ae7-b5c2-1b982fb59020',
+        cover:"cover"
+    },
+    {
+        id:33,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FQuebrada_Shallap_20.jpeg?alt=media&token=c68ffce9-c616-4d2f-9e5c-db1279221cbc',
+        cover:"cover"
+    },
+    {
+        id:34,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FRio_Artesonraju_20.jpeg?alt=media&token=5d93a60e-c753-457a-9eb4-0de344e7d1a1',
+        cover:"cover"
+    },
+    {
+        id:35,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FRio_Gueshgue_20.jpeg?alt=media&token=3b94773c-4bbc-4633-9313-ac81d6df8fe5',
+        cover:"cover"
+    },
+    {
+        id:36,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FRio_Llaca_16.jpeg?alt=media&token=7c56df1c-79c5-48c9-a55e-f9d71524a8af',
+        cover:"cover"
+    },
+    {
+        id:37,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FRio_Shallap_20.jpeg?alt=media&token=9fda7031-82c6-4677-94c5-365dcc044241',
+        cover:"cover"
+    },
+]
+
+export const listaTodo = [
+    {
+        id:1,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Fotogrametría aérea (dron) en la quebrada San Félix para el monitoreo de la dinámica del glaciar rocoso y de los ecosistemas circundantes.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F2.taller_llull%C2%A0n.JPG?alt=media&token=0642ecb3-0bcd-4c18-b30a-1ca04e83e305',
+        cover:"cover"
+    },
+    {
+        id:2,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F5.Workshop_taller_centro_cultural.jpg?alt=media&token=48d33f74-fa21-49b1-8808-a93b13330b02',
+        cover:"cover"
+    },
+    {
+        id:3,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F5.Workshop_taller_centro_cultural3.jpg?alt=media&token=09341e2c-15ee-45e6-9f50-bae3de072009',
+        cover:"cover"
+    },
+    {
+        id:4,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F6.Workshop_taller_catac.JPG?alt=media&token=ab86394e-216d-42af-9f33-fd0e7afc1356',
+        cover:"cover"
+    },
+    {
+        id:5,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F6.Workshop_taller_catac3.JPG?alt=media&token=407ba6b2-a766-476b-8f74-54ed59136aee',
+        cover:"cover"
+    },
+    {
+        id:6,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F6.Workshop_taller_catac4.JPG?alt=media&token=251160a5-44d3-44cc-a72a-a25065778b69',
+        cover:"cover"
+    },
+    {
+        id:7,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2FWorkshop_taller_centro_cultural2.jpeg?alt=media&token=66d14447-e3fc-483a-b791-087606485d7e',
+        cover:"cover"
+    },
+    {
+        id:8,
+        nombre:'Descarga de datos meteprológicos',
+        titulo:"DESCARGA DE DATOS METEOROLÓGICOS",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Descarga de datos de las estaciones meteorológicas de bajo costo y convencionales registradas desde mediados del 2019 hasta la actualidad.',
+        lugar:'Ancash',
+        fecha:'Jul, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F10.GPR_Gueshgue21.JPG?alt=media&token=9c33198d-0e1c-467d-9e76-cc67cdd8948d',
+        cover:"cover"
+    },
+    {
+        id:9,
+        nombre:'Estación meteorológica, quebrada San Félix',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA SAN FÉLIX",
+        subTitulo:"Glaciar rocoso San Félix",
+        descripcion:'Instalación de una estación meteorológica de bajo costo y una estación convencional HOBO, ubicadas a 5100 m s.n.m. en el glaciar rocoso.',
+        lugar:'Arequipa',
+        fecha:'Nov, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F2.BalizasArtesonraju_PT2.JPG?alt=media&token=bce50076-deb8-4e1a-a5f1-51289720fc11',
+        cover:"cover"
+    },
+    {
+        id:10,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F4.GPRGueshgue3.JPG?alt=media&token=764bbac4-348c-49d9-bf20-92b2a45b1b98',
+        cover:"cover"
+    },
+    {
+        id:11,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F5.FotogAerea_Shallap_PT2.jpg?alt=media&token=c10010c6-81b4-4d87-9674-555c90d05d8c',
+        cover:"cover"
+    },
+    {
+        id:12,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F5.MantEM_PT2.jpg?alt=media&token=5ad97b17-6104-4a32-82f5-1afb6fce985f',
+        cover:"cover"
+    },
+    {
+        id:13,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F6.Aforo_correntometro_Artesonraju2021_PT2.jpg?alt=media&token=630fe517-3ea0-48c5-8c42-f10a5520b1f5',
+        cover:"cover"
+    },
+    {
+        id:14,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F6.DescarDEM_PT2.JPG?alt=media&token=2ac4a1c3-2c94-47e0-84a1-710b45367d2d',
+        cover:"cover"
+    },
+    {
+        id:15,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F6.FotogGueshgue_PT2.JPG?alt=media&token=380e3d6a-3963-48e7-8d5f-9187dcd2588e',
+        cover:"cover"
+    },
+    {
+        id:16,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F8.Drone_JatunRaju_PT2.JPG?alt=media&token=b5c1b65d-4f7a-4af3-baf9-14664c4750ed',
+        cover:"cover"
+    },
+    {
+        id:17,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F8Aforo_Utcuyacu_toma_PT2.JPG?alt=media&token=33fa915e-f69b-47d7-bc51-aa1376506091',
+        cover:"cover"
+    },
+    {
+        id:18,
+        nombre:'Instalación de sensores',
+        titulo:"INSTALACIÓN DE SENSORES",
+        subTitulo:"Unidad hidrográfica Gueshgue",
+        descripcion:'Trabajo de perforación en las paredes de roca para la instalación y anclaje del sensor de temperatura superficial.',
+        lugar:'Ancash',
+        fecha:'Oct, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller.jpeg?alt=media&token=8f89e190-084b-42b0-98e8-1439694a489e',
+        cover:"cover-galeria"
+    },
+    {
+        id:19,
+        nombre:'Descenso en paredes de roca',
+        titulo:"DESCENSO EN PAREDES DE ROCA",
+        subTitulo:"Unidad hidrográfica Parón",
+        descripcion:'Equipamiento de rutas con sistemas de cuerdas y anclajes de acero en paredes de roca para instalación y descarga de datos de los sensores de temperatura.',
+        lugar:'Ancash',
+        fecha:'Oct, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller2.jpeg?alt=media&token=7357b7df-fae3-466f-91a5-2fdb53836256',
+        cover:"cover"
+    },
+    {
+        id:20,
+        nombre:'Descarga de datos',
+        titulo:"DESCARGA DE DATOS",
+        subTitulo:"Unidad hidrográfica Parón",
+        descripcion:'Recolección de datos registrados por el sensor de temperatura empleando el software FG2_Shell, una laptop y una antena inalámbrica con adaptador USB.',
+        lugar:'Ancash',
+        fecha:'Set, 2021',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller4.jpeg?alt=media&token=ee1b0997-a23a-4e28-b336-a4020d8568a8',
+        cover:"cover"
+    },
+    {
+        id:21,
+        nombre:'Red de Dataloggers',
+        titulo:"RED DE DATALOGGERS",
+        subTitulo:"Glaciar rocoso San Félix",
+        descripcion:'Instalación de sensores de temperatura en toda la superficie del glaciar rocoso San Félix.',
+        lugar:'Arequipa',
+        fecha:'Nov, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller5.jpeg?alt=media&token=5af0122a-176d-4182-bc80-ab82342e0c79',
+        cover:"cover"
+    },
+    {
+        id:22,
+        nombre:'Red de Dataloggers',
+        titulo:"RED DE DATALOGGERS",
+        subTitulo:"Glaciar rocoso San Félix",
+        descripcion:'Instalación de sensores de temperatura en toda la superficie del glaciar rocoso San Félix.',
+        lugar:'Arequipa',
+        fecha:'Nov, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller6.jpeg?alt=media&token=c55daa6b-0062-4c27-b867-24e09608ea75',
+        cover:"cover"
+    },
+    {
+        id:23,
+        nombre:'Red de Dataloggers',
+        titulo:"RED DE DATALOGGERS",
+        subTitulo:"Glaciar rocoso San Félix",
+        descripcion:'Instalación de sensores de temperatura en toda la superficie del glaciar rocoso San Félix.',
+        lugar:'Arequipa',
+        fecha:'Nov, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt4%2FWorkshop_taller_adebayo.jpeg?alt=media&token=d5ed0112-9454-469b-b733-406d4dd5d9f0',
+        cover:"cover"
+    }
 ]

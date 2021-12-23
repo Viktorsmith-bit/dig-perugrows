@@ -2,10 +2,10 @@ import Link from 'next/link';
 import React, { Fragment } from 'react';
 import { useState } from 'react';
 import Footer from '../shared/footer/footer';
-import Sistema from './components/sistema';
-import Modelamiento from './components/modelamiento';
-import Impactos from './components/impactos';
-import Adaptacion from './components/adaptacion';
+import PT1 from './components/pt1';
+import PT2 from './components/pt2';
+import PT4 from './components/pt4';
+import Paisajes from './components/paisajes';
 import Todo from './components/todo';
 
 export default function Galeria(){ 
@@ -57,24 +57,20 @@ export default function Galeria(){
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={socios} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.socios?'background-color':'bg-white'}`}></div>
-                            <label onClick={socios} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Objetivo específico 1</label>
+                            <label onClick={socios} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Paquete de trabajo 1</label>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={modelamiento} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.modelamiento?'background-color':'bg-white'}`}></div>
-                            <h1 onClick={modelamiento} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Objetivo específico 2</h1>
+                            <h1 onClick={modelamiento} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Paquete de trabajo 2</h1>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={impactos} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.impactos?'background-color':'bg-white'}`}></div>
-                            <h1 onClick={impactos} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Objetivo específico 3</h1>
+                            <h1 onClick={impactos} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Paquete de trabajo 4</h1>
                         </div>
                         <div className='flex items-center gap-2'>
                             <div onClick={paisaje} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.paisaje?'background-color':'bg-white'}`}></div>
                             <h1 onClick={paisaje} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Paisajes</h1>
                         </div>
-                        {/*<div className='flex items-center gap-2'>
-                            <div onClick={paisaje} className={`h-4 w-4 cursor-pointer rounded-sm border border-gray-400 ${!state.paisaje?'bg-blue-500':'bg-white'}`}></div>
-                            <h1 className='flex items-center text-base h-14'>PAISAJES</h1>
-                        </div>**/}
                     </div>
                 </div>
             </div>
@@ -85,22 +81,22 @@ export default function Galeria(){
             }
             {
                 !state.socios?<Fragment>
-                    <Sistema />
+                    <PT1 />
                 </Fragment>:null
             }
             {
                 !state.modelamiento?<Fragment>
-                    <Modelamiento />
+                    <PT2 />
                 </Fragment>:null
             }
             {
                 !state.impactos?<Fragment>
-                    <Impactos />
+                    <PT4 />
                 </Fragment>:null
             }
             {
                 !state.paisaje?<Fragment>
-                    <Adaptacion />
+                    <Paisajes />
                 </Fragment>:null
             }
             <Footer />

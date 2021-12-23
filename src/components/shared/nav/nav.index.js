@@ -31,7 +31,7 @@ export default function Nav(){
             <nav className='fixed h-20 flex justify-between items-center px-10 w-full hidden lg:flex z-30 background-color' >
                 <Link href='/'>
                     <a>
-                        <h1 className='text-white cursor-pointer text-2xl font-bold'>PERMAFROST</h1>
+                        <h1 className='text-white cursor-pointer text-2xl font-bold'>PERÚ GROWS</h1>
                     </a>
                 </Link>
                 <div className='flex gap-7'>

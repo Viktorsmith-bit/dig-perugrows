@@ -21,18 +21,22 @@ export default function Proyectos(){
     return(
         <div id='proyecto'>
             {!state?null:<Resumen closeModalResumen={closeModalResumen} />}
-            <div className='flex items-center items-center lg:h-screen py-10 lg:py-0 bg-gray-100 height-section'>
+            <div className='flex items-center py-10 lg:py-0 bg-gray-100 height-section'>
                 <div className='flex w-full lg:flex-1 justify-center px-4 lg:px-0'>
                     <div className='w-full md:max-w-2xl lg:max-w-xl'>
                         <h1 className='text-2xl lg:text-4xl font-bold text-color'>Resumen</h1>
-                        <h1 className='mt-5 text-justify text-color'>El permafrost podría representar una reserva de agua potencialmente significativa debido a la contribución de agua dulce que proveen probablemente aumente en el futuro a medida que los glaciares se retiren hacia elevaciones superiores y/o desaparezcan en respuesta al cambio climático. A pesar del potencial de este recurso, a la fecha en el Perú existen pocos estudios sobre su valoración como recurso hídrico y hace falta un inventario o mapa de su distribución nacional que sirva como insumo para la gestión de los recursos hídricos.
-                        </h1>
-                        <h1 className='mt-5 text-justify text-color'>El proyecto Permafrost tiene como objetivo principal identificar la distribución espacio temporal de permafrost en el Perú adaptando y/o aplicando modelos matemáticos, usando imágenes satelitales y variables climáticas, con la finalidad de generar una base geoespacial que permita visualizar la distribución y formas del permafrost en el Perú y sea de utilidad para la gestión del territorio.</h1>
+                        <h1 className='mt-5 text-justify text-color'>En la cuenca del río Santa, ancestralmente, se vienen practicando actividades económicas como la agricultura, crianza de truchas, ganadería, comercio y la generación de energía eléctrica, donde, muchas de ellas dependen de las aguas provenientes de los glaciares. Como resultado de estas actividades, se cuenta con grandes áreas de cultivo disponibles para el comercio y exportación a nivel regional y
+                            nacional, principalmente. Sin embargo, el aumento de la población, las inadecuadas
+                            medidas de gestión pública y una reglamentación limitada sobre el uso y derecho del
+                            agua han incrementado los conflictos sociales, desestabilizando las sociedades
+                            peruanas, reduciendo el crecimiento económico y afectando negativamente la
+                            distribución igualitaria de los recursos naturales.</h1>
+                        <h1 className='mt-5 text-justify text-color'>En ese contexto, el proyecto Perú GROWS tiene como objetivo principal mejorar la resiliencia de las comunidades y los ecosistemas andinos del Perú ante la inseguridad hídrica generada por los cambios en los glaciares y el clima. </h1>
                         <button onClick={openModalResumen} className='px-5 lg:px-8 py-2 lg:py-3 border-color bg-color mt-5 rounded-md text-color font-bold'>Objetivos</button>
                     </div>
                 </div>
                 <div className='flex-1'>
-                    <img style={{height:"38rem"}} className='cover h-screen hidden lg:block' src='/fondos/TrabajosCampo_Permafrost.jpeg' />
+                    <img className='height-section cover hidden lg:block w-full' src='/fondos/Lag_Llaca_20.jpeg' />
                     <h1></h1>
                 </div>
             </div>

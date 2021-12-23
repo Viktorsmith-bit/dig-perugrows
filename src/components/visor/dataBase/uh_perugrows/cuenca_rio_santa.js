@@ -4,7 +4,7 @@ import {useState, useEffect} from 'react';
 import { Fragment } from "react";
 import {app} from '../../../../../firebase.config';
 import {ref, onValue} from "firebase/database";
-import loadConfig from 'next/dist/server/config';
+import Loading from '../../components/loading';
 
 const GeoJSON = dynamic(()=>import('react-leaflet').then((mod)=>mod.GeoJSON), {ssr: false});
 
@@ -36,7 +36,7 @@ function CuencaRioSanta(){
         getStatic();
     })
 
-    const blackOptionsPermafrost = {color:"black"}
+    const blackOptionsPermafrost = {color:"orange"}
     
     return(
         <Fragment>

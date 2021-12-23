@@ -3,15 +3,9 @@ import { useState } from 'react';
 
 export default function ListCapas(props){
     const[amb, setAmb] =useState(false);
-    const[per, setPer] =useState(false);
-    const[nev, setNev] =useState(false);
 
     const hundleOpenAmbito = (e)=>{e.preventDefault(), setAmb(true)}
     const hundleCloseAmbito = (e)=>{e.preventDefault(), setAmb(false)}
-    const openPermafrost = (e)=>{e.preventDefault(), setPer(true)}
-    const closePermafrost = (e)=>{e.preventDefault(), setPer(false)}
-    const openNieve = (e)=>{e.preventDefault(), setNev(true)}
-    const closeNieve = (e)=>{e.preventDefault(), setNev(false)}
 
     return(
         <div className='absolute-capas bg-white w-full md:w-96 lg:w-96 rounded-sm border border-gray-400 height-visor ' style={{zIndex:"1000"}}>
@@ -44,82 +38,16 @@ export default function ListCapas(props){
                                 <h1 className='text-sm text-color cursor-pointer' onClick={hundleCloseAmbito}>Ámbitos de intervención</h1>
                             </div>
                         }
-                        
                         {
                             !amb?null:<div className='px-6 mt-2'>
                                 {props.estado?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickClose} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>:
                                 <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpen} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>}
-                                {props.corchila?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickCloseChila} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Chila</h1></div>:
-                                <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpenChila} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Chila</h1></div>}
-                            </div>
-                        }
-                    </div>
-                    <div className='flex gap-2 px-1 pt-2'>
-                        {props.inv?<div className='flex gap-2'>
-                                <div className='flex gap-2'><div className='h-3 w-3 rounded-sm border border-gray-400 mt-1'></div><h1 onClick={props.hundleClickCloseInv} className='text-sm cursor-pointer text-color'>Inventario nacional de glaciares rocosos del Perú</h1></div>
-                            </div>:<div className='flex gap-2'>
-                                <div className='flex gap-2'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400 mt-1'></div><h1 onClick={props.hundleClickOpenInv} className='text-sm cursor-pointer text-color'>Inventario nacional de glaciares rocosos del Perú</h1></div>
-                            </div>
-                        }
-                    </div>
-                    {/*PERMAFROST**/}
-                    <div className='py-2'>
-                        {!per?<div className='flex gap-2'>
-                                <svg onClick={openPermafrost} xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-right-fill" viewBox="0 0 16 16">
-                                    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                                </svg>
-                                <h1 className='text-sm text-color cursor-pointer' onClick={openPermafrost}>Modelo probabilístico de presencia de permafrost</h1>
-                            </div>:<div className='flex gap-2'>
-                                <svg onClick={closePermafrost} xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-down" viewBox="0 0 16 16">
-                                    <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
-                                </svg>
-                                <h1 className='text-sm text-color cursor-pointer' onClick={closePermafrost}>Modelo probabilístico de presencia de permafrost</h1>
-                            </div>
-                        }
-                        {
-                            !per?null:<div className='px-6 mt-2'>
-                                {props.per30?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickClosePer30} className='text-sm cursor-pointer text-color'>Modelo de permafrost a 30 metros</h1></div>:
-                                <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenPer30} className='text-sm cursor-pointer text-color'>Modelo de permafrost a 30 metros</h1></div>}
-                                {props.per90?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickClosePer90} className='text-sm cursor-pointer text-color'>Modelo de permafrost a 90 metros</h1></div>:
-                                <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenPer90} className='text-sm cursor-pointer text-color'>Modelo de permafrost a 90 metros</h1></div>}
-                            </div>
-                        }
-                    </div>
-                    {/*NIEVE**/}
-                    <div className='box'>
-                        {!nev?<div className='flex gap-2'>
-                                <svg onClick={openNieve} xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-right-fill" viewBox="0 0 16 16">
-                                    <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                                </svg>
-                                <h1 className='text-sm text-color cursor-pointer' onClick={openNieve}>Modelo de persistencia de Nieve</h1>
-                            </div>:<div className='flex gap-2'>
-                                <svg onClick={closeNieve} xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-down" viewBox="0 0 16 16">
-                                    <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
-                                </svg>
-                                <h1 className='text-sm text-color cursor-pointer' onClick={closeNieve}>Modelo de persistencia de Nieve</h1>
-                            </div>
-                        }
-                        {
-                            !nev?null:<div className='px-6 mt-2'>
-                                {props.scp2002?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2002} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2002</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2002} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2002</h1></div>}
-                                {props.scp2003?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2003} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2003</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2003} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2003</h1></div>}
-                                {props.scp2004?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2004} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2004</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2004} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2004</h1></div>}
-                                {props.scp2005?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2005} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2005</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2005} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2005</h1></div>}
-                                {props.scp2006?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2006} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2006</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2006} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2006</h1></div>}
-                                {props.scp2007?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2007} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2007</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2007} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2007</h1></div>}
-                                {props.scp2008?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2008} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2008</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2008} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2008</h1></div>}
-                                {props.scp2009?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2009} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2009</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2009} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2009</h1></div>}
-                                {props.scp2010?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2010} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2010</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2010} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2010</h1></div>}
-                                {props.scp2011?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2011} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2011</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2011} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2011</h1></div>}
-                                {props.scp2012?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2012} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2012</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2012} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2012</h1></div>}
-                                {props.scp2013?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2013} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2013</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2013} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2013</h1></div>}
-                                {props.scp2014?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2014} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2014</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2014} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2014</h1></div>}
-                                {props.scp2015?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2015} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2015</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2015} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2015</h1></div>}
-                                {props.scp2016?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2016} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2016</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2016} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2016</h1></div>}
-                                {props.scp2017?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2017} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2017</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2017} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2017</h1></div>}
-                                {props.scp2018?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2018} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2018</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2018} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2018</h1></div>}
-                                {props.scp2019?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2019} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2019</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2019} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2019</h1></div>}
-                                {props.scp2020?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickCloseScp2020} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2020</h1></div>:<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickOpenScp2020} className='text-sm cursor-pointer text-color'>Persistencia de nieve año 2020</h1></div>}
+                                {props.corchila?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickCloseChila} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Negra</h1></div>:
+                                <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpenChila} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Negra</h1></div>}
+                                {props.cuencaSanta?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickCloseSanta} className='text-sm cursor-pointer text-color'>Cuenca del Río Santa</h1></div>:
+                                <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpenSanta} className='text-sm cursor-pointer text-color'>Cuenca del Río Santa</h1></div>}
+                                {props.areaModel?<div className='flex gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400 mt-1'></div><h1 onClick={props.hundleClickCloseModel} className='text-sm cursor-pointer text-color'>Área de modelamiento de la cuenca del Santa</h1></div>:
+                                <div className='flex gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400 mt-1'></div><h1 onClick={props.hundleClickOpenModel} className='text-sm cursor-pointer text-color'>Área de modelamiento de la cuenca del Santa</h1></div>}
                             </div>
                         }
                     </div>

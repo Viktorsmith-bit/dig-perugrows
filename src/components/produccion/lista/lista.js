@@ -1,171 +1,179 @@
 export const listaEventos = [
     {
         id:1,
-        titulo:"Remotely Piloted Aircraft System (RPAS) for glaciological studies: case, Pastoruri tropical glacier - Peru.",
-        evento:"AGU Fall Meeting 2020",
+        titulo:"Demanda agrícola de la unidad hidrográfica Quillcay, y las mejoras necesarias en su infraestructura de riego",
+        evento:"Simposio internacional “Las Montañas: Nuestro Futuro” 2019 INAIGEM",
         tipo:"Póster y abstract publicado",
-        autores:"Alexzander Santiago Martel, Edwin Aníbal Loarte Cadenas y Katy Damacia Medina Marcos",
-        link:"https://agu.confex.com/agu/fm20/meetingapp.cgi/Paper/715803"
+        autores:"Gonzalo Galarza, Edwin Loarte y Helder Mallqui",
+        link:"https://inaigem.gob.pe/simposio/wp-content/uploads/2020/01/LIBRO-DE-RESU%CC%81MENES-Word-CUSCO.pdf"
     },
     {
         id:2,
-        titulo:"Línea de congelamiento como probable límite de la extensión del permafrost y su relación con la cobertura de nieve en la cordillera de los Andes de Perú.",
-        evento:"Simposio Internacional “Las Montañas: Nuestro Futuro” 2020",
-        tipo:"Ponencia oral",
-        autores:"Hairo León, Katy Medina y Pedro Valladares",
-        link:"https://www.facebook.com/InaigemPeru/videos/1094647120985366"
+        titulo:"Peruvian Glacier Retreat and its Impact on Water Security (Perú GROWS).",
+        evento:"I Simposio de Glaciares Tropicales 2019 UTEC",
+        tipo:"Póster y ponencia oral",
+        autores:"Edwin Loarte / Equipo Perú GROWS",
+        link:null
     },
     {
         id:3,
-        titulo:"Evaluación y estimación de la distribución espacio temporal de permafrost a nivel nacional como potencial de reserva hídrica (PERMAFROST).",
-        evento:"Viernes científico 2020",
+        titulo:"Influence of ENSO Climate Anomalies on Tropical Glaciers Retreat: Case Quillcay Catchment, Cordillera Blanca, Perú.",
+        evento:"AGU Fall Meeting 2020",
         tipo:"Póster y abstract publicado",
-        autores:"Katy Medina Marcos / Equipo Permafrost",
-        link:"https://www.inaigem.gob.pe/viernes-cientifico/"
+        autores:"Francisco Castillo, Katy Medina, Edwin Loarte y Hairo León",
+        link:"https://agu.confex.com/agu/fm20/meetingapp.cgi/Paper/720040"
     },
     {
         id:4,
-        titulo:"Analysis of the spatial distribution and characteristics of the rock glaciers in the Ampato, Vilcanota and La Viuda Cordilleras southern and central Peru.",
-        evento:"EGU General Assembly 2021",
+        titulo:"Retroceso glaciar y su impacto en la seguridad hídrica en el Perú (Perú GROWS).",
+        evento:"Viernes científico 2020 INAIGEM",
         tipo:"Ponencia oral",
-        autores:"Katy Medina, Edwin Loarte, Edwin Badillo Rivera, Hairo León, Xavier Bodin y Christian Huggel",
-        link:"https://meetingorganizer.copernicus.org/EGU21/EGU21-8466.html"
-    }
+        autores:"Edwin Loarte / Equipo Perú GROWS",
+        link:"https://www.inaigem.gob.pe/viernes-cientifico/",
+        link2:"https://www.facebook.com/1691500661119704/videos/332095681188695"
+    },
+    {
+        id:5,
+        titulo:"No-regret adaptation to climate change through management of glacial lakes in the Santa River Basin in Perú.",
+        evento:"EGU General Assembly 2021",
+        tipo:"Póster y abstract publicado",
+        autores:"Gladis Celmi, Andrea Momblanch, Tim Hess, Catriona Fyffe, Emily Potter, Andrew Orr, Fabian Drenkhan, Noah Walker-Crawford, Edwin Loarte y Maria Bustamante y Francesca Pellicciotti",
+        link:"https://meetingorganizer.copernicus.org/EGU21/EGU21-13369.html",
+        link2:null
+    },
+    {
+        id:6,
+        titulo:"Quantifying the controls of Peruvian glacier response to climate.",
+        evento:"EGU General Assembly 2021",
+        tipo:"Póster y abstract publicado",
+        autores:"Catriona L. Fyffe, Emily Potter, Stefan Fugger, Andrew Orr, Simone Fatichi, Katy Medina, Robert Å. Hellström, Thomas E. Shaw, Maud Bernat, Alan Llacza, Gerardo Jacome, Caroline Aubry-Wake, Wolfgang Gurgiser, L. Baker Perry, Wilson Suarez, Duncan J. Quincey, Edwin Loarte y Francesca Pellicciotti",
+        link:"https://meetingorganizer.copernicus.org/EGU21/EGU21-7524.html",
+        link2:null
+    },
+    {
+        id:7,
+        titulo:"Analysis of remote sensing and in situ datasets to estimate spatial precipitation in high mountain areas: case study Cordillera Blanca, Perú.",
+        evento:"EGU General Assembly 2021",
+        tipo:"Póster y abstract publicado",
+        autores:"Edwin Loarte, Katy Medina, Eduardo Villavicencio, Hairo León, Waldo Lavado, Antoine Rabatel, Gerardo Jacome, Johannes Hunink y Ernesto Lopez-Baeza",
+        link:"https://meetingorganizer.copernicus.org/EGU21/EGU21-8996.html",
+        link2:null
+    },
+    {
+        id:8,
+        titulo:"Multi-decadal past and future temperature and precipitation trends in the Peruvian Andes.",
+        evento:"EGU General Assembly 2021",
+        tipo:"Póster y abstract publicado",
+        autores:"Emily Potter, Andrew Orr, Catriona Fyffe, Duncan Quincey, Andrew Ross, Helen Burns, Robert Hellström, Katy Medina, Edwin Loarte, Alan Llacza, Gerardo Jacome, Scott Hosking y Francesca Pellicciotti",
+        link:"https://meetingorganizer.copernicus.org/EGU21/EGU21-8669.html",
+        link2:null
+    },
+    {
+        id:9,
+        titulo:"Influencia del gradiente de cobertura glaciar sobre la biodiversidad de macroinvertebrados bentónicos, Cordillera Blanca-Perú.",
+        evento:"Primer Congreso Internacional en Biotecnología y Ecosistemas Neotropicales (CIBEN 2021)",
+        tipo:"Ponencia oral y abstract publicado",
+        autores:"Edson Palacios-Robles, Edwin Loarte, Katy Medina y Alfredo Castañeda-Barreto",
+        link:"https://ikiam.edu.ec/ciben/Programa_Ecologia.html",
+        link2:null
+    },
+    {
+        id:10,
+        titulo:"Biodiversidad de macroinvertebrados bentonicos en un gradiente de cobertura glaciar, cordillera Blanca - Perú.",
+        evento:"V Congreso Latinoamericano de Macroinvertebrados y Ecosistemas Acuáticos 2021",
+        tipo:"Ponencia oral y abstract publicado",
+        autores:"Edson Palacios-Robles, Edwin Loarte, Katy Medina, Alfredo Castañeda-Barreto, Miriam Gamboa y Lee Brown",
+        link:null,
+        link2:null
+    },
+    {
+        id:11,
+        titulo:"Influencia del gradiente de cobertura glaciar sobre la biodiversidad de macroinvertebrados bentónicos en la cordillera Blanca.",
+        evento:"Viernes científico 2021 INAIGEM",
+        tipo:"Ponencia oral",
+        autores:"Edson Palacios, Rosario Polo y Katy Medina",
+        link:"https://www.facebook.com/watch/live/?ref=watch_permalink&v=249426223598983",
+        link2:null
+    },
 ]
 
 export const listaArticulos = [
     {
         id:1,
-        titulo:"An Estimation of Past and Present Air Temperature Conditions, Water Equivalent, and Surface Velocity of Rock Glaciers in Cordillera Volcanica, Peru",
-        revista:"ASCE Publications / Regional Conference on Permafrost 2021 and the 19th International Conference on Cold Regions Engineering",
-        tipo:"Articulo de conferencia",
-        autores:"Edwin Badillo-Rivera, Edwin Loarte, Katy Medina, Xavier Bodin, Guillermo Azócar y Diego Cusicanqui",
-        doi:"https://doi.org/10.1061/9780784483589.010",
-        link:"https://ascelibrary.org/doi/abs/10.1061/9780784483589.010"
-    },
-    {
-        id:2,
-        titulo:"Mountain Permafrost in the Tropical Andes of Peru: The 0°C Isotherm as a Potential Indicator",
-        revista:"ASCE Publications / Regional Conference on Permafrost 2021 and the 19th International Conference on Cold Regions Engineering",
-        tipo:"Articulo de conferencia",
-        autores:"Hairo León, Katy Medina, Edwin Loarte, Guillermo Azócar, Pablo Iribarren y Christian Huggel",
-        doi:"https://doi.org/10.1061/9780784483589.011",
-        link:"https://ascelibrary.org/doi/10.1061/9780784483589.011"
-    },
-    {
-        id:3,
-        titulo:"Design, Development and Implementation of a Low Cost Weather Station for high mountains",
-        revista:"IEEE Xplore / 2021 IEEE XXVIII International Conference on Electronics, Electrical Engineering and Computing (INTERCON)",
-        tipo:"Articulo de conferencia",
-        autores:"Jean Lujan, Pablo Iribarren, Katy Medina y Cesar Verde",
-        doi:"",
-        link:"https://ieeexplore.ieee.org/document/9532835"
+        titulo:"The energy and mass balance of Peruvian glaciers.",
+        revista:"Journal of Geophysical Research: Atmospheres ",
+        tipo:"Artículo de revista",
+        autores:"Catriona L. Fyffe, Emily Potter, Stefan Fugger, Andrew Orr, Simone Fatichi, Edwin Loarte, Katy Medina, Robert Å. Hellström, Maud Bernat, Caroline Aubry-Wake, Wolfgang Gurgiser, L. Baker Perry, Wilson Suarez, Duncan J. Quincey y Francesca Pellicciotti",
+        doi:null,
+        link:"https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JD034911"
     }
 ]
 
 export const listaTesis = [
     {
         id:1,
-        titulo: "Línea de congelamiento como probable límite de la extensión del permafrost y su relación con la cobertura de nieve en la cordillera de los Andes de Perú, 2019",
-        tesista:"Hairo Alexander Leon Dextre",
+        titulo: "Demanda hídrica de la cuenca alta del río Santa, mediante la aplicación de una propuesta de modelo geoespacial.",
+        tesista:"Gonzalo Pablo Galarza Peña",
         tipo:"Pregrado",
-        universidad:"UNASAM",
-        asesorUni:"Pedro Valladares",
-        asesorInai:"Katy Medina",
-        estado:"Sustentado y aprobado",
-        publicado:"No",
-        oficialInai:"Si",
+        universidad:"UNALM",
+        asesorUni:"Toribio Santayana",
+        asesorInai:"Helder Mallqui",
+        estado:"En redacción (90%)",
         link:null
     },
     {
         id:2,
-        titulo: "Tecnologías de información geográfica para determinar la dinámica de los glaciares de roca como formas de permafrost en los andes tropicales del Perú",
-        tesista:"Edwin Noé Badilllo Rivera",
+        titulo:"Influencia de variables climáticas en el balance de masa glaciar en la Cordillera Blanca, 1967-2020.",
+        tesista:"Edy Peter León Chávez",
         tipo:"Pregrado",
-        universidad:"UNAC",
-        asesorUni:"Ena Jaimes",
-        asesorInai:"Katy Medina/ Edwin Loarte",
-        estado:"En revisión por los jurados",
-        publicado:"No",
-        oficialInai:"Si",
+        universidad:"UNASAM",
+        asesorUni:"Ricardo Villanueva",
+        asesorInai:"Edwin Loarte",
+        estado:"En redacción (99%)",
         link:null
     },
     {
         id:3,
-        titulo: "Desarrollo y validación de prototipo de estación meteorológica de bajo costo para el registro de mediciones metereologicas en zonas de alta montaña",
-        tesista:"Jean Pol Juniors Luján León ",
+        titulo:"Modelamiento Hidrológico de las cuencas Yanayacu y Utcuyacu mediante WEAP para la gestión del recurso hídrico, Ancash – Perú.",
+        tesista:"Reynner Raymundo Flores Estrada",
         tipo:"Pregrado",
-        universidad:"UNFV",
-        asesorUni:"José Rodriguez",
-        asesorInai:"Cesar Verde",
+        universidad:"UNMSM",
+        asesorUni:null,
+        asesorInai:"Gladis Celmi",
         estado:"En revisión por los jurados",
-        publicado:"No",
-        oficialInai:"Si",
         link:null
     },
     {
         id:4,
-        titulo: "Implementación de un sistema de control óptimo en un vehículo aéreo no tripulado de ala fija con despegue y aterrizaje verticales para el estudio del permafrost en las zonas altoandinas del Perú",
-        tesista:"Ericcson Lorgio Lopez Vega ",
+        titulo: "Impactos del retroceso glaciar y disponibilidad hídrica en la subcuenca Llullán-Parón, cuenca del río Santa.",
+        tesista:"Marcos Fabio Izaguirre Liviac",
         tipo:"Pregrado",
-        universidad:"UNI",
-        asesorUni:"José Machuca",
-        asesorInai:"Jorge Mirez",
-        estado:"En redacción (90%)",
-        publicado:"No",
-        oficialInai:"Si",
-        link:null
+        universidad:"PUCP",
+        asesorUni:"Fabián Drenkhan",
+        asesorInai:null,
+        estado:"Sustentado y aprobado",
+        link:"https://renati.sunedu.gob.pe/handle/sunedu/2661068"
     },
     {
         id:5,
-        titulo: "Datos de precipitación y temperatura en zonas de escasa información de la región Ancash-período 2012-2017, 2019",
-        tesista:"Eduardo Emer Villavicencio Guillén ",
-        tipo:"Pregrado",
+        titulo:"Influencia del gradiente de cobertura glaciar de la Cordillera Blanca en la biodiversidad de macroinvertebrados bentónicos, 2019-2020.",
+        tesista:"Edson Desciomar Palacios Robles ",
+        tipo:"Postgrado (maestría)",
         universidad:"UNASAM",
-        asesorUni:"Ciro Fernández",
+        asesorUni:"Rosario Polo",
         asesorInai:"Katy Medina",
         estado:"Sustentado y aprobado",
-        publicado:"Si",
-        oficialInai:"No",
-        link:"http://repositorio.unasam.edu.pe/handle/UNASAM/4356"
+        link:null
     },
     {
         id:6,
-        titulo: "Modelamiento numérico de la distribución espacio temporal del permafrost en el Perú mediante el uso de variables topo-climáticas",
-        tesista:"Eduardo Emer Villavicencio Guillén ",
-        tipo:"Postgrado",
-        universidad:"UNALM",
-        asesorUni:"Wilson Suarez",
-        asesorInai:"Katy Medina",
-        estado:"En revisión por los jurados",
-        publicado:"No",
-        oficialInai:"Si",
-        link:null
-    },
-    {
-        id:7,
-        titulo: "Análisis multitemporal de la dinámica glaciar y su influencia sobre lagunas y humedales alto andinos en la cordillera Blanca - Perú, periodo 1989-2019",
-        tesista:"Francisco Nemecio Castillo vergara",
-        tipo:"Postgrado",
-        universidad:"UNASAM",
-        asesorUni:"Eladio Tuya",
-        asesorInai:"Katy Medina/ Edwin Loarte",
-        estado:"En revisión por los jurados",
-        publicado:"No",
-        oficialInai:"No",
-        link:null
-    },
-    {
-        id:8,
-        titulo: "Balance de masa del glaciar Pastoruri mediante el método geodésico empleando tecnología RPA en el periodo 2016",
-        tesista:"Alexzander Santiago Martel",
-        tipo:"Postgrado",
-        universidad:"UNASAM",
-        asesorUni:"Teófanes Mejía ",
+        titulo:"Narrativas sociales locales en los Andes peruanos frente al fenómeno del derretimiento de los glaciares tropicales, enmarcado en el cambio climático. El caso del conflicto hídrico de la laguna de Parón (Caraz-región Áncash-Perú) entre las décadas de 1990 y 2010.",
+        tesista:"Juan Francisco Acevedo Godínez",
+        tipo:"Postgrado (doctorado)",
+        universidad:"PUCP",
+        asesorUni:"Alejandro Diez",
         asesorInai:"Edwin Loarte",
-        estado:"En revisión por los jurados",
-        publicado:"No",
-        oficialInai:"No",
+        estado:"En redacción (40%)",
         link:null
     }
 ]

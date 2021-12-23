@@ -6,14 +6,14 @@ export default function Produccion(){
             <div className='flex flex-col items-center flex-1 w-full md:max-w-2xl lg:max-w-7xl w-full'>
                 <h1 className='font-bold text-2xl lg:text-4xl text-color'>Productos</h1>
                 <h1 className=''></h1>
-                <div className='flex flex-wrap justify-center lg:justify-between gap-3 mt-8 lg:mt-16 w-full'>
+                <div className='flex flex-wrap justify-center lg:justify-between gap-3 mt-8 lg:mt-10 w-full'>
                     <div className=''>
-                       <Link href='/equipo-cientifico/integrantes'><a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/EquipoTecnico_Permafrost.jpeg' /></a></Link>
+                       <Link href='/equipo-cientifico/integrantes'><a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/equipo_cientifico.jpeg' /></a></Link>
                        <h1 className='mt-2 text-center text-color font-bold'>EQUIPO CIENTÍFICO</h1>
                     </div>
                     <div className=''>
                         <Link href='/produccion/cientifica'>
-                            <a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/TrabajosCampo_Permafrost_2.jpeg' /></a>
+                            <a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/Workshop_taller4.jpeg' /></a>
                         </Link>
                         <h1 className='mt-2 text-center text-color font-bold'>PRODUCCIÓN CIENTÍFICA</h1>       
                     </div>
@@ -22,7 +22,7 @@ export default function Produccion(){
                         <h1 className='mt-2 text-center text-color font-bold'>VISOR DE MAPAS</h1>
                     </div>
                 </div>
-                <Link href='/galeria'><a className='mt-7 lg:mt-14'><button className='w-56 py-4 border-color bg-color rounded-md text-color font-bold'>GALERÍA DE IMÁGENES</button></a></Link>
+                <Link href='/galeria'><a className='mt-7 lg:mt-10'><button className='w-56 py-4 border-color bg-color rounded-md text-color font-bold'>GALERÍA DE IMÁGENES</button></a></Link>
             </div>
         </div>
     );
