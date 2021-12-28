@@ -9,13 +9,13 @@ export default function Modal(props){
 
     const back = (e)=>{
         e.preventDefault();
-        if(state < ListImpactos.length){
+        if(state < listaPT4.length){
             return setState(state + 1);
         }
     }
     const next = (e)=>{
         e.preventDefault();
-        if(state > ListImpactos[0].id){
+        if(state > listaPT4[0].id){
             return setState(state - 1)
         }
     }

@@ -76,6 +76,72 @@ export const listaPT1 = [
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2FWorkshop_taller_centro_cultural2.jpeg?alt=media&token=66d14447-e3fc-483a-b791-087606485d7e',
         cover:"cover"
     },
+    {
+        id:8,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F1.Calidad_Artesonraju_PT1.jpg?alt=media&token=27a4fe19-bef3-4b0f-8cdf-794eb5376c85',
+        cover:"cover"
+    },
+    {
+        id:9,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F4.Calidad_Artesonraju_PT1.JPG?alt=media&token=e9b8bbc8-7bb6-4335-a618-971319132688',
+        cover:"cover"
+    },
+    {
+        id:10,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F4.MacroinvertebradosLlaca_PT1.JPG?alt=media&token=f978a311-42c7-4de7-b534-345c50ae7c43',
+        cover:"cover"
+    },
+    {
+        id:11,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F5.MacroInv_Gueshgue20_PT1.JPG?alt=media&token=fa922fb1-264b-411d-bd75-70112510cc85',
+        cover:"cover"
+    },
+    {
+        id:12,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F8.Diatomeas_Gueshgue20_PT1.JPG?alt=media&token=f06fb4e5-77f9-4a10-a628-0e1eb46580dd',
+        cover:"cover"
+    },
+    {
+        id:13,
+        nombre:'Fotogrametría aérea',
+        titulo:"FOTOGRAMETRÍA AÉREA",
+        subTitulo:"Quebrada San Félix",
+        descripcion:'Levantamiento fotogramétrico aéreo (dron) en el glaciar rocoso San Félix, para la validación del mapeo geomorfológico realizado con el uso de imágenes satelitales.',
+        lugar:'Arequipa',
+        fecha:'nov, 2020',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt1%2F10.Diatomeas_Gueshgue20_PT1.JPG?alt=media&token=378e30c7-3da9-4fea-9acd-028556507650',
+        cover:"cover"
+    },
 ]   
 
 export const listaPT2 = [
@@ -131,7 +197,7 @@ export const listaPT2 = [
         descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
         lugar:'Ancash',
         fecha:'Ago, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F5.MantEM_PT2.jpg?alt=media&token=5ad97b17-6104-4a32-82f5-1afb6fce985f',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2FMantEM_PT2.jpg?alt=media&token=cb83dd4b-35e5-4d50-a7d4-24b61f3458ff',
         cover:"cover"
     },
     {
@@ -153,7 +219,7 @@ export const listaPT2 = [
         descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
         lugar:'Ancash',
         fecha:'Ago, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F6.DescarDEM_PT2.JPG?alt=media&token=2ac4a1c3-2c94-47e0-84a1-710b45367d2d',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2FDescarDEM_PT2.JPG?alt=media&token=b6a5ed42-b665-43e5-a318-75ae96456e9a',
         cover:"cover"
     },
     {
@@ -187,6 +253,39 @@ export const listaPT2 = [
         lugar:'Ancash',
         fecha:'Ago, 2019',
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F8Aforo_Utcuyacu_toma_PT2.JPG?alt=media&token=33fa915e-f69b-47d7-bc51-aa1376506091',
+        cover:"cover"
+    },
+    {
+        id:11,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F3.BalizasGueshgue_PT2.JPG?alt=media&token=25c3ada8-8cba-4124-8d59-861b2e8308c3',
+        cover:"cover"
+    },
+    {
+        id:12,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F6.FotogLlaca_PT2.JPG?alt=media&token=06f2f343-63f9-4796-aa39-8f127bfab142',
+        cover:"cover"
+    },
+    {
+        id:13,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpt2%2F8.GPRArtesonraju2_PT2.JPG?alt=media&token=524a4747-0763-44c3-8c0b-ebe450ba7bd4',
         cover:"cover"
     },
 ]
