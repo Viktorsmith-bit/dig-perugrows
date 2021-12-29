@@ -28,77 +28,16 @@ export default function ListCapas(props){
                                 <h1 className='text-sm'>Unidades hidrográficas de cordillera Blanca</h1>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 bg-yellow-400 rounded-sm'></div>
-                                <h1 className='text-sm'>Unidad hidrográfica de cordillera Chila</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='px-4 py-2'>
-                        <h1 className='text-sm'>Inventario nacional de glaciares rocosos del Péru</h1>
-                        <div className='px-4 mt-2'>
-                            <h1 className='text-sm'>Actividad</h1>
-                            <div className='flex items-center gap-2 mt-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#124b89"}}></div>
-                                <h1 className='text-sm'>Activo</h1>
+                                <div className='h-4 w-4 bg-yellow-200 rounded-sm'></div>
+                                <h1 className='text-sm'>Unidad hidrográfica de cordillera Negra</h1>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#6e00f5"}} ></div>
-                                <h1 className='text-sm'>Inactivo</h1>
+                                <div className='h-4 w-4 bg-yellow-500 rounded-sm'></div>
+                                <h1 className='text-sm'>Cuenca del Río Santa</h1>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#03B2F1"}}></div>
-                                <h1 className='text-sm'>Intacto</h1>
-                            </div>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#999999"}}></div>
-                                <h1 className='text-sm'>Relicto</h1>
-                            </div>
-                        </div>
-                    </div>
-                    {/*PERMAFROST**/}
-                    <div className='px-4 py-2'>
-                        <h1 className='text-sm'>Modelo probabilístico de presencia de permafrost</h1>
-                        <div className='px-4 mt-2'>
-                            <h1 className='text-sm'>Probabilidad</h1>
-                            <div className='flex items-center gap-2 mt-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#FFCE03"}} ></div>
-                                <h1 className='text-sm'>0.5-0.7</h1>
-                            </div>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#FD6104"}} ></div>
-                                <h1 className='text-sm'>0.7-0.9</h1>
-                            </div>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#F00505"}}></div>
-                                <h1 className='text-sm'>0.9-1.0</h1>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    {/*NIEVE**/}
-                    <div className='px-4 py-2'>
-                        <h1 className='text-sm'>Modelo de persistencia de nieve</h1>
-                        <div className='px-4 mt-2'>
-                            <h1 className='text-sm'>Rangos (días/año)</h1>
-                            <div className='flex items-center gap-2 mt-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#d6d6ff"}} ></div>
-                                <h1 className='text-sm'>10-81</h1>
-                            </div>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#8f97e3"}} ></div>
-                                <h1 className='text-sm'>81-152</h1>
-                            </div>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#556cc9"}}></div>
-                                <h1 className='text-sm'>152-223</h1>
-                            </div>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#244ead"}}></div>
-                                <h1 className='text-sm rounded-sm'>223-294</h1>
-                            </div>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#003994"}}></div>
-                                <h1 className='text-sm'>294-365</h1>
+                                <div className='h-4 w-4 bg-blue-600 rounded-sm'></div>
+                                <h1 className='text-sm'>Área de modelamiento de la cuenca del Santa</h1>
                             </div>
                         </div>
                     </div>

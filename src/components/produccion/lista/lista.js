@@ -9,7 +9,7 @@ export const listaEventos = [
     },
     {
         id:2,
-        titulo:"Peruvian Glacier Retreat and its Impact on Water Security (Perú GROWS).",
+        titulo:"Peruvian Glacier Retreat and its Impact on Water Security (Perú GROWS)",
         evento:"I Simposio de Glaciares Tropicales 2019 UTEC",
         tipo:"Póster y ponencia oral",
         autores:"Edwin Loarte / Equipo Perú GROWS",
@@ -17,7 +17,7 @@ export const listaEventos = [
     },
     {
         id:3,
-        titulo:"Influence of ENSO Climate Anomalies on Tropical Glaciers Retreat: Case Quillcay Catchment, Cordillera Blanca, Perú.",
+        titulo:"Influence of ENSO Climate Anomalies on Tropical Glaciers Retreat: Case Quillcay Catchment, Cordillera Blanca, Perú",
         evento:"AGU Fall Meeting 2020",
         tipo:"Póster y abstract publicado",
         autores:"Francisco Castillo, Katy Medina, Edwin Loarte y Hairo León",
@@ -25,7 +25,7 @@ export const listaEventos = [
     },
     {
         id:4,
-        titulo:"Retroceso glaciar y su impacto en la seguridad hídrica en el Perú (Perú GROWS).",
+        titulo:"Retroceso glaciar y su impacto en la seguridad hídrica en el Perú (Perú GROWS)",
         evento:"Viernes científico 2020 INAIGEM",
         tipo:"Ponencia oral",
         autores:"Edwin Loarte / Equipo Perú GROWS",
@@ -34,7 +34,7 @@ export const listaEventos = [
     },
     {
         id:5,
-        titulo:"No-regret adaptation to climate change through management of glacial lakes in the Santa River Basin in Perú.",
+        titulo:"No-regret adaptation to climate change through management of glacial lakes in the Santa River Basin in Perú",
         evento:"EGU General Assembly 2021",
         tipo:"Póster y abstract publicado",
         autores:"Gladis Celmi, Andrea Momblanch, Tim Hess, Catriona Fyffe, Emily Potter, Andrew Orr, Fabian Drenkhan, Noah Walker-Crawford, Edwin Loarte y Maria Bustamante y Francesca Pellicciotti",
@@ -43,7 +43,7 @@ export const listaEventos = [
     },
     {
         id:6,
-        titulo:"Quantifying the controls of Peruvian glacier response to climate.",
+        titulo:"Quantifying the controls of Peruvian glacier response to climate",
         evento:"EGU General Assembly 2021",
         tipo:"Póster y abstract publicado",
         autores:"Catriona L. Fyffe, Emily Potter, Stefan Fugger, Andrew Orr, Simone Fatichi, Katy Medina, Robert Å. Hellström, Thomas E. Shaw, Maud Bernat, Alan Llacza, Gerardo Jacome, Caroline Aubry-Wake, Wolfgang Gurgiser, L. Baker Perry, Wilson Suarez, Duncan J. Quincey, Edwin Loarte y Francesca Pellicciotti",
@@ -52,7 +52,7 @@ export const listaEventos = [
     },
     {
         id:7,
-        titulo:"Analysis of remote sensing and in situ datasets to estimate spatial precipitation in high mountain areas: case study Cordillera Blanca, Perú.",
+        titulo:"Analysis of remote sensing and in situ datasets to estimate spatial precipitation in high mountain areas: case study Cordillera Blanca, Perú",
         evento:"EGU General Assembly 2021",
         tipo:"Póster y abstract publicado",
         autores:"Edwin Loarte, Katy Medina, Eduardo Villavicencio, Hairo León, Waldo Lavado, Antoine Rabatel, Gerardo Jacome, Johannes Hunink y Ernesto Lopez-Baeza",
@@ -61,7 +61,7 @@ export const listaEventos = [
     },
     {
         id:8,
-        titulo:"Multi-decadal past and future temperature and precipitation trends in the Peruvian Andes.",
+        titulo:"Multi-decadal past and future temperature and precipitation trends in the Peruvian Andes",
         evento:"EGU General Assembly 2021",
         tipo:"Póster y abstract publicado",
         autores:"Emily Potter, Andrew Orr, Catriona Fyffe, Duncan Quincey, Andrew Ross, Helen Burns, Robert Hellström, Katy Medina, Edwin Loarte, Alan Llacza, Gerardo Jacome, Scott Hosking y Francesca Pellicciotti",
@@ -70,7 +70,7 @@ export const listaEventos = [
     },
     {
         id:9,
-        titulo:"Influencia del gradiente de cobertura glaciar sobre la biodiversidad de macroinvertebrados bentónicos, Cordillera Blanca-Perú.",
+        titulo:"Influencia del gradiente de cobertura glaciar sobre la biodiversidad de macroinvertebrados bentónicos, Cordillera Blanca-Perú",
         evento:"Primer Congreso Internacional en Biotecnología y Ecosistemas Neotropicales (CIBEN 2021)",
         tipo:"Ponencia oral y abstract publicado",
         autores:"Edson Palacios-Robles, Edwin Loarte, Katy Medina y Alfredo Castañeda-Barreto",
@@ -79,7 +79,7 @@ export const listaEventos = [
     },
     {
         id:10,
-        titulo:"Biodiversidad de macroinvertebrados bentonicos en un gradiente de cobertura glaciar, cordillera Blanca - Perú.",
+        titulo:"Biodiversidad de macroinvertebrados bentonicos en un gradiente de cobertura glaciar, cordillera Blanca - Perú",
         evento:"V Congreso Latinoamericano de Macroinvertebrados y Ecosistemas Acuáticos 2021",
         tipo:"Ponencia oral y abstract publicado",
         autores:"Edson Palacios-Robles, Edwin Loarte, Katy Medina, Alfredo Castañeda-Barreto, Miriam Gamboa y Lee Brown",
@@ -88,7 +88,7 @@ export const listaEventos = [
     },
     {
         id:11,
-        titulo:"Influencia del gradiente de cobertura glaciar sobre la biodiversidad de macroinvertebrados bentónicos en la cordillera Blanca.",
+        titulo:"Influencia del gradiente de cobertura glaciar sobre la biodiversidad de macroinvertebrados bentónicos en la cordillera Blanca",
         evento:"Viernes científico 2021 INAIGEM",
         tipo:"Ponencia oral",
         autores:"Edson Palacios, Rosario Polo y Katy Medina",
@@ -100,7 +100,7 @@ export const listaEventos = [
 export const listaArticulos = [
     {
         id:1,
-        titulo:"The energy and mass balance of Peruvian glaciers.",
+        titulo:"The energy and mass balance of Peruvian glaciers",
         revista:"Journal of Geophysical Research: Atmospheres ",
         tipo:"Artículo de revista",
         autores:"Catriona L. Fyffe, Emily Potter, Stefan Fugger, Andrew Orr, Simone Fatichi, Edwin Loarte, Katy Medina, Robert Å. Hellström, Maud Bernat, Caroline Aubry-Wake, Wolfgang Gurgiser, L. Baker Perry, Wilson Suarez, Duncan J. Quincey y Francesca Pellicciotti",
@@ -112,7 +112,7 @@ export const listaArticulos = [
 export const listaTesis = [
     {
         id:1,
-        titulo: "Demanda hídrica de la cuenca alta del río Santa, mediante la aplicación de una propuesta de modelo geoespacial.",
+        titulo: "Demanda hídrica de la cuenca alta del río Santa, mediante la aplicación de una propuesta de modelo geoespacial",
         tesista:"Gonzalo Pablo Galarza Peña",
         tipo:"Pregrado",
         universidad:"UNALM",
@@ -123,7 +123,7 @@ export const listaTesis = [
     },
     {
         id:2,
-        titulo:"Influencia de variables climáticas en el balance de masa glaciar en la Cordillera Blanca, 1967-2020.",
+        titulo:"Influencia de variables climáticas en el balance de masa glaciar en la Cordillera Blanca, 1967-2020",
         tesista:"Edy Peter León Chávez",
         tipo:"Pregrado",
         universidad:"UNASAM",
@@ -134,7 +134,7 @@ export const listaTesis = [
     },
     {
         id:3,
-        titulo:"Modelamiento Hidrológico de las cuencas Yanayacu y Utcuyacu mediante WEAP para la gestión del recurso hídrico, Ancash – Perú.",
+        titulo:"Modelamiento Hidrológico de las cuencas Yanayacu y Utcuyacu mediante WEAP para la gestión del recurso hídrico, Ancash – Perú",
         tesista:"Reynner Raymundo Flores Estrada",
         tipo:"Pregrado",
         universidad:"UNMSM",
@@ -145,7 +145,7 @@ export const listaTesis = [
     },
     {
         id:4,
-        titulo: "Impactos del retroceso glaciar y disponibilidad hídrica en la subcuenca Llullán-Parón, cuenca del río Santa.",
+        titulo: "Impactos del retroceso glaciar y disponibilidad hídrica en la subcuenca Llullán-Parón, cuenca del río Santa",
         tesista:"Marcos Fabio Izaguirre Liviac",
         tipo:"Pregrado",
         universidad:"PUCP",
@@ -156,7 +156,7 @@ export const listaTesis = [
     },
     {
         id:5,
-        titulo:"Influencia del gradiente de cobertura glaciar de la Cordillera Blanca en la biodiversidad de macroinvertebrados bentónicos, 2019-2020.",
+        titulo:"Influencia del gradiente de cobertura glaciar de la Cordillera Blanca en la biodiversidad de macroinvertebrados bentónicos, 2019-2020",
         tesista:"Edson Desciomar Palacios Robles ",
         tipo:"Postgrado (maestría)",
         universidad:"UNASAM",
@@ -167,7 +167,7 @@ export const listaTesis = [
     },
     {
         id:6,
-        titulo:"Narrativas sociales locales en los Andes peruanos frente al fenómeno del derretimiento de los glaciares tropicales, enmarcado en el cambio climático. El caso del conflicto hídrico de la laguna de Parón (Caraz-región Áncash-Perú) entre las décadas de 1990 y 2010.",
+        titulo:"Narrativas sociales locales en los Andes peruanos frente al fenómeno del derretimiento de los glaciares tropicales, enmarcado en el cambio climático. El caso del conflicto hídrico de la laguna de Parón (Caraz-región Áncash-Perú) entre las décadas de 1990 y 2010",
         tesista:"Juan Francisco Acevedo Godínez",
         tipo:"Postgrado (doctorado)",
         universidad:"PUCP",

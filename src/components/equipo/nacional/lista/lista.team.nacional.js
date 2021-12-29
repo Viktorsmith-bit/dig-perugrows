@@ -3,7 +3,7 @@ export const listTeamNacional= [
         id:1,
         ruta:'edwin-anibal-loarte-cadenas',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil-edwin-loarte.jpeg?alt=media&token=c6716974-9cb9-4b0c-be1b-36c7c8d700a2',
-        name:'Edwin Aníbal Loarte Cadenas',
+        name:'Edwin Anibal Loarte Cadenas',
         cargo:'Investigador principal',
         profesion:'Ingeniero Ambiental',
         ubicacion: 'Áncash, Perú',
