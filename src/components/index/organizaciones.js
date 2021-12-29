@@ -8,7 +8,9 @@ export default function Organizaciones(){
                     <h1 className='text-white text-2xl lg:text-4xl font-bold'>Organizaciones</h1>
                     <div className='flex flex-wrap items-center justify-between gap-10 mt-12 lg:mt-20'>
                         <img className='w-36 md:w-48 lg:w-48' src='/logos/organizaciones/INAIGEMBN.svg'/>
+                        <img className='w-36 md:w-48 lg:w-48' src='/logos/organizaciones/ConcytecWhite_MC_v2.png'/>
                         <img className='w-32 md:w-40 lg:w-40 ' src='/logos/organizaciones/PUCPBN.svg'/>
+                        <img className='w-32 md:w-40 lg:w-56 ' src='/logos/organizaciones/BAS-full-logo-white.png'/>
                         <img className='w-32 md:w-40 lg:w-40' src='/logos/organizaciones/CranfielBN.svg'/>
                         <img className='w-20 md:w-24 lg:w-24' src='/logos/organizaciones/HeriotWattBN.svg'/>
                         <img className='w-32 md:w-40 lg:w-40' src='/logos/organizaciones/NorthumbriaBN.svg'/>
