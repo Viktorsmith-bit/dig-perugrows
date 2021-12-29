@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contacto(){
     return(
         <div className='flex justify-center flex-wrap w-full py-4 lg:py-12 px-4 lg:px-10 background-color' id="contacto">
-            <div className='flex flex-1 flex-wrap w-full lg:max-w-7xl gap-5 lg:gap-10'>
+            <div className='flex flex-1 flex-wrap w-full md:max-w-2xl lg:max-w-7xl gap-5 lg:gap-10'>
                 <div className='contenedor'>
                     <h1 className='text-white text-sm lg:text-base'>Jr. Juan Bautista Mejía 887</h1>
                     <h1 className='text-white text-sm lg:text-base'>Huaraz, Áncash, Perú.</h1>
@@ -41,7 +41,7 @@ export default function Contacto(){
                         </svg>
                     </a>
                 </div>    
-                <h1 className='text-white w-fyll md:max-w-2xl lg:max-w-3xl text-sm lg:text-base border border-white p-4 rounded-md text-justify'> Este proyecto de investigación fue liderado por la MSc. Katy Medina Marcos. Los datos están disponibles a petición de las personas interesadas, por favor solicitar acceso a: kmedina@inaigem.gob.pe y katydamacia@hotmail.com.</h1>
+                <h1 className='text-white w-fyll md:max-w-2xl lg:max-w-3xl text-sm lg:text-base border border-white p-4 rounded-md text-justify'> Este proyecto de investigación fue liderado por la MSc. Katy Medina Marcos. Los datos están disponibles a petición de las personas interesadas, por favor solicitar acceso a: eloarte@inaigem.gob.pe y eloartecadenas@gmail.com.</h1>
             </div>
         </div>
     );
