@@ -159,7 +159,7 @@
 
 /* FONDOS */
 .image {
-  background-image: url("../public/fondos/Lag_Paron_20.jpeg");
+  background-image: url("../public/fondos/_DSC0659_edit.jpg");
   background-position: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -246,4 +246,8 @@ body {
 
 .gray-color {
   background-color: #e6e7e8;
+}
+.cover-team {
+  object-fit: cover;
+  object-position: 35% 35%;
 }

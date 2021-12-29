@@ -17,7 +17,7 @@ export default function Home () {
             </Head>
             <main>
                 <div className='relative'>
-                    <img className='h-80 lg:h-96 w-full cover' src='https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/fondos%2FGlaciarRocoso_SanFelix_20_3.jpeg?alt=media&token=02dc7a78-c17d-47dc-b10d-4a2bdbe27f62'/>
+                    <img className='h-80 lg:h-96 w-full cover-team' src='https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/galeria%2Fpaisajes%2FCumbre_Gueshgue_20.jpeg?alt=media&token=e25af0d9-9fcf-4e66-8b3c-f037b9570643'/>
                     {/**<h1 className='text-white font-bold text-xl lg:text-3xl absolute top-10 right-12 hidden'>PROYECTO PERMAFROST</h1> */}
                     <Link href='/equipo-cientifico/integrantes'>
                         <a>

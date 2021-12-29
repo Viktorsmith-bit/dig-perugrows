@@ -71,7 +71,7 @@ export default function MapViewer(){
              />
              {stateOpen?null:<Panoramicas hundleClicClose360={hundleClicClose360} state={state.open} />}
             <MapContainer center={[-10.414974922615183, -77.242071978681196]} zoom={7} scrollWheelZoom={true} >
-                {
+            {
                     map.open === "1"?<TileLayer
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                         url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
@@ -80,35 +80,23 @@ export default function MapViewer(){
                 {
                     map.open === "2"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png"
+                    url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
                     />:null
                 }
                 {
                     map.open === "3"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />:null
                 }
                 {
                     map.open === "4"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    />:null
-                }
-                {
-                    map.open === "5"?<TileLayer
-                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
-                    />:null
-                }
-                {
-                    map.open === "6"?<TileLayer
-                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
                     />:null
                 }
                 {
-                    map.open === "7"?<TileLayer
+                    map.open === "5"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://tile.osm.ch/switzerland/{z}/{x}/{y}.png"
                     />:null
@@ -132,10 +120,12 @@ export default function MapViewer(){
                 <Creditos />
                 <LeftAside />
                 {panam?null:<Coordenadas360 hundleClicOpen360={hundleClicOpen360} />}
+                
+                {cuencaSanta?<CuencaRioSanta />:null}
                 {corchila?<UhCordilleraNegra />:null}
                 {corblanca?<UhCordilleraBlanca />:null}
                 {areaModel?<AreaModelamientoCuencaSanta />:null}
-                {cuencaSanta?<CuencaRioSanta />:null}
+                
                 {cor?<Cordilleras />:null}
             </MapContainer>
         </div>

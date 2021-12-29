@@ -33,11 +33,11 @@ export default function ListCapas(props){
                             </div>
                             <div className='flex items-center gap-2'>
                                 <div className='h-4 w-4 bg-yellow-500 rounded-sm'></div>
-                                <h1 className='text-sm'>Cuenca del Río Santa</h1>
+                                <h1 className='text-sm'>Cuenca del río Santa</h1>
                             </div>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 bg-blue-600 rounded-sm'></div>
-                                <h1 className='text-sm'>Área de modelamiento de la cuenca del Santa</h1>
+                            <div className='flex gap-2'>
+                                <div className='h-4 w-4 bg-blue-600 rounded-sm mt-1'></div>
+                                <h1 className='text-sm'>Área de modelamiento de la cuenca del río Santa</h1>
                             </div>
                         </div>
                     </div>
