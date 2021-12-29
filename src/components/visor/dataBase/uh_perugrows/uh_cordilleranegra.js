@@ -36,7 +36,7 @@ function CordilleraNegra(){
         getStatic();
     })
 
-    const blackOptionsPermafrost = {color:"yellow"}
+    const blackOptionsPermafrost = {color:"#2874A6"}
     
     return(
         <Fragment>

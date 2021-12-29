@@ -36,7 +36,7 @@ function AreaModelamientoSanta(){
         getStatic();
     })
 
-    const blackOptionsPermafrost = {color:"blue"}
+    const blackOptionsPermafrost = {color:"#E74C3C"}
     
     return(
         <Fragment>

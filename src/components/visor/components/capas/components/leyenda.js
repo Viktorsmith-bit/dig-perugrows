@@ -28,15 +28,15 @@ export default function ListCapas(props){
                                 <h1 className='text-sm'>Unidades hidrográficas de cordillera Blanca</h1>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 bg-yellow-200 rounded-sm'></div>
+                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#2874A6"}} ></div>
                                 <h1 className='text-sm'>Unidad hidrográfica de cordillera Negra</h1>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 bg-yellow-500 rounded-sm'></div>
+                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#D7DBDD"}} ></div>
                                 <h1 className='text-sm'>Cuenca del río Santa</h1>
                             </div>
                             <div className='flex gap-2'>
-                                <div className='h-4 w-4 bg-blue-600 rounded-sm mt-1'></div>
+                                <div className='h-4 w-4 rounded-sm mt-1' style={{backgroundColor:"#E74C3C"}} ></div>
                                 <h1 className='text-sm'>Área de modelamiento de la cuenca del río Santa</h1>
                             </div>
                         </div>

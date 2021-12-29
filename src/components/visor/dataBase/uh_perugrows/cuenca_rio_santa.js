@@ -36,7 +36,7 @@ function CuencaRioSanta(){
         getStatic();
     })
 
-    const blackOptionsPermafrost = {color:"orange"}
+    const blackOptionsPermafrost = {color:"#D7DBDD"}
     
     return(
         <Fragment>
