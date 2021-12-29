@@ -18,7 +18,7 @@ export default function Equipo(){
     return(
         <div className='index'>
             <div className='flex justify-center'>
-                <div className='flex-1 lg:max-w-7xl px-4 lg:px-0 py-16'>
+                <div className='flex-1 lg:max-w-7xl px-4 lg:px-0 py-10 lg:py-16'>
                     <Link href='/'>
                         <div className='flex items-center gap-1 w-20 cursor-pointer'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">

@@ -37,7 +37,7 @@ export default function Galeria(){
     }
     return(
         <div className=''>
-            <div className='flex-1 lg:max-w-7xl mx-auto px-4 lg:px-0 py-16'>
+            <div className='flex-1 lg:max-w-7xl mx-auto px-4 lg:px-0 py-10 lg:py-16'>
                 <Link href='/'>
                     <div className='flex items-center gap-1 cursor-pointer w-20'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
