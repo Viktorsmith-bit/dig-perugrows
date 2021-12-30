@@ -32,12 +32,11 @@ export default function Proyectos(){
                             peruanas, reduciendo el crecimiento económico y afectando negativamente la
                             distribución igualitaria de los recursos naturales.</h1>
                         <h1 className='mt-5 text-justify text-color'>En ese contexto, el proyecto Perú GROWS tiene como objetivo principal mejorar la resiliencia de las comunidades y los ecosistemas andinos del Perú ante la inseguridad hídrica generada por los cambios en los glaciares y el clima. </h1>
-                        <button onClick={openModalResumen} className='px-5 lg:px-8 py-2 lg:py-3 border-color bg-color mt-5 rounded-md text-color font-bold'>Objetivos</button>
+                        <button onClick={openModalResumen} className='p-3 border-color bg-color mt-5 rounded-md text-color font-bold'>Paquetes de trabajo</button>
                     </div>
                 </div>
                 <div className='flex-1'>
                     <img className='height-section cover hidden lg:block w-full' src='/fondos/Lag_Llaca_20.jpeg' />
-                    <h1></h1>
                 </div>
             </div>
         </div>
