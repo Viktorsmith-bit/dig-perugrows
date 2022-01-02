@@ -19,42 +19,42 @@ export default function ListCapas(props){
             <div className='overFlow-hidden h-96'>
                 <div className='overflow-auto overscroll-auto h-96 py-3 px-4'>
                     <h1 className='text-base text-color border-b-2 border-gray-600 pb-1'>Capas</h1>
-                    <div className='flex gap-2 px-1 py-2'>
+                    <div className='flex gap-2 py-2'>
                         <div className='flex items-center gap-2'>
-                            {props.cor?<div className='flex items-center gap-2'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickCloseCor} className='text-sm cursor-pointer text-color'>Límites de cordilleras glaciares del Perú</h1></div>:
-                            <div className='flex items-center gap-2'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpenCor} className='text-sm cursor-pointer text-color'>Límites de cordilleras glaciares del Perú</h1></div>}
+                            {props.cor?<div className='flex items-center gap-2'><input type="checkbox" checked={true} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickCloseCor} className='text-sm cursor-pointer text-color'>Límites de cordilleras glaciares del Perú</h1></div>:
+                            <div className='flex items-center gap-2'><input type="checkbox" checked={false} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickOpenCor} className='text-sm cursor-pointer text-color'>Límites de cordilleras glaciares del Perú</h1></div>}
                         </div>
                     </div>
-                    <div className='box'>
-                        {!amb?<div className='flex gap-2'>
-                                <svg onClick={hundleOpenAmbito} xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <div className='box -ml-1'>
+                        {!amb?<div className='flex items-center gap-2'>
+                                <svg onClick={hundleOpenAmbito} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#434040" className="bg-red-400cursor-pointer mt-0.5 bi bi-caret-right-fill" viewBox="0 0 16 16">
                                     <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                                 </svg>
-                                <h1 className='text-sm text-color cursor-pointer' onClick={hundleOpenAmbito}>Ámbitos de intervención</h1>
-                            </div>:<div className='flex gap-2'>
-                                <svg onClick={hundleCloseAmbito} xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-down" viewBox="0 0 16 16">
+                                <h1 className='text-sm text-color cursor-pointer -ml-0.5' onClick={hundleOpenAmbito}>Ámbitos de intervención</h1>
+                            </div>:<div className='flex items-center gap-2'>
+                                <svg onClick={hundleCloseAmbito} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-down" viewBox="0 0 16 16">
                                     <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
                                 </svg>
-                                <h1 className='text-sm text-color cursor-pointer' onClick={hundleCloseAmbito}>Ámbitos de intervención</h1>
+                                <h1 className='text-sm text-color cursor-pointer -ml-0.5' onClick={hundleCloseAmbito}>Ámbitos de intervención</h1>
                             </div>
                         }
                         {
-                            !amb?null:<div className='px-6 mt-2'>
-                                {props.estado?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickClose} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>:
-                                <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpen} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>}
-                                {props.corchila?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickCloseChila} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Negra</h1></div>:
-                                <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpenChila} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Negra</h1></div>}
-                                {props.cuencaSanta?<div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickCloseSanta} className='text-sm cursor-pointer text-color'>Cuenca del río Santa</h1></div>:
-                                <div className='flex items-center gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpenSanta} className='text-sm cursor-pointer text-color'>Cuenca del río Santa</h1></div>}
-                                {props.areaModel?<div className='flex gap-1'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400 mt-1'></div><h1 onClick={props.hundleClickCloseModel} className='text-sm cursor-pointer text-color'>Área de modelamiento de la cuenca del río Santa</h1></div>:
-                                <div className='flex gap-1'><div className='h-3 w-3 rounded-sm border border-gray-400 mt-1'></div><h1 onClick={props.hundleClickOpenModel} className='text-sm cursor-pointer text-color'>Área de modelamiento de la cuenca del río Santa</h1></div>}
+                            !amb?null:<div className='px-7 mt-2'>
+                                {props.estado?<div className='flex items-center gap-1'><input type="checkbox" checked={true} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickClose} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>:
+                                <div className='flex items-center gap-1'><input type="checkbox" checked={false} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickOpen} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>}
+                                {props.corchila?<div className='flex items-center gap-1'><input type="checkbox" checked={true} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickCloseChila} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Negra</h1></div>:
+                                <div className='flex items-center gap-1'><input type="checkbox" checked={false} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickOpenChila} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Negra</h1></div>}
+                                {props.cuencaSanta?<div className='flex items-center gap-1'><input type="checkbox" checked={true} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickCloseSanta} className='text-sm cursor-pointer text-color'>Cuenca del río Santa</h1></div>:
+                                <div className='flex gap-1'><input type="checkbox" checked={false} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickOpenSanta} className='text-sm cursor-pointer text-color'>Cuenca del río Santa</h1></div>}
+                                {props.areaModel?<div className='flex gap-1'><input type="checkbox" checked={true} className='h-4 w-4 rounded-sm mt-0.5'/><h1 onClick={props.hundleClickCloseModel} className='text-sm cursor-pointer text-color'>Área de modelamiento de la cuenca del río Santa</h1></div>:
+                                <div className='flex gap-1'><input type="checkbox" checked={false} className='h-4 w-4 rounded-sm mt-0.5'/><h1 onClick={props.hundleClickOpenModel} className='text-sm cursor-pointer text-color'>Área de modelamiento de la cuenca del río Santa</h1></div>}
                             </div>
                         }
                     </div>
-                    <div className='flex gap-2 px-1 py-2'>
+                    <div className='flex gap-2 py-2'>
                         <div className='flex items-center gap-2'>
-                            {!props.panam?<div className='flex items-center gap-2'><div className='h-3 w-3 rounded-sm bg-gray-300 border border-gray-400'></div><h1 onClick={props.hundleClickClosePanam} className='text-sm cursor-pointer text-color'>Fotografías panorámicas</h1></div>:
-                            <div className='flex items-center gap-2'><div className='h-3 w-3 rounded-sm border border-gray-400'></div><h1 onClick={props.hundleClickOpenPanam} className='text-sm cursor-pointer text-color'>Fotografías panorámicas</h1></div>}
+                            {!props.panam?<div className='flex items-center gap-2'><input type="checkbox" checked={true} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickClosePanam} className='text-sm cursor-pointer text-color'>Fotografías panorámicas</h1></div>:
+                            <div className='flex items-center gap-2'><input type="checkbox" checked={false} className='h-4 w-4 rounded-sm'/><h1 onClick={props.hundleClickOpenPanam} className='text-sm cursor-pointer text-color'>Fotografías panorámicas</h1></div>}
                         </div>
                     </div>
                 </div>

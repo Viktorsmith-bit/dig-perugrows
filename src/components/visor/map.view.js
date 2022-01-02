@@ -1,21 +1,17 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {useState} from 'react';
-import dynamic from 'next/dynamic';
+import {MapContainer, TileLayer} from "react-leaflet";
 import Creditos from './components/creditos';
 import Geoportal from './components/geoportal';
 import LeftAside from './components/leftAside';
 import Aside from './components/capas/aside';
 import Coordenadas360 from './components/panoramicas/coordenadas360';
 import Panoramicas from './components/panoramicas/panoramicas';
-
 import Cordilleras from './dataBase/cordilleras/cordilleras';
 import UhCordilleraBlanca from './dataBase/uh_perugrows/uh_cordillerablanca';
 import UhCordilleraNegra from './dataBase/uh_perugrows/uh_cordilleranegra';
 import CuencaRioSanta from './dataBase/uh_perugrows/cuenca_rio_santa';
 import AreaModelamientoCuencaSanta from './dataBase/uh_perugrows/area_modelamiento_santa';
-
-const MapContainer = dynamic(()=>import('react-leaflet').then((mod)=>mod.MapContainer), {ssr: false});
-const TileLayer = dynamic(()=>import('react-leaflet').then((mod)=>mod.TileLayer), {ssr: false});
 
 export default function MapViewer(){
     const [map, setMap] = useState({open:"1"});
@@ -57,7 +53,7 @@ export default function MapViewer(){
     const hundleClickCloseSanta = (e)=>{e.preventDefault(), setCuencaSanta(false)}
     const hundleClickOpenModel = (e)=>{e.preventDefault(), setAreaModel(true)}
     const hundleClickCloseModel = (e)=>{e.preventDefault(), setAreaModel(false)}
-   
+
     return(
         <div className='h-screen border'>
             <Aside 
@@ -71,7 +67,7 @@ export default function MapViewer(){
              />
              {stateOpen?null:<Panoramicas hundleClicClose360={hundleClicClose360} state={state.open} />}
             <MapContainer center={[-10.414974922615183, -77.242071978681196]} zoom={7} scrollWheelZoom={true} >
-            {
+                {
                     map.open === "1"?<TileLayer
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                         url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"

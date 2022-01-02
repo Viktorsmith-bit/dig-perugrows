@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import { useState } from 'react';
 import ModalTodo from '../../shared/galeria/modal.todo';
 import { listaTodo } from '../../shared/galeria/listaJson/lista.galeria';
