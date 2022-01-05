@@ -3,7 +3,7 @@ import {divIcon} from 'leaflet';
 import L from 'leaflet';
 
 export const customMarkerIcon = L.icon({
-    iconUrl:'/location.png',
+    iconUrl:'/camera.png',
     iconSize:[50, 50],
     iconAnchor:[25, 25], 
 });

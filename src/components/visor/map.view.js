@@ -66,7 +66,7 @@ export default function MapViewer(){
                 hundleClickOpenModel={hundleClickOpenModel} hundleClickCloseModel={hundleClickCloseModel} areaModel={areaModel}
              />
              {stateOpen?null:<Panoramicas hundleClicClose360={hundleClicClose360} state={state.open} />}
-            <MapContainer center={[-10.414974922615183, -77.242071978681196]} zoom={7} scrollWheelZoom={true} >
+            <MapContainer center={[-9.114974922615183, -78.142071978681196]} zoom={8} scrollWheelZoom={true} >
                 {
                     map.open === "1"?<TileLayer
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
