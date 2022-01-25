@@ -43,12 +43,11 @@ function CuencaSantaCorte(){
         return (
             <Fragment>
                 <p>
-                    <span className='font-bold'>Cuenca:</span> {feature.properties.Nombre}
+                    <span className='font-bold'>Nombre:</span> {feature.properties.Nombre}
                     <br></br>
                     <span className='font-bold'>Área km<sup>2</sup>:</span> {feature.properties.Area_km2}
                     <br></br>
-                    <span className='font-bold'>Actividad:</span> {feature.properties.Actividad}<span>.</span>
-                    <br></br>                
+                    <span className='font-bold'>Actividad:</span> {feature.properties.Actividad}<span>.</span>       
                 </p>
             </Fragment>
         );
