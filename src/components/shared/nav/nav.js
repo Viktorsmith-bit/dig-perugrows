@@ -35,7 +35,7 @@ export default function Nav(){
                     </a>
                 </Link>
                 <div className='flex gap-7'>
-                    <a href='#proyecto'><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Resumen</h1></a>
+                    <Link href="/"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Inicio</h1></a></Link>
                     <Link href="/equipo-cientifico/integrantes"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Equipo científico</h1></a></Link>
                     <Link href="/produccion/cientifica"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Producción científica</h1></a></Link>
                     <Link href="/galeria"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Galería</h1></a></Link>

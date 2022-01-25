@@ -4,7 +4,7 @@ import L from 'leaflet';
 
 export const customMarkerIcon = L.icon({
     iconUrl:'/camera.png',
-    iconSize:[50, 50],
+    iconSize:[30, 30],
     iconAnchor:[25, 25], 
 });
 

@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase} from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBixnf5iceTB0QdiFOuiPDj8dfQEsdTG8o",
-    authDomain: "perugrows-c1a90.firebaseapp.com",
-    projectId: "perugrows-c1a90",
-    storageBucket: "perugrows-c1a90.appspot.com",
-    messagingSenderId: "781501459795",
-    appId: "1:781501459795:web:b225debc88b9b66c7085a6"
-  };
+  apiKey: "AIzaSyAB9HO6PNAPA5KEdOVlnFAXh73fFso65EA",
+  authDomain: "perugrows-datavector2.firebaseapp.com",
+  projectId: "perugrows-datavector2",
+  storageBucket: "perugrows-datavector2.appspot.com",
+  messagingSenderId: "24695197243",
+  appId: "1:24695197243:web:97253698ab8d6c477b961e"
+};
 
 initializeApp(firebaseConfig);
 export const app =  getDatabase();

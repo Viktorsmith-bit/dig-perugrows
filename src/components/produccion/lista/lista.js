@@ -104,8 +104,17 @@ export const listaArticulos = [
         revista:"Journal of Geophysical Research: Atmospheres ",
         tipo:"Artículo de revista",
         autores:"Catriona L. Fyffe, Emily Potter, Stefan Fugger, Andrew Orr, Simone Fatichi, Edwin Loarte, Katy Medina, Robert Å. Hellström, Maud Bernat, Caroline Aubry-Wake, Wolfgang Gurgiser, L. Baker Perry, Wilson Suarez, Duncan J. Quincey y Francesca Pellicciotti",
-        doi:null,
+        doi:"10.1029/2021JD034911",
         link:"https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JD034911"
+    },
+    {
+        id:1,
+        titulo:"Surface elevation and ice thickness data between 2012 and 2020 at the ablation area of Artesonraju Glacier, Cordillera Blanca, Perús",
+        revista:"Earth System Science Data",
+        tipo:"Artículo de revista",
+        autores:"Jonathan Oberreuter, Edwin Badillo-Rivera, Edwin Loarte, Katy Medina, Alejo Cochachin y José Uribe",
+        doi:"10.5194/essd-2021-336",
+        link:"https://essd.copernicus.org/preprints/essd-2021-336/"
     }
 ]
 

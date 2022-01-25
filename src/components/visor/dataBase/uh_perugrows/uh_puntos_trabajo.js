@@ -5,11 +5,11 @@ import {app} from '../../../../../firebase.config';
 import {ref, onValue} from "firebase/database";
 import Loading from '../../components/loading';
 
-function CordilleraNegra(){
+function PuntosTrabajo(){
     const [state, setState] = useState();
     useEffect(()=>{
         async function PromiseDB(){
-            const starCountCor = ref(app, "uh_cordillera_negra");
+            const starCountCor = ref(app, "uh_puntos_trabajo");
             return new Promise((resolve)=>{
                 onValue(starCountCor, (snapshot) => {
                     const dbRef = snapshot.val();
@@ -33,7 +33,7 @@ function CordilleraNegra(){
         getStatic();
     })
 
-    const blackOptionsPermafrost = {color:"#2874A6"}
+    const blackOptionsPermafrost = {color:"white"}
     
     const Popup = ({ feature }) => {
         let popupContent;
@@ -43,11 +43,11 @@ function CordilleraNegra(){
         return (
             <Fragment>
                 <p>
-                    <span className='font-bold'>Cordillera:</span> {feature.properties.Cordillera}
+                    <span className='font-bold'>Unidad hidrográfica:</span> {feature.properties.Unid_hidro}
                     <br></br>
-                    <span className='font-bold'>Unidad hidrográfica:</span> {feature.properties.Nombre}
+                    <span className='font-bold'>Quebrada:</span> {feature.properties.Quebrada}
                     <br></br>
-                    <span className='font-bold'>Área km<sup>2</sup>:</span> {feature.properties.Area_km2}
+                    <span className='font-bold'>Referencia:</span> {feature.properties.Referencia}
                     <br></br>
                     <span className='font-bold'>Actividad:</span> {feature.properties.Actividad}<span>.</span>
                 </p>
@@ -62,13 +62,26 @@ function CordilleraNegra(){
         layer.bindPopup(popupContent);
     };
 
+    let MarkerOptions = {
+        radius: 6,
+        fillColor: "#ff7800",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+    };
+    
+    const pointToLayer = (feature, latlng) => {
+        return L.circleMarker(latlng, MarkerOptions);
+    }
+
     return(
         <Fragment>
             {
-                data === undefined?<Loading />:<GeoJSON data={data} onEachFeature={onEachFeature} style={blackOptionsPermafrost} />
+                data === undefined?<Loading />:<GeoJSON data={data} pointToLayer={pointToLayer} onEachFeature={onEachFeature} style={blackOptionsPermafrost}/>
             }
         </Fragment>
     );
 }
 
-export default React.memo(CordilleraNegra);
+export default React.memo(PuntosTrabajo);

@@ -1,15 +1,15 @@
-import React, {useState, useEffect, Fragment}  from 'react';
+import React, {useState, useEffect, Fragment} from 'react';
 import {GeoJSON} from "react-leaflet";
 import ReactDOMServer from 'react-dom/server';
 import {app} from '../../../../../firebase.config';
 import {ref, onValue} from "firebase/database";
 import Loading from '../../components/loading';
 
-function CordilleraNegra(){
+function CordillerasPeru(){
     const [state, setState] = useState();
     useEffect(()=>{
         async function PromiseDB(){
-            const starCountCor = ref(app, "uh_cordillera_negra");
+            const starCountCor = ref(app, "cordilleras");
             return new Promise((resolve)=>{
                 onValue(starCountCor, (snapshot) => {
                     const dbRef = snapshot.val();
@@ -33,7 +33,7 @@ function CordilleraNegra(){
         getStatic();
     })
 
-    const blackOptionsPermafrost = {color:"#2874A6"}
+    const blackOptionsPermafrost = {color:"black"}
     
     const Popup = ({ feature }) => {
         let popupContent;
@@ -43,18 +43,14 @@ function CordilleraNegra(){
         return (
             <Fragment>
                 <p>
-                    <span className='font-bold'>Cordillera:</span> {feature.properties.Cordillera}
-                    <br></br>
-                    <span className='font-bold'>Unidad hidrográfica:</span> {feature.properties.Nombre}
+                    <span className='font-bold'>Cordillera:</span> {feature.properties.cordillera}
                     <br></br>
                     <span className='font-bold'>Área km<sup>2</sup>:</span> {feature.properties.Area_km2}
-                    <br></br>
-                    <span className='font-bold'>Actividad:</span> {feature.properties.Actividad}<span>.</span>
                 </p>
             </Fragment>
         );
     };
-
+    
     const onEachFeature = (feature, layer) => {
         const popupContent = ReactDOMServer.renderToString(
             <Popup feature={feature} />
@@ -71,4 +67,4 @@ function CordilleraNegra(){
     );
 }
 
-export default React.memo(CordilleraNegra);
+export default React.memo(CordillerasPeru);
