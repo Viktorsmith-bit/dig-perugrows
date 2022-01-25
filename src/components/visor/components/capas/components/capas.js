@@ -32,13 +32,13 @@ export default function ListCapas(props){
                         </div>
                     </div>
                     <div className='box -ml-1 pt-2'>
-                        {amb?<div className='flex items-center gap-2'>
-                                <svg onClick={hundleCloseAmbito} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-down" viewBox="0 0 16 16">
+                        {amb?<div className='flex gap-2'>
+                                <svg onClick={hundleCloseAmbito} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#434040" className="cursor-pointer bi bi-caret-down" viewBox="0 0 16 16">
                                     <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
                                 </svg>
                                 <h1 className='text-sm text-color cursor-pointer -ml-0.5' onClick={hundleCloseAmbito}>Ámbitos de intervención</h1>
-                                </div>:<div className='flex items-center gap-2'>
-                                    <svg onClick={hundleOpenAmbito} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#434040" className="cursor-pointer mt-0.5 bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                </div>:<div className='flex gap-2'>
+                                    <svg onClick={hundleOpenAmbito} xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#434040" className="cursor-pointer bi bi-caret-right-fill" viewBox="0 0 16 16">
                                         <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                                     </svg>
                                     <h1 className='text-sm text-color cursor-pointer -ml-0.5' onClick={hundleOpenAmbito}>Ámbitos de intervención</h1>
@@ -46,7 +46,7 @@ export default function ListCapas(props){
                         }
                         {
                             amb?<div className='px-7 pt-1'>
-                                {props.state.cuencaSanta === "openCuencaSanta" ?<div className='flex items-center gap-1'><InputOpen /><h1 id="closeCuencaSanta" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cuenca del río Santa</h1></div>:
+                                {props.state.cuencaSanta === "openCuencaSanta" ?<div className='flex gap-1'><InputOpen /><h1 id="closeCuencaSanta" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cuenca del río Santa</h1></div>:
                                 <div className='flex gap-1'><InputClose /><h1 id="openCuencaSanta" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cuenca del río Santa</h1></div>}
                                 {props.state.cuencaSantaCorte === "openCuencaSantaCorte" ?<div className='flex gap-1'><InputOpen /><h1 id="closeCuencaSantaCorte" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cuenca alta del río Santa</h1></div>:
                                 <div className='flex gap-1'><InputClose/><h1 id="openCuencaSantaCorte" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cuenca alta del río Santa</h1></div>}
@@ -54,8 +54,8 @@ export default function ListCapas(props){
                                 <div className='flex gap-1'><InputClose /><h1 id="openCorBlanca" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>}
                                 {props.state.corNegra === "openCorNegra"?<div className='flex gap-1'><InputOpen /><h1 id="closeCorNegra" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Negra</h1></div>:
                                 <div className='flex gap-1'><InputClose /><h1 id="openCorNegra" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Negra</h1></div>}
-                                {props.state.puntosTrabajo === "closePuntosTrabajo"?<div className='flex items-center gap-1'><InputClose /><h1 id="openPuntosTrabajo" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Puntos de trabajo</h1></div>:
-                                <div className='flex items-center gap-1'><InputOpen /><h1 id="closePuntosTrabajo" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Puntos de trabajo</h1></div>}
+                                {props.state.puntosTrabajo === "closePuntosTrabajo"?<div className='flex gap-1'><InputClose /><h1 id="openPuntosTrabajo" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Puntos de trabajo</h1></div>:
+                                <div className='flex gap-1'><InputOpen /><h1 id="closePuntosTrabajo" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Puntos de trabajo</h1></div>}
                                 
                             </div>:null
                         }
@@ -75,7 +75,7 @@ export default function ListCapas(props){
                         }
                         {
                             glacLagu?null:<div className='px-7 pt-1'>
-                                {props.state.glaciares === "closeGlaciares" ?<div className='flex items-center gap-1'><InputClose /><h1 id="openGlaciares" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Glaciares (cordillera Blanca)</h1></div>:
+                                {props.state.glaciares === "closeGlaciares" ?<div className='flex gap-1'><InputClose /><h1 id="openGlaciares" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Glaciares (cordillera Blanca)</h1></div>:
                                 <div className='flex gap-1'><InputOpen /><h1 id="closeGlaciares" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Glaciares en la cordillera Blanca</h1></div>}
                                 {props.state.lagunas === "closeLagunas" ?<div className='flex gap-1'><InputClose /><h1 id="openLagunas" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Lagunas de origen glaciar (cordillera Blanca)</h1></div>:
                                 <div className='flex gap-1'><InputOpen /><h1 id="closeLagunas" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Lagunas glaciares en la cordillera Blanca</h1></div>}
@@ -93,8 +93,8 @@ export default function ListCapas(props){
 
                     <div className='flex gap-2 py-2'>
                         <div className='flex items-center gap-2'>
-                            {props.state.panam === "closePanam" ?<div className='flex items-center gap-2'><InputClose /><h1 id="openPanam" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Fotografías panorámicas</h1></div>:
-                            <div className='flex items-center gap-2'><InputOpen /><h1 id="closePanam" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Fotografías panorámicas</h1></div>}
+                            {props.state.panam === "closePanam" ?<div className='flex gap-2'><InputClose /><h1 id="openPanam" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Fotografías panorámicas</h1></div>:
+                            <div className='flex gap-2'><InputOpen /><h1 id="closePanam" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Fotografías panorámicas</h1></div>}
                         </div>
                     </div>
                 </div>
