@@ -30,7 +30,7 @@ export default class MapViewer extends Component{
             cuencaSantaCorte:"openCuencaSantaCorte",
             glaciares:"closeGlaciares",
             lagunas:"closeLagunas",
-            puntosTrabajo:"closePuntosTrabajo"
+            puntosTrabajo:"openPuntosTrabajo"
         }
         this.openMap = this.openMap.bind(this);
         this.hundleClicOpen360 = this.hundleClicOpen360.bind(this);
@@ -116,9 +116,9 @@ export default class MapViewer extends Component{
                     {this.state.corPeru === "openCorPeru"?<CordillerasPeru />:null}
                     {this.state.cuencaSanta === "openCuencaSanta"?<CuencaSanta />:null}
                     {this.state.cuencaSantaCorte === "openCuencaSantaCorte"?<CuencaSantaCorte />:null}
-                    {this.state.puntosTrabajo === "closePuntosTrabajo"?null:<UhPuntosTrabajo />}
                     {this.state.corNegra === "openCorNegra"?<UhCordilleraNegra />:null}
                     {this.state.corBlanca === "openCorBlanca"?<UhCordilleraBlanca />:null}
+                    {this.state.puntosTrabajo === "openPuntosTrabajo"?<UhPuntosTrabajo />:null}
                     {this.state.lagunas === "closeLagunas"?null:<Lagunas />}
                     {this.state.glaciares === "closeGlaciares"?null:<Glaciares />}
 

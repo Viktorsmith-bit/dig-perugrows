@@ -54,8 +54,8 @@ export default function ListCapas(props){
                                 <div className='flex gap-1'><InputClose /><h1 id="openCorBlanca" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>}
                                 {props.state.corNegra === "openCorNegra"?<div className='flex gap-1'><InputOpen /><h1 id="closeCorNegra" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Negra</h1></div>:
                                 <div className='flex gap-1'><InputClose /><h1 id="openCorNegra" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Negra</h1></div>}
-                                {props.state.puntosTrabajo === "closePuntosTrabajo"?<div className='flex gap-1'><InputClose /><h1 id="openPuntosTrabajo" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Puntos de trabajo</h1></div>:
-                                <div className='flex gap-1'><InputOpen /><h1 id="closePuntosTrabajo" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Puntos de trabajo</h1></div>}
+                                {props.state.puntosTrabajo === "openPuntosTrabajo"?<div className='flex gap-1'><InputOpen /><h1 id="closePuntosTrabajo" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Puntos de trabajo</h1></div>:
+                                <div className='flex gap-1'><InputClose /><h1 id="openPuntosTrabajo" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Puntos de trabajo</h1></div>}
                                 
                             </div>:null
                         }
@@ -74,11 +74,11 @@ export default function ListCapas(props){
                                 </div>
                         }
                         {
-                            glacLagu?null:<div className='px-7 pt-1'>
+                            glacLagu?null:<div className='px-7 pt-2'>
                                 {props.state.glaciares === "closeGlaciares" ?<div className='flex gap-1'><InputClose /><h1 id="openGlaciares" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Glaciares (cordillera Blanca)</h1></div>:
-                                <div className='flex gap-1'><InputOpen /><h1 id="closeGlaciares" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Glaciares en la cordillera Blanca</h1></div>}
+                                <div className='flex gap-1'><InputOpen /><h1 id="closeGlaciares" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Glaciares (cordillera Blanca)</h1></div>}
                                 {props.state.lagunas === "closeLagunas" ?<div className='flex gap-1'><InputClose /><h1 id="openLagunas" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Lagunas de origen glaciar (cordillera Blanca)</h1></div>:
-                                <div className='flex gap-1'><InputOpen /><h1 id="closeLagunas" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Lagunas glaciares en la cordillera Blanca</h1></div>}
+                                <div className='flex gap-1'><InputOpen /><h1 id="closeLagunas" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Lagunas de origen glaciar (cordillera Blanca)</h1></div>}
                             </div>
                         }
                         {
