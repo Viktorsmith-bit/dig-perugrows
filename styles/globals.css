@@ -168,13 +168,13 @@ body,
 
 @media (min-width: 1280px) {
   .height {
-    height: 50rem;
+    height: 45rem;
   }
 }
 
 @media (min-width: 1536px) {
   .height {
-    height: 70rem;
+    height: 50rem;
   }
 }
 
