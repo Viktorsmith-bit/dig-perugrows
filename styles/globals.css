@@ -166,6 +166,18 @@ body,
   }
 }
 
+@media (min-width: 1280px) {
+  .height {
+    height: 50rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .height {
+    height: 70rem;
+  }
+}
+
 /* FONDOS */
 .image {
   background-image: url("../public/fondos/_DSC0659_edit.jpg");
