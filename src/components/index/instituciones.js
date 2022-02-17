@@ -39,7 +39,7 @@ function Naional(){
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña</h1>
                 <h1 className='text-sm mt-1 text-color'>INAIGEM</h1>
-                <h1 className='text-sm mt-1 text-color'>Unidad ejecutora peruana</h1>
+                <h1 className='text-sm mt-1 text-color'>Ejecutora peruana</h1>
                 <h1 className='mt-5 text-color text-justify'>Modelamiento hidrológico, glaciológico y sus impactos sobre los ecosistemas.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
