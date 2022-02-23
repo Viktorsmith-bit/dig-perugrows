@@ -62,7 +62,7 @@ function Extranjero(){
     return(
         <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
-                <h1 className='font-bold text-color'>Universidad de Nortumbria</h1>
+                <h1 className='font-bold text-color'>Universidad de Northumbria</h1>
                 <h1 className='text-sm mt-1 text-color'>UN</h1>
                 <h1 className='text-sm mt-1 text-color'>Ejecutora británica</h1>
                 <h1 className='mt-5 text-color text-justify'>Modelamiento hidroglaciológico y sus impactos sobre los ecosistemas.</h1>

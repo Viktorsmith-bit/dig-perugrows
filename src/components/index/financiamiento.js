@@ -13,6 +13,7 @@ export default function Financiamiento(){
                     <div className='flex flex-wrap justify-center gap-3 mt-5'>
                         <img className='w-24 md:w-36 lg:w-48 cover-contain' src='/logos/perugrows/Concytec.PNG'/>
                         <img className='w-24 md:w-36 lg:w-40 cover-contain ml-8' src='/logos/perugrows/ProCiencia.jpg'/>
+                        <img className='w-24 md:w-36 lg:w-56 cover-contain ml-8' src='/logos/organizaciones/LogoNERC_UK_Sf.png'/>
                     </div>
                 </div>
             </div>

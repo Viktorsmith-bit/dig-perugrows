@@ -19,6 +19,7 @@ export default function Organizaciones(){
                         <img className='w-36 md:w-48 lg:w-48' src='/logos/organizaciones/LeedsBN.svg'/>
                         <img className='w-36 md:w-48 lg:w-20' src='/logos/organizaciones/TMILogo_monoinv.png'/>
                         <img className='w-36 md:w-48 lg:w-40' src='/logos/organizaciones/CareLogo_monoinv.png'/>
+                        <img className='w-36 md:w-48 lg:w-56' src='/logos/organizaciones/LogoNERC_UK_Sf_MonoInv.png'/>
                     </div>
                 </div>
             </div>
