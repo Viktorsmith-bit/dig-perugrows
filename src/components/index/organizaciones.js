@@ -7,19 +7,19 @@ export default function Organizaciones(){
                 <div className='flex-1 w-full md:max-w-2xl lg:max-w-xl px-4 md:px-0 lg:px-0'>
                     <h1 className='text-white text-2xl lg:text-4xl font-bold'>Organizaciones</h1>
                     <div className='flex flex-wrap items-center justify-between gap-10 mt-12 lg:mt-20'>
-                        <img className='w-36 md:w-48 lg:w-40' src='/logos/organizaciones/INAIGEMBN.svg'/>
                         <img className='w-36 md:w-48 lg:w-48' src='/logos/organizaciones/ConcytecWhite_MC_v2.png'/>
                         <img className='w-20 md:w-32 lg:w-32' src='/logos/organizaciones/ProCiencia_monoinv.png'/>
+                        <img className='w-36 md:w-40 lg:w-56' src='/logos/organizaciones/LogoNERC_UK_Sf_MonoInv.png'/>
+                        <img className='w-36 md:w-48 lg:w-40' src='/logos/organizaciones/INAIGEMBN.svg'/>
                         <img className='w-32 md:w-40 lg:w-36 ' src='/logos/organizaciones/PUCPBN.svg'/>
                         <img className='w-32 md:w-40 lg:w-32 ' src='/logos/organizaciones/SenamhiLogo_monoinv.png'/>
-                        <img className='w-32 md:w-40 lg:w-56 ' src='/logos/organizaciones/BAS-full-logo-white.png'/>
+                        <img className='w-32 md:w-40 lg:w-40' src='/logos/organizaciones/NorthumbriaBN.svg'/>
                         <img className='w-32 md:w-40 lg:w-40' src='/logos/organizaciones/CranfielBN.svg'/>
                         <img className='w-20 md:w-24 lg:w-24' src='/logos/organizaciones/HeriotWattBN.svg'/>
-                        <img className='w-32 md:w-40 lg:w-40' src='/logos/organizaciones/NorthumbriaBN.svg'/>
                         <img className='w-36 md:w-48 lg:w-48' src='/logos/organizaciones/LeedsBN.svg'/>
+                        <img className='w-32 md:w-40 lg:w-56 ' src='/logos/organizaciones/BAS-full-logo-white.png'/>
                         <img className='w-36 md:w-48 lg:w-20' src='/logos/organizaciones/TMILogo_monoinv.png'/>
                         <img className='w-36 md:w-48 lg:w-40' src='/logos/organizaciones/CareLogo_monoinv.png'/>
-                        <img className='w-36 md:w-48 lg:w-56' src='/logos/organizaciones/LogoNERC_UK_Sf_MonoInv.png'/>
                     </div>
                 </div>
             </div>
