@@ -44,7 +44,6 @@ export default function Contacto(){
                             </a>
                         </div>     
                     </div>
-                    
                 </div>
             </div> 
         </div>

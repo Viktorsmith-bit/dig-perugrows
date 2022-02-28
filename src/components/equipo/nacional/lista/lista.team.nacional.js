@@ -31,7 +31,7 @@ export const listTeamNacional= [
         universidad:'UNASAM',
         equipo:'EQUIPO INAIGEM',
         especialidad:'Máster universitario en Ecología, Gestión y Restauración del medio Natural en la especialidad de Gestión y Restauración del Medio Natural.',
-        descripcion:'Magister - Ingeniera, con una formación sólida y científica, con estudios de pre grado en la Escuela Profesional de Ingeniería Ambiental de la Universidad Nacional Santiago Antúnez de Mayolo y de post grado en la Universidad de Barcelona - España. Colegiada y habilitada en el Colegio de Ingenieros del Perú. Con dominio del idioma inglés nivel intermedio, alemán básico, conocimiento de manejo de base de datos MS Office, manejo de programas aplicados al Sistema de Información Geográfica (ArcGis y QGis), software como EQWin, R-Studio, SADA, Ginkgo y Primer&Permanova, experiencia en el monitoreo de la calidad ambiental del agua, suelo, sedimento y estudios glaciológicos y de teledetección.',
+        descripcion:'Con una formación sólida y científica en temas relacionados a la glaciología, como inventario y monitoreo de glaciares y lagunas de origen glaciar, estudio de los impactos del cambio climático y monitoreo de la calidad del agua, suelo y sedimentos en la criósfera y los ecosistemas de alta montaña y modelamiento del permafrost.',
         correo:'mailto:kmedina@inaigem.gob.pe, katydamacia@hotmail.com',
         email:'Enviar correo',
         linkedin:null,
@@ -130,7 +130,7 @@ export const listTeamNacional= [
         ruta:'judy-maritza-salazar-alvaron',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_judy_salazar.jpeg?alt=media&token=adfacdaf-7479-45c3-94f1-1601b66cffdf',
         name:'Judy Maritza Salazar Alvaron',
-        cargo:'Coordinadora administrativa',
+        cargo:'Apoyo administrativo',
         ubicacion: 'Áncash, Perú',
         universidad:'UNASAM',
         equipo:'EQUIPO INAIGEM',
@@ -151,7 +151,7 @@ export const listTeamNacional= [
         ruta:'edi-yocsari-septimo-villacaqui',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_edi_eptimo.jpeg?alt=media&token=659c406c-9dec-4c09-99b6-9880022c7806',
         name:'Edi Yocsari Séptimo Villacaqui',
-        cargo:'Coordinadora administrativa',
+        cargo:'Apoyo administrativo',
         ubicacion: 'Áncash, Perú',
         universidad:'UNASAM',
         equipo:'EQUIPO INAIGEM',
@@ -196,7 +196,7 @@ export const listTeamNacional= [
         ubicacion: 'Lima, Perú',
         universidad:'Universidad Nacional del Callao',
         equipo:'EQUIPO INAIGEM',
-        profesion: 'Bachiller en Ingeniería Ambiental y de Recursos Naturales',
+        profesion: 'Ingeniero Ambiental y de Recursos Naturales',
         especialidad:'Especialización en "Python, Software Learning and Solutions" - Social Data Consulting SAC y Especialización en "Modelamiento hidraulico e hidrologico" - CELAEP-UNMSM.',
         descripcion:'Bachiller en Ingeniería Ambiental y de Recursos Naturales (V superior), ligado al estudio de cambio climático y riesgos asociados a entornos de alta montaña. Conocimiento en tecnologías UAV, prospección geofísica, manejo de Tecnologías de Información Geográfica aplicados al estudio de recursos naturales y gestión del riesgo de desastres.',
         correo:'mailto:edbadillorivera@gmail.com',
@@ -210,27 +210,6 @@ export const listTeamNacional= [
     },
     {
         id:11,
-        ruta:'gonzalo-pablo-galarza-peña',
-        foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_Galarza_Pen%CC%83a.jpeg?alt=media&token=8948509d-f2a3-4984-902a-f83efe277a90',
-        name:'Gonzalo Pablo Galarza Peña',
-        cargo:'Tesista de pregrado',
-        ubicacion:'Áncash, Perú',
-        universidad:'UNALM',
-        equipo:'EQUIPO INAIGEM',
-        profesion: 'Ingeniero Agrícola',
-        especialidad:null,
-        descripcion:'Bachiller en ciencias de ingeniería agrícola, especializado en materias de recursos hídricos, hidrología, hidráulica, SIG, geología y saneamiento; orientado al análisis, evaluación, coordinación y trabajo en equipo, facilidad para expresar ideas en forma verbal y escrita; con habilidad y capacidad de liderazgo, adaptación y creatividad para motivar y comprometer al personal a cargo; proactivo, dinámico y habituado al trabajo bajo presión.',
-        correo:'mailto:ggalarza.perugrows@inaigem.gob.pe',
-        email:'Enviar correo',
-        linkedin:"https://www.linkedin.com/in/gonzalo-pablo-galarza-pe%C3%B1a-9223a1142",
-        ctvitae:null,
-        orcid:null,
-        pucp:null,
-        harvard:null,
-        researchgate:null
-    },
-    {
-        id:12,
         ruta:'reynner-raymundo-flores-estrada',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_Rynner_Flores.jpeg?alt=media&token=b2881ec2-e91c-4a17-a28e-7d00ad9cd28f',
         name:'Reynner Raymundo Flores Estrada',
@@ -250,7 +229,7 @@ export const listTeamNacional= [
         researchgate:null
     },
     {
-        id:13,
+        id:12,
         ruta:'edy-peter-leon-chavez',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_edy_leon.jpeg?alt=media&token=c769786b-b71f-4a08-9f6b-7571f355f580',
         name:'Edy Peter León Chavez',
@@ -271,7 +250,7 @@ export const listTeamNacional= [
         researchgate:null
     },
     {
-        id:14,
+        id:13,
         ruta:'edson-desciomar-palacios-robles',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_edson_palacios.jpeg?alt=media&token=9c965faf-a820-420c-9886-390947be15f9',
         name:'Edson Desciomar Palacios Robles',
@@ -292,7 +271,7 @@ export const listTeamNacional= [
         researchgate:null
     },
     {
-        id:15,
+        id:14,
         ruta:'yadira-andrea-curo-rosales',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_yadira_rosales.jpeg?alt=media&token=37e8ff34-adb3-4caf-aea1-7e2658307dc3',
         name:'Yadira Andrea Curo Rosales',
@@ -313,7 +292,7 @@ export const listTeamNacional= [
         researchgate:"https://www.researchgate.net/profile/Yadira-Curo"
     },
     {
-        id:16,
+        id:15,
         ruta:'guadalupe-angélica-heredia-gutierrez',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_guadalupe_heredia.png?alt=media&token=17038186-54b5-4561-ac2d-f0e825de5c57',
         name:'Guadalupe Angélica Heredia Gutierrez',
@@ -334,7 +313,7 @@ export const listTeamNacional= [
         researchgate:null
     },
     {
-        id:17,
+        id:16,
         ruta:'eduardo-emer-villavicencio-guillen',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_Eduardo_Villavicencio.jpeg?alt=media&token=c3dccbfd-f391-4950-b144-512b084ece6f',
         name:'Eduardo Emer Villavicencio Guillén',
@@ -355,7 +334,7 @@ export const listTeamNacional= [
         researchgate:null
     },
     {
-        id:18,
+        id:17,
         ruta:'miluska-pamela-alejo-mosquera',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_pamela_alejo.png?alt=media&token=d6dfc686-5dd6-4eb0-9383-9e9f4c5d967a',
         name:'Miluska Pamela Alejo Mosquera',
@@ -376,13 +355,13 @@ export const listTeamNacional= [
         researchgate:null
     },
     {
-        id:19,
+        id:18,
         ruta:'eli-jadiel-chauca-figueroa',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_eli_jadiel.jpeg?alt=media&token=7cc8ae6b-d621-4915-9228-7549205cadb1',
         name:'Elí Jadiel Chauca Figueroa',
-        cargo:'Voluntario',
+        cargo:'Tesista de pregrado voluntario',
         ubicacion: 'Áncash, Perú',
-        equipo:'EQUIPO UNI',
+        equipo:'EQUIPO INAIGEM',
         universidad:'UNASAM',
         profesion:'Bachiller en Ingeniería Ambiental',
         especialidad:null,
@@ -397,14 +376,14 @@ export const listTeamNacional= [
         researchgate:null,
     },
     {
-        id:20,
+        id:19,
         ruta:'victor-smith-medina-cotrina',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_victor_medina.png?alt=media&token=1b06e441-596e-4b1e-a911-543cebfafbe8',
         name:'Víctor Smith Medina Cotrina',
         cargo:'Consultor',
         ubicacion: 'Áncash, Perú',
         universidad:'UNASAM',
-        equipo:'EQUIPO UNASAM',
+        equipo:'EQUIPO INAIGEM',
         profesion:'Bachiller en Ingeniería Ambiental',
         especialidad:null,
         descripcion:'',
@@ -417,9 +396,72 @@ export const listTeamNacional= [
         harvard:null,
         researchgate:null
     },
-    //PUCP
+    {
+        id:20,
+        ruta:'hairo-alexander-leon-dexter',
+        foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_hairo_leon.png?alt=media&token=3dfa07fd-98d7-49de-aa24-168d8b74028b',
+        name:'Hairo Alexander León Dexter',
+        cargo:'Voluntario',
+        ubicacion: 'Áncash, Perú',
+        universidad:'UNASAM',
+        equipo:'EQUIPO INAIGEM',
+        profesion:'Ingeniero Ambiental',
+        especialidad:'Diplomado en Ordenamiento Territorial CELAEP - UNMSM y Especialización en Machine Learning con Pyhton - UPCH.',
+        descripcion:'Ingeniero ambiental, con una formación sólida y científica, con dominio del idioma ingles nivel intermedio, francés básico, conocimiento de manejo de base de datos MS office, manejo de programas aplicados al Sistema de Información Geográfica (ArcGis, Terrset y Qgis), lenguajes de programación (R y python), experiencia en el monitoreo de la calidad ambiental del agua, suelo, fauna y flora, estudios relacionados a la gestión de recurso forestales y aplicaciones de teledetección para el estudio de los recursos naturales en zonas de alta montaña (glaciares, nieve, permafrost e hidrología).',
+        correo:'mailto:victorsmith.1291@gmail.com',
+        email:'Enviar correo',
+        linkedin:'https://www.linkedin.com/in/v%C3%ADctor-smith-medina-cotrina-28155159/',
+        ctvitae:null,
+        orcid:null,
+        pucp:null,
+        harvard:null,
+        researchgate:null
+    },
     {
         id:21,
+        ruta:'sofia-cristina-rodriguez-venturo',
+        foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil-sofia-rodriguez.jpg?alt=media&token=9913577f-c546-41fd-9305-5815b428b35b',
+        name:'Sofia Cristina A. Rodriguez Venturo',
+        cargo:'Voluntaria',
+        ubicacion: 'Lima, Perú',
+        universidad:'UNMSM',
+        equipo:'EQUIPO INAIGEM',
+        profesion:'Licenciada en Microbiología y Parasitología',
+        especialidad:'Especialización en Gerencia de Proyectos PMBOK - CTIC - UNI, Especialización en Patentes - INDECOPI y Estudiante de maestría en Biología Molecular - UNMSM.',
+        descripcion:'Licenciada en Microbiología y Parasitología de la Universidad Nacional Mayor de San Marcos (UNMSM), con experiencia en estudios de ecología microbiana en ecosistemas altoandinos y desérticos. Conocimiento y manejo de técnicas moleculares y bioinformática.',
+        correo:'mailto:sofia.rodriguez@unmsm.edu.pe, sofiarodven@gmail.com',
+        email:'Enviar correo',
+        linkedin:null,
+        ctvitae:'https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=48081',
+        orcid:'https://orcid.org/0000-0002-0998-7222',
+        pucp:null,
+        harvard:null,
+        researchgate:null
+    },
+    {
+        id:22,
+        ruta:'jean-pol-lujan-leon',
+        foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_pol_lujan.png?alt=media&token=745ba0a1-4530-4b87-a373-e73977464c6c',
+        name:'Jean Pol Juniors Luján León',
+        cargo:'Consultor',
+        ubicacion: 'Áncash, Perú',
+        universidad:'UNFV',
+        equipo:'EQUIPO INAIGEM',
+        profesion:'Ingeniero Mecatrónico',
+        especialidad:'Estudiante de la Diplomatura de Especialización Avanzada en Gestión de la Tecnología y de la Innovación (2021) - PUCP.',
+        descripcion:'Ingeniero mecatrónico  de la Universidad Nacional Federico Villarreal (UNFV), con experiencia en programación de controladores y diseño de sistemas de automatización. Conocimiento y desarrollo de tecnologias basadas en OpenSource.',
+        correo:'mailto:jjlujanleon@gmail.com',
+        email:'Enviar correo',
+        linkedin:null,
+        ctvitae:'https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=174289',
+        orcid:'https://orcid.org/0000-0001-6161-8646',
+        pucp:null,
+        harvard:null,
+        researchgate:null
+    },
+    //PUCP
+    {
+        id:23,
         ruta:'drenkhan-fabian',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fpucp%2Fperfil_Drenkhan_Fabian.jpeg?alt=media&token=a266c802-9504-425c-998e-dd6d989af5cd',
         name:'Drenkhan Fabian',
@@ -440,7 +482,7 @@ export const listTeamNacional= [
         harvard:null,
     },
     {
-        id:22,
+        id:24,
         ruta:'martin-enrique-timana-de-la-flor',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fpucp%2Fperfil_Timana_Enrique.jpeg?alt=media&token=c9342e79-6882-4d8d-8208-d038666ab5a6',
         name:'Martin Enrique Timana de la Flor',
@@ -448,7 +490,7 @@ export const listTeamNacional= [
         ubicacion: 'Lima, Perú',
         universidad:'UNALM',
         equipo:'EQUIPO PUCP',
-        profesion:'Bachiller en Ciencias Naturales',
+        profesion:'Doctor en Ciencias biológicas',
         especialidad:'Doctor of Philosophy (THE UNIVERSITY OF TEXAS AT AUSTIN) y Master of Science Biology (UNIVERSIDAD DE MICHIGAN).',
         descripcion:'Ph.D. en Ciencias Biológicas (Botánica) de la Universidad de Texas, Austin. Maestría en Biología de la Universidad de Michigan; bachiller en Ciencias Forestales de la Universidad Nacional Agraria La Molina. Director del Centro de Investigación en Geografía Aplicada, CIGA - PUCP. Áreas de investigación: biogeografía de los Andes; ecología vegetal; florística; biogeografía predictiva; modelamiento estadístico; cambio climático. Profesor Asociado del Departamento de Humanidades, sección de Geografía y Medio Ambiente; docente investigador de INTE - PUCP . Miembro de la Sociedad Geográfica de Lima.',
         correo:'mailto:mtimana@pucp.edu.pe',
@@ -461,7 +503,7 @@ export const listTeamNacional= [
         harvard:null,
     },
     {
-        id:23,
+        id:25,
         ruta:'fernando-luis-gonzalez-hunt',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fpucp%2Fperfil_Fernando_Gonzales.jpeg?alt=media&token=8a397d7f-1dce-4694-a097-e2471d2e455e',
         name:'Fernando Luis Gonzalez Hunt',
@@ -482,7 +524,7 @@ export const listTeamNacional= [
         harvard:null,
     },
     {
-        id:24,
+        id:26,
         ruta:'antonio-alejandro-diez-hurtado',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fpucp%2Fperfil_alejandro_hurtado.jpeg?alt=media&token=a9c7f8a0-6fa4-4821-9866-b7f2002e3475',
         name:'Antonio Alejandro Diez Hurtado',
@@ -503,7 +545,7 @@ export const listTeamNacional= [
         harvard:null,
     },
     {
-        id:25,
+        id:27,
         ruta:'david-noah-walker-crawford',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fpucp%2Fperfil_Noa_Walker.jpeg?alt=media&token=ca4483ec-cef0-4183-81d8-8ee32ff72816',
         name:'David Noah Walker-Crawford',
@@ -524,7 +566,28 @@ export const listTeamNacional= [
         harvard:"https://sts.hks.harvard.edu/people/fellows/noah-walker-crawford/"
     },
     {
-        id:26,
+        id:28,
+        ruta:'ines-perputua-yanac-leon',
+        foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_default.jpg?alt=media&token=8359dc96-64d5-488a-83b5-0953d276cf95',
+        name:'Inés Perputua Yanac León',
+        cargo:'Consultora',
+        ubicacion: 'Lima, Perú',
+        universidad:'The University of Manchester',
+        equipo:'EQUIPO PUCP',
+        profesion:'Licenciada en Ciencias Sociales',
+        especialidad:null,
+        descripcion:null,
+        correo:'mailto:noah.walker-crawford@postgrad.manchester.ac.uk',
+        email:'Enviar correo',
+        linkedin:null,
+        ctvitae:null,
+        orcid:null,
+        researchgate:null,
+        pucp:null,
+        harvard:"https://sts.hks.harvard.edu/people/fellows/noah-walker-crawford/"
+    },
+    {
+        id:29,
         ruta:'juan-francisco-acevedo-godinez',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_default.jpg?alt=media&token=8359dc96-64d5-488a-83b5-0953d276cf95',
         name:'Juan Francisco Acevedo Godinez',
@@ -545,11 +608,11 @@ export const listTeamNacional= [
         harvard:null
     },
     {
-        id:27,
+        id:30,
         ruta:'marcos-fabio-izaguirre-livia',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fpucp%2Fperfil_Marcos_Izaguirre.jpeg?alt=media&token=bd6b416b-caea-4a80-b3c2-a88ac95c17c5',
         name:' Marcos Fabio Izaguirre Livia',
-        cargo:'Asistente de investigación',
+        cargo:'Asistente de investigación y tesista de pregrado',
         ubicacion: 'Lima, Perú',
         universidad:'Pontificia Universidad Católica del Perú (PUCP)',
         equipo:'EQUIPO PUCP',
@@ -566,7 +629,7 @@ export const listTeamNacional= [
         harvard:null
     },
     {
-        id:28,
+        id:31,
         ruta:'melcy-victoria-aronés-pariona',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fpucp%2Fperfil_Melcy_Arones.jpeg?alt=media&token=9ea77b50-3785-43e6-956d-829cc8cdfab8',
         name:'Melcy Victoria Aronés Pariona',
@@ -586,8 +649,9 @@ export const listTeamNacional= [
         pucp:null,
         harvard:null
     },
+    //SENAMHI
     {
-        id:29,
+        id:32,
         ruta:'alan-gerardo-llacza-rodriguez',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fsenamhi%2Fperfil_Alan_Llacsa.jpeg?alt=media&token=989d90e6-b7a6-41e2-b3ad-90a3eb27481c',
         name:'Alan Gerardo Llacza Rodriguez',
@@ -607,9 +671,8 @@ export const listTeamNacional= [
         pucp:null,
         harvard:null
     },
-    //SENAMHI
     {
-        id:30,
+        id:33,
         ruta:'gerardo-cristian-jacome-vergaray',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Fsenamhi%2Fperfil_Gerardo_Jacome.jpeg?alt=media&token=0c098d26-b531-4c38-a2be-abd100de7a63',
         name:'Gerardo Cristian Jacome Vergaray',

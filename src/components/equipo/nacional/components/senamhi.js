@@ -12,7 +12,7 @@ export default function Senamhi(){
             <div className='flex flex-wrap justify-start gap-4 md:gap-2 lg:gap-4 pb-10'>
                 {
                     listTeamNacional.map((item)=>{
-                        if(item.id >= 29 & item.id <= 31){
+                        if(item.id >= 32 & item.id <= 33){
                             return <div key={item.id} className='flex items-center h-32 width-perfil'>
                                         <Link href={`/equipo-cientifico/nacional/${item.ruta}`}><div className='h-32 w-48'><img className='w-48 h-32 rounded-full border border-gray-200 cursor-pointer cover-image' src={`${item.foto}`}/></div></Link>
                                         <div className='w-full flex h-32 flex-col justify-center px-4'>

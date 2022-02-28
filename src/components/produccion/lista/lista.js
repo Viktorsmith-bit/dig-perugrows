@@ -52,15 +52,6 @@ export const listaEventos = [
     },
     {
         id:7,
-        titulo:"Analysis of remote sensing and in situ datasets to estimate spatial precipitation in high mountain areas: case study Cordillera Blanca, Perú",
-        evento:"EGU General Assembly 2021",
-        tipo:"Póster y abstract publicado",
-        autores:"Edwin Loarte, Katy Medina, Eduardo Villavicencio, Hairo León, Waldo Lavado, Antoine Rabatel, Gerardo Jacome, Johannes Hunink y Ernesto Lopez-Baeza",
-        link:"https://meetingorganizer.copernicus.org/EGU21/EGU21-8996.html",
-        link2:null
-    },
-    {
-        id:8,
         titulo:"Multi-decadal past and future temperature and precipitation trends in the Peruvian Andes",
         evento:"EGU General Assembly 2021",
         tipo:"Póster y abstract publicado",
@@ -69,7 +60,7 @@ export const listaEventos = [
         link2:null
     },
     {
-        id:9,
+        id:8,
         titulo:"Influencia del gradiente de cobertura glaciar sobre la biodiversidad de macroinvertebrados bentónicos, Cordillera Blanca-Perú",
         evento:"Primer Congreso Internacional en Biotecnología y Ecosistemas Neotropicales (CIBEN 2021)",
         tipo:"Ponencia oral y abstract publicado",
@@ -78,7 +69,7 @@ export const listaEventos = [
         link2:null
     },
     {
-        id:10,
+        id:9,
         titulo:"Biodiversidad de macroinvertebrados bentonicos en un gradiente de cobertura glaciar, cordillera Blanca - Perú",
         evento:"V Congreso Latinoamericano de Macroinvertebrados y Ecosistemas Acuáticos 2021",
         tipo:"Ponencia oral y abstract publicado",
@@ -87,7 +78,7 @@ export const listaEventos = [
         link2:null
     },
     {
-        id:11,
+        id:10,
         titulo:"Influencia del gradiente de cobertura glaciar sobre la biodiversidad de macroinvertebrados bentónicos en la cordillera Blanca",
         evento:"Viernes científico 2021 INAIGEM",
         tipo:"Ponencia oral",
@@ -121,12 +112,12 @@ export const listaArticulos = [
 export const listaTesis = [
     {
         id:1,
-        titulo: "Demanda hídrica de la cuenca alta del río Santa, mediante la aplicación de una propuesta de modelo geoespacial",
-        tesista:"Gonzalo Pablo Galarza Peña",
+        titulo: "Variabilidad de los frentes glaciares Gueshgue y Llaca aplicando fotogrametría terrestre, 2020-2021",
+        tesista:"Elí Jadiel Chauca Figueroa",
         tipo:"Pregrado",
-        universidad:"UNALM",
-        asesorUni:"Toribio Santayana",
-        asesorInai:"Helder Mallqui",
+        universidad:"UNASAM",
+        asesorUni:"Ricardo Villanueva",
+        asesorInai:"Edwin Loarte",
         estado:"En redacción (90%)",
         link:null
     },
@@ -181,7 +172,7 @@ export const listaTesis = [
         tipo:"Postgrado (doctorado)",
         universidad:"PUCP",
         asesorUni:"Alejandro Diez",
-        asesorInai:"Edwin Loarte",
+        asesorInai:"---",
         estado:"En redacción (40%)",
         link:null
     }

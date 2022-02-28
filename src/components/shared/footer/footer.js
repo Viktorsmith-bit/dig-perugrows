@@ -41,7 +41,7 @@ export default function Contacto(){
                         </svg>
                     </a>
                 </div>    
-                <h1 className='text-white w-fyll md:max-w-2xl lg:max-w-3xl text-sm lg:text-base border border-white p-4 rounded-md text-justify'> Este proyecto de investigación fue liderado por el MSc. Edwin Loarte Cadenas. Los datos están disponibles a petición de las personas interesadas, por favor solicitar acceso a: eloarte@inaigem.gob.pe y eloartecadenas@gmail.com.</h1>
+                <h1 className='text-white w-fyll md:max-w-2xl lg:max-w-3xl text-sm lg:text-base border border-white p-4 rounded-md text-justify'> Para mayor información comunicarse con el investigador principal Edwin A. Loarte Cadenas: eloarte@inaigem.gob.pe y eloartecadenas@gmail.com</h1>
             </div>
         </div>
     );
