@@ -6,34 +6,29 @@ import PT1 from './components/pt1';
 import PT2 from './components/pt2';
 import PT4 from './components/pt4';
 import Paisajes from './components/paisajes';
-import Todo from './components/todo';
 
 export default function Galeria(){ 
-    const [state, setState] = useState({todo: true, socios:true, modelamiento:true, impactos:true, adaptacion:true, paisaje:true});
+    const [state, setState] = useState({socios:true, modelamiento:true, impactos:true, adaptacion:true, paisaje:true});
     
-    const todo = (e)=>{
-        e.preventDefault();
-        setState({todo: true, socios:true, modelamiento:true, impactos:true, adaptacion:true, paisaje:true})
-    }
     const socios = (e)=>{
         e.preventDefault();
-        setState({todo: false, socios:false, modelamiento:true, impactos:true, adaptacion:true, paisaje:true})
+        setState({socios:true, modelamiento:true, impactos:true, adaptacion:true, paisaje:true})
     }
     const modelamiento = (e)=>{
         e.preventDefault();
-        setState({todo: false, socios:true, modelamiento:false, impactos:true, adaptacion:true, paisaje:true})
+        setState({socios:false, modelamiento:false, impactos:true, adaptacion:true, paisaje:true})
     }
     const impactos = (e)=>{
         e.preventDefault();
-        setState({todo: false, socios:true, modelamiento:true, impactos:false, adaptacion:true, paisaje:true})
+        setState({socios:false, modelamiento:true, impactos:false, adaptacion:true, paisaje:true})
     }
     const adaptacion = (e)=>{
         e.preventDefault();
-        setState({todo: false, socios:true, modelamiento:true, impactos:true, adaptacion:false, paisaje:true})
+        setState({socios:false, modelamiento:true, impactos:true, adaptacion:false, paisaje:true})
     }
     const paisaje = (e)=>{
         e.preventDefault();
-        setState({todo: false, socios:true, modelamiento:true, impactos:true, adaptacion:true, paisaje:false})
+        setState({socios:false, modelamiento:true, impactos:true, adaptacion:true, paisaje:false})
     }
     return(
         <div className=''>
@@ -52,11 +47,7 @@ export default function Galeria(){
                 <div className='flex-1 w-full lg:max-w-7xl px-4 lg:px-0 '>
                     <div className='flex flex-wrap gap-4'>
                         <div className='flex items-center gap-2'>
-                            <div onClick={todo} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${state.todo?'background-color':'bg-white'}`}></div>
-                            <label onClick={todo} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Todo</label>
-                        </div>
-                        <div className='flex items-center gap-2'>
-                            <div onClick={socios} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.socios?'background-color':'bg-white'}`}></div>
+                            <div onClick={socios} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${state.socios?'background-color':'bg-white'}`}></div>
                             <label onClick={socios} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Paquete de trabajo 1</label>
                         </div>
                         <div className='flex items-center gap-2'>
@@ -75,12 +66,7 @@ export default function Galeria(){
                 </div>
             </div>
             {
-                state.todo?<Fragment>
-                    <Todo />
-                </Fragment>:null
-            }
-            {
-                !state.socios?<Fragment>
+                state.socios?<Fragment>
                     <PT1 />
                 </Fragment>:null
             }

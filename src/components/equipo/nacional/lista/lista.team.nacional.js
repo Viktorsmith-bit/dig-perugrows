@@ -344,7 +344,7 @@ export const listTeamNacional= [
         equipo:'EQUIPO INAIGEM',
         profesion:'Ingeniera Ambiental',
         especialidad:null,
-        descripcion:'Bachiller en Ingeniería Ambiental de la UNASAM (V superior) - Ancash. Experiencia en estudios de ecología. Participación en proyectos de investigación enfocados al estudio de ecosistemas de montaña, así como en biodiversidad en bosques xéricos y andinos. Conocimiento en tecnologías GIS, manejo de herramientas de estadística ecológica y estimación de la biodiversidad. ',
+        descripcion:'Bachiller en Ingeniería Ambiental de la UNASAM (V superior) - Ancash. Experiencia en estudios de ecología. Participación en proyectos de investigación enfocados al estudio de ecosistemas de montaña, así como en biodiversidad en bosques xéricos y andinos. Conocimiento en tecnologías GIS, manejo de herramientas de estadística ecológica y estimación de la biodiversidad.',
         correo:'mailto:mp.alejo.mosquera@gmail.com',
         email:'Enviar correo',
         linkedin:"https://www.linkedin.com/in/miluska-pamela-alejo-mosquera-91a2bb223",
