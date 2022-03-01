@@ -576,15 +576,15 @@ export const listTeamNacional= [
         equipo:'EQUIPO PUCP',
         profesion:'Licenciada en Ciencias Sociales',
         especialidad:null,
-        descripcion:null,
-        correo:'mailto:noah.walker-crawford@postgrad.manchester.ac.uk',
+        descripcion:'Licenciada en Ciencias Sociales con maestría en Administración con Mención en Gestión Pública de la Universidad Nacional de Educación Enrique Guzmán y Valle.',
+        correo:'mailto:inesyanac@gmail.com',
         email:'Enviar correo',
         linkedin:null,
         ctvitae:null,
         orcid:null,
         researchgate:null,
         pucp:null,
-        harvard:"https://sts.hks.harvard.edu/people/fellows/noah-walker-crawford/"
+        harvard:null
     },
     {
         id:29,
