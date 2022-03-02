@@ -35,20 +35,20 @@ export default function Resumen(){
 
 function Naional(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated animate__bounceInLeft'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña</h1>
                 <h1 className='text-sm mt-1 text-color'>INAIGEM</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad ejecutora peruana</h1>
                 <h1 className='mt-5 text-color text-justify'>Estudio de demanda hidríca, modelamiento hidrológico, glaciológico y sus impactos sobre los ecosistemas.</h1>
             </div>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Pontificia Universidad Católica del Perú </h1>
                 <h1 className='text-sm mt-1 text-color'>PUCP</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad asociada peruana</h1>
                 <h1 className='mt-5 text-color text-justify'>Información social, mapeo de ecosistemas terrestres, y propuestas de las medidas de adaptación y mitigación.</h1>
             </div>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Servicio Nacional de Meteorología e Hidrología del Perú </h1>
                 <h1 className='text-sm mt-1 text-color'>SENAMHI</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad asociada peruana</h1>
@@ -60,20 +60,20 @@ function Naional(){
 
 function Extranjero(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated animate__bounceInLeft'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Universidad de Northumbria</h1>
                 <h1 className='text-sm mt-1 text-color'>UN</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad ejecutora británica</h1>
                 <h1 className='mt-5 text-color text-justify'>Modelamiento hidroglaciológico y sus impactos sobre los ecosistemas.</h1>
             </div>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Universidad de Leeds</h1>
                 <h1 className='text-sm mt-1 text-color'>UoL</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad asociada británica</h1>
                 <h1 className='mt-5 text-color text-justify'>Relación de la biodiversidad en ecosistemas acuáticos y el retroceso glaciar.</h1>
             </div>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>British Antarctic Survey</h1>
                 <h1 className='text-sm mt-1 text-color'>BAS</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad asociada británica</h1>
@@ -85,20 +85,20 @@ function Extranjero(){
 
 function ExtranjeroFinal(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated animate__bounceInLeft'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Universidad Heriot-Watt</h1>
                 <h1 className='text-sm mt-1 text-color'>HWU</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad asociada británica</h1>
                 <h1 className='mt-5 text-color text-justify'>Modelamiento hidrológico.</h1>
             </div>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Universidad de Cranfield</h1>
                 <h1 className='text-sm mt-1 text-color'>CU</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad asociada británica</h1>
                 <h1 className='mt-5 text-color text-justify'>Modelamiento hidrológico y seguridad alimentaria.</h1>
             </div>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto de Investigación y Conservación de las Montañas</h1>
                 <h1 className='text-sm mt-1 text-color'>IIGM</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad colaboradora peruana</h1>
@@ -110,20 +110,20 @@ function ExtranjeroFinal(){
 
 function Care(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated animate__bounceInLeft'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Grupo de Investigación Criósfera, Clima y Seguridad Hídrica</h1>
                 <h1 className='text-sm mt-1 text-color'>CCSH</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad colaboradora peruana</h1>
                 <h1 className='mt-5 text-color text-justify'>Asistencia técnica y académica en la redacción científica y la obtención de datos meteorológicos del CIAD-UNASAM.</h1>
             </div>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto de Montaña</h1>
                 <h1 className='text-sm mt-1 text-color'>TMI</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad colaboradora peruana</h1>
                 <h1 className='mt-5 text-color text-justify'></h1>
             </div>
-            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-72 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>CARE Perú</h1>
                 <h1 className='text-sm mt-1 text-color'>CARE Perú</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad colaboradora peruana</h1>

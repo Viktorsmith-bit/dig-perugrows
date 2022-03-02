@@ -27,7 +27,7 @@ export const listTeamInternacional= [
         ruta:'catriona-fyffe',
         foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Finternacional%2Fnortumbria%2Fprofile_catriona_fyffe.png?alt=media&token=d7ddaa63-3659-4cf5-9f73-9b1c5138d89b',
         name:'Catriona Fyffe',
-        cargo:'Postdoctural researcher',
+        cargo:'Postdoctoral researcher',
         profesion:'Research Fellow',
         ubicacion: 'Newcastle Upon Tyne',
         universidad:'Northumbria University',

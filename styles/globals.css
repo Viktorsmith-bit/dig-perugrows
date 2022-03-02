@@ -110,7 +110,7 @@ body,
     height: 40rem;
   }
   .height-image {
-    height: 35rem;
+    height: 37rem;
   }
   .width-image {
     width: 51rem;
@@ -166,15 +166,19 @@ body,
   }
 }
 
-@media (min-width: 1280px) {
-  .height {
-    height: 45rem;
-  }
-}
-
 @media (min-width: 1536px) {
   .height {
     height: 50rem;
+  }
+  .panam {
+    height: 44rem;
+    width: 60em;
+  }
+  .height-image {
+    height: 44rem;
+  }
+  .width-image {
+    width: 60rem;
   }
 }
 
@@ -268,7 +272,6 @@ body {
 .gray-color {
   background-color: #e6e7e8;
 }
-.cover-team {
-  object-fit: cover;
-  object-position: 35% 35%;
+.opacity-button {
+  background: rgba(20, 20, 20, 0.8);
 }
