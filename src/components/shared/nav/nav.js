@@ -13,9 +13,9 @@ export default function Nav(){
     }
 
     return(
-        <nav className='h-20 lg:h-20 background-color' id='inicio'>
+        <nav className='h-20 background-color' id='inicio'>
             <nav className='fixed h-20 w-full lg:hidden z-30 background-color'>
-                <div className='flex items-center justify-between h-20 px-4 lg:px-10 border-b border-gray-700' >
+                <div className='flex items-center justify-between h-20 px-4 lg:px-10' >
                     {
                         !state ? <svg onClick={open} xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" className="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>

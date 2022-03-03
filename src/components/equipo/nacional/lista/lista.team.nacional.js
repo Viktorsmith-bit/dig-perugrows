@@ -86,7 +86,7 @@ export const listTeamNacional= [
     {
         id:5,
         ruta:'lucas-noe-torres-amado',
-        foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_default.jpg?alt=media&token=8359dc96-64d5-488a-83b5-0953d276cf95',
+        foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_Lucas_Torres.jpeg?alt=media&token=e20e7302-cf3c-4db5-a39d-370a6f01d448',
         name:'Lucas Noe Torres Amado',
         cargo:'Co-investigador',
         profesion:'Ingeniero Civil - Topográfo',

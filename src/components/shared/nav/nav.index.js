@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import NavMobile from './components/nav.mobile';
+import NavMobileIndex from './components/nav.mobile.index';
 
 export default function Nav(){
     const [state, setState] = useState(false);
@@ -25,7 +25,7 @@ export default function Nav(){
                     }
                     <img className='w-40' src='/logos/INAIGEM.svg' />
                 </div>
-                { !state ? null: <NavMobile />} 
+                { !state ? null: <NavMobileIndex />} 
             </nav>
             <nav className='fixed h-20 flex justify-between items-center px-10 w-full hidden lg:flex z-30 background-color' >
                 <Link href='/'>

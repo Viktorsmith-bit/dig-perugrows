@@ -221,6 +221,10 @@ body,
   object-fit: cover;
   object-position: 80% 80%;
 }
+.cover-team {
+  object-fit: cover;
+  object-position: 50% 60%;
+}
 .degraded {
   background: linesar-gradient(
     90deg,
@@ -268,7 +272,6 @@ body {
 .green-color {
   color: #00b188;
 }
-
 .gray-color {
   background-color: #e6e7e8;
 }
